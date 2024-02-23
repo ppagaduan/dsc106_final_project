@@ -3,11 +3,13 @@
 </script>
 
 <main>
-  <h1>Svelte template</h1>
+  <h1 class='title'>HIV</h1>
 
   <p>Write your HTML here</p>
 </main>
 
 <style>
-  /* Write your CSS here */
+  .title{
+    font-size: 700;
+  }
 </style>
