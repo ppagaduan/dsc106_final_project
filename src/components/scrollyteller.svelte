@@ -1,10 +1,10 @@
 <script>
-    // import Scroller from "@sveltejs/svelte-scroller";
+    import Scroller from "@sveltejs/svelte-scroller";
   
-    // let count, index, offset, progress;
+    let count, index, offset, progress;
   </script>
   
-  <!-- <Scroller
+  <Scroller
   top={0.0}
   bottom={1}
   threshold={0.5}
@@ -32,7 +32,7 @@
     <section>This is the second section.</section>
     <section>This is the third section.</section>
   </div>
-</Scroller> -->
+</Scroller>
   
   <style>
     .background {

@@ -1,6 +1,6 @@
 <script>
   import * as d3 from 'd3';
-  // import ScrollyTeller from './ScrollyTeller.svelte';
+  import ScrollyTeller from './ScrollyTeller.svelte';
   import { onMount } from "svelte";
 </script>
 
