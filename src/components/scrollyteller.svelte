@@ -28,7 +28,22 @@
   </div>
 
   <div class="foreground" slot="foreground">
-    <section>This is the first section.</section>
+
+    <section class='intro'>
+
+        <h2 class='subheading'>
+          What is HIV?
+        </h2>
+
+        <p class = 'blurb'>
+          Human immunodeficiency virus (HIV) is a virus that attacks the human immune system. There is currently no cure for HIV, 
+          but with proper medical treatment, the effects of HIV can be controlled and those diagnosed with HIV can lead long, 
+          healthy lives. Without proper treatment, HIV can lead to acquired immunodeficiency syndrome (AIDS). The most common ways that 
+          HIV can be contracted is through sex with a partner with HIV, through perinatal transmission, and through the use of drug 
+          injection equipment that has been contaminated by someone with HIV.
+        </p>
+
+    </section>
     <section>This is the second section.</section>
     <section>This is the third section.</section>
   </div>
@@ -54,6 +69,20 @@
       position: absolute;
       background: rgba(170, 51, 120, 0.2) /*  40% opaque */;
       visibility: visible;
+    }
+
+    .subheading{
+      font-size: 2em;
+      font-weight: 400;
+      line-height: 2;
+      color: #D6221D
+    }
+
+    .blurb{
+      text-align: left;
+      font-size: 1em;
+      font-weight: 200;
+      line-height: 2;
     }
   
     section {
