@@ -6,8 +6,21 @@
 
 <main>
   <h1 class='title'>HIV</h1>
+  
+  <div class = 'intro'>
+    <h2 class='subheading'>
+      What is HIV?
+    </h2>
+    <p class = 'blurb'>
+      Human immunodeficiency virus (HIV) is a virus that attacks the human immune system. There is currently no cure for HIV, 
+      but with proper medical treatment, the effects of HIV can be controlled and those diagnosed with HIV can lead long, 
+      healthy lives. Without proper treatment, HIV can lead to acquired immunodeficiency syndrome (AIDS). The most common ways that 
+      HIV can be contracted is through sex with a partner with HIV, through perinatal transmission, and through the use of drug 
+      injection equipment that has been contaminated by someone with HIV.
+    </p>
+  </div>
 
-  <p>Write your HTML here</p>
+
 </main>
 
 <style>
@@ -40,10 +53,24 @@
   }
 
   .title{
-    font-size: 2em;
-    font-weight: 300;
+    font-size: 4em;
+    font-weight: 500;
     line-height: 2;
     background-color: #F4F0E8;
     color: #D6221D
+  }
+
+  .subheading{
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 2;
+    color: #D6221D
+  }
+
+  .blurb{
+    text-align: left;
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 2;
   }
 </style>
