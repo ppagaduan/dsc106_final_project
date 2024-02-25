@@ -43,6 +43,21 @@
           injection equipment that has been contaminated by someone with HIV.
         </p>
 
+        <h2 class='subheading'>
+          Origins of HIV
+        </h2>
+
+        <p class='blurb'>
+          >> HIV is theorized to have originally spread from chimpanzees to humans. Based on numerous studies, researchers believe 
+          the initial form of HIV came from a type of chimpanzee in Central Africa, as far back as the 1800s.  <br>
+          >> The chimpanzee form of the HIV virus was called simian immunodeficiency virus. Scientists believe humans acquired this 
+          virus when humans hunted chimpanzees for their meat, and became ill when they became in contact with the chimpanzees' 
+          infected blood. <br>
+          >> Over time, HIV spread through Africa, and eventually other parts of the world. HIV has been recorded in the United States 
+          since the mid to late 1970s. According to the CDC (Center for Disease Control), in 2006, about 56,000 people in the United
+          States had acquired AIDS, a late stage of the HIV infection. <br>
+        </p>
+
     </section>
     <section>This is the second section.</section>
     <section>This is the third section.</section>
@@ -54,7 +69,7 @@
       width: 100%;
       height: 100vh;
       position: relative;
-      outline: green solid 3px;
+      outline: red solid 3px;
     }
   
     .foreground {
@@ -67,7 +82,7 @@
   
     .progress-bars {
       position: absolute;
-      background: rgba(170, 51, 120, 0.2) /*  40% opaque */;
+      background: rgba(241, 106, 115, 0.4) /*  20% opaque */;
       visibility: visible;
     }
 
@@ -75,7 +90,7 @@
       font-size: 2em;
       font-weight: 400;
       line-height: 2;
-      color: #D6221D
+      color: red
     }
 
     .blurb{
@@ -87,9 +102,9 @@
   
     section {
       height: 80vh;
-      background-color: rgba(0, 0, 0, 0.2); /* 20% opaque */
+      background-color: rgba(98, 204, 245, 0.2); /* 20% opaque */
       /* color: white; */
-      outline: magenta solid 3px;
+      outline: brown 3px;
       text-align: center;
       max-width: 800px; /* adjust at will */
       color: black;
