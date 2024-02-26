@@ -44,7 +44,7 @@
         </p>
 
         <h2 class='subheading'>
-          Origins of HIV
+          The Start: How did HIV Originate?
         </h2>
 
         <p class='blurb'>
@@ -58,9 +58,73 @@
           States had acquired AIDS, a late stage of the HIV infection. <br>
         </p>
 
+        <p class = 'subheading'>
+          The Symptoms
+        </p>
+
+        <p class = 'subheading'>
+          The Stages
+        </p>
+
+        <p class = 'subheading'>
+          The Stats
+          <!-- perhaps insert some static visualizations here -->
+        </p>
+
     </section>
-    <section>This is the second section.</section>
-    <section>This is the third section.</section>
+    <section class = 'timeline'> 
+      <h2 class = 'subheading'>
+        1980s
+      </h2>
+    </section>
+    
+    <section class = 'timeline'> 
+      <h2 class = 'subheading'>
+        1990s
+      </h2>
+    </section>
+
+    <section class = 'timeline'> 
+      <h2 class = 'subheading'>
+        2000s
+      </h2>
+    </section>
+
+    <section class = 'timeline'> 
+      <h2 class = 'subheading'>
+        2010s
+      </h2>
+    </section>
+
+    <section class = 'timeline'> 
+      <h2 class = 'subheading'>
+        2020s
+      </h2>
+    </section>
+
+    <section class = 'global_impact'>
+      <h2 class = 'subheading'>
+        Global Impact <!-- perhaps include an interactive or static map here?? -->
+      </h2>
+    </section>
+
+    <section class = 'global_impact'>
+      <h2 class = 'subheading'>
+        Risk Factors & Transmission
+      </h2>
+    </section>
+
+    <section class = 'global_impact'>
+      <h2 class = 'subheading'>
+        Treatment & Prevention
+      </h2>
+    </section>
+
+    <section class = 'call_to_action'>
+      <h2 class = 'subheading'>
+        How You Can Help <!-- resource links -->
+      </h2>
+    </section>
   </div>
 </Scroller>
   
