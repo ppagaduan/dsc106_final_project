@@ -7,8 +7,6 @@
 <main>
   <h1 class='title'>Journey Through Time</h1>
   <h2 class='subtitle'> An Interactive Exploration of AIDS History</h2>
-
-
 </main>
 
 <style>
