@@ -57,21 +57,23 @@ bind:progress
         since the mid to late 1970s. According to the CDC (Center for Disease Control), in 2006, about 56,000 people in the United
         States had acquired AIDS, a late stage of the HIV infection. <br>
       </p>
-
-      <p class = 'subheading'>
-        The Symptoms
-      </p>
-
-      <p class = 'subheading'>
-        The Stages
-      </p>
-
-      <p class = 'subheading'>
-        The Stats
-        <!-- perhaps insert some static visualizations here -->
-      </p>
-
   </section>
+
+  <section class = 'timeline'> 
+    <p class = 'subheading'>
+      The Symptoms
+    </p>
+
+    <p class = 'subheading'>
+      The Stages
+    </p>
+
+    <p class = 'subheading'>
+      The Stats
+      <!-- perhaps insert some static visualizations here -->
+    </p>
+  </section>
+
   <section class = 'timeline'> 
     <h2 class = 'subheading'>
       1980s
@@ -131,7 +133,6 @@ bind:progress
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
-  
   .background {
     width: 100%;
     height: 100vh;
@@ -154,6 +155,7 @@ bind:progress
   }
 
   .subheading{
+    font-family: 'Nunito', sans-serif;
     font-size: 2em;
     font-weight: 400;
     line-height: 2;
@@ -161,6 +163,7 @@ bind:progress
   }
 
   .blurb{
+    font-family: 'Nunito', sans-serif;
     text-align: left;
     font-size: 1em;
     font-weight: 200;
