@@ -1,6 +1,6 @@
 <script>
   import Scroller from "@sveltejs/svelte-scroller";
-
+  import Map from "./Map.svelte"
   let count, index, offset, progress;
 </script>
 
@@ -106,6 +106,7 @@ bind:progress
     <h2 class = 'subheading'>
       Global Impact <!-- perhaps include an interactive or static map here?? -->
     </h2>
+  	<div id = "map" ></div>
   </section>
 
   <section class = 'global_impact'>
