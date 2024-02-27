@@ -1,6 +1,10 @@
 <script>
   import Scroller from "@sveltejs/svelte-scroller";
   import Map from "./Map.svelte"
+  import { onMount } from 'svelte';
+  import Slider from './Slider.svelte';
+  import Viz from './viz.svelte';
+
   let count, index, offset, progress;
 </script>
 
@@ -113,6 +117,7 @@ bind:progress
     <h2 class = 'subheading'>
       Risk Factors & Transmission
     </h2>
+    <Viz />
   </section>
 
   <section class = 'global_impact'>
