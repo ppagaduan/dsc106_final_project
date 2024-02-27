@@ -5,7 +5,8 @@
 </script>
 
 <main>
-  <h1 class='title'>HIV</h1>
+  <h1 class='title'>Journey Through Time</h1>
+  <h2 class='subtitle'> An Interactive Exploration of AIDS History</h2>
 
 
 </main>
@@ -40,10 +41,18 @@
   }
 
   .title{
-    font-size: 4em;
+    font-size: 50;
     font-weight: 500;
     line-height: 2;
-    background-color: #F4F0E8;
-    color: #D6221D
+    background-color: #f16a73;
+    color: black
+  }
+
+  .subtitle{
+    font-size: 10;
+    font-weight: 500;
+    line-height: 2;
+    background-color: #f16a73;
+    color: black;
   }
 </style>
