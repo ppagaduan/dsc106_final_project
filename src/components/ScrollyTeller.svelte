@@ -130,6 +130,8 @@ bind:progress
 </Scroller>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+  
   .background {
     width: 100%;
     height: 100vh;
