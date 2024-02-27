@@ -7,6 +7,8 @@
 		zoom: 13, // starting zoom level
 		minZoom: 12,
 		maxZoom: 15,
+        height: 400,
+        width: 400,
 	});
     map.on("load", () => {
 		map.addSource("world_map", {
@@ -15,11 +17,11 @@
 		});
 		map.addLayer({
 			id: "world_map",
-			type: "line",
+			type: "fill",
 			source: "world_map",
 			paint: {
-				"line-color": "#BEE5B0",
-				"line-width": 3,
+                "fill-color": "#BEE5B0",
+                "fill-opacity": 0.5,
 			},
 		});
 	});
