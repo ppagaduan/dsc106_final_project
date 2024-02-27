@@ -7,11 +7,12 @@
 		zoom: 13, // starting zoom level
 		minZoom: 12,
 		maxZoom: 15,
+        height: 400,
 	});
     map.on("load", () => {
 		map.addSource("world_map", {
 			type: "geojson",
-			data: "https://raw.githubusercontent.com/ppagaduan/dsc106_final_project/main/static/world_map.json",
+			data: "https://raw.githubusercontent.com/ppagaduan/dsc106_final_project/main/static/world_map.geo.json",
 		});
 		map.addLayer({
 			id: "world_map",
