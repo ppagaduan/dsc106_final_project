@@ -1,11 +1,35 @@
 <script>
   import Scroller from "@sveltejs/svelte-scroller";
+  import { geoMercator } from "d3-geo";
   import Map from "./Map.svelte"
   import { onMount } from 'svelte';
-  import Slider from './Slider.svelte';
+  import Graph from './Graph.svelte';
   import Viz from './viz.svelte';
 
   let count, index, offset, progress;
+  let width, height;
+
+  let geoJsonToFit = {
+    type: "FeatureCollection",
+    features: [
+      {
+        type: "Feature",
+        geometry: {
+          type: "Point",
+          coordinates: [1, 0],
+        },
+      },
+      {
+        type: "Feature",
+        geometry: {
+          type: "Point",
+          coordinates: [0, 1],
+        },
+      },
+    ],
+  };
+
+  $: projection = geoMercator().fitSize([width, height], geoJsonToFit);
 </script>
 
 <Scroller
@@ -63,7 +87,7 @@ bind:progress
       </p>
   </section>
 
-  <section class = 'timeline'> 
+  <section class = 'intro'> 
     <p class = 'subheading'>
       The Symptoms
     </p>
@@ -79,30 +103,24 @@ bind:progress
   </section>
 
   <section class = 'timeline'> 
+    <Graph {index} {width} {height} {projection} />
+
     <h2 class = 'subheading'>
       1980s
     </h2>
-  </section>
-  
-  <section class = 'timeline'> 
+
     <h2 class = 'subheading'>
       1990s
     </h2>
-  </section>
 
-  <section class = 'timeline'> 
     <h2 class = 'subheading'>
       2000s
     </h2>
-  </section>
 
-  <section class = 'timeline'> 
     <h2 class = 'subheading'>
       2010s
     </h2>
-  </section>
 
-  <section class = 'timeline'> 
     <h2 class = 'subheading'>
       2020s
     </h2>
@@ -119,7 +137,6 @@ bind:progress
     <h2 class = 'subheading'>
       Risk Factors & Transmission
     </h2>
-    <Viz />
   </section>
 
   <section class = 'global_impact'>
@@ -173,6 +190,11 @@ bind:progress
     font-size: 1em;
     font-weight: 200;
     line-height: 2;
+  }
+
+  .timeline{
+    height: 150vh;
+    font-family: 'Nunito', sans-serif;
   }
 
   section {
