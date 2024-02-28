@@ -2,6 +2,8 @@
   import * as d3 from 'd3';
   import { onMount } from "svelte";
 
+  // mapboxgl.accessToken = "pk.eyJ1IjoicHBhZ2FkdWFuIiwiYSI6ImNsdDY2cDgyNjA4cWIybHBkNHpnaHg1YjYifQ.JC-taM_C1H3Ch8uJ2p_Hzw";
+
   let data = [];
 
   onMount(
@@ -11,9 +13,7 @@
       data = d3.csvParse(csv, d3.autoType)
     }
   )
-  $: console.log(data);
-  
-  $: console.log(data)
+  $: console.log("App.svelte: " + data);
 </script>
 
 <main>

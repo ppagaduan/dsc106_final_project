@@ -11,7 +11,19 @@
     const marginBottom = 50;
     const marginLeft = 45;
   
-    export let data = [];
+    // export let data = [];
+
+    let data = [];
+
+    onMount(
+      async() => {
+        const res = await fetch('aids_cases_by_region.csv')
+        const csv = await res.text();
+        data = d3.csvParse(csv, d3.autoType)
+      }
+    )
+    $: console.log("App.svelte: " + data);
+
     let svg;
     let gx;
     let gy;
@@ -22,7 +34,8 @@
     let tooltipY = 0; 
     let tooltipContent = '';
 
-    $: console.log(data);
+    //data not importing into viz.svelte
+    $: console.log("Viz.svelte: " + data.length);
   
     // goal: one bar per country, height = NO_CASES
     // 0. filter out data only for 2000
@@ -241,7 +254,7 @@
   
   <style>
     .slider {
-      transform: translate(0, 90%);
+      transform: translate(0, 150%);
     }
     .tooltip {
       position: fixed;

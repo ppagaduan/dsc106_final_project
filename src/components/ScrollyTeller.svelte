@@ -1,7 +1,7 @@
 <script>
   import Scroller from "@sveltejs/svelte-scroller";
   import { geoMercator } from "d3-geo";
-  import Map from "./Map.svelte"
+  import world_map from "./Map.svelte"
   import { onMount } from 'svelte';
   import Graph from './Graph.svelte';
   import Viz from './viz.svelte';
@@ -130,7 +130,7 @@ bind:progress
     <h2 class = 'subheading'>
       Global Impact <!-- perhaps include an interactive or static map here?? -->
     </h2>
-  	<div id = "map" ></div>
+  	<div id = "map"></div>
   </section>
 
   <section class = 'global_impact'>
@@ -138,6 +138,14 @@ bind:progress
       Risk Factors & Transmission
     </h2>
     <Viz />
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>
+      Use the slider to observe the change in global AIDS cases by year!
+    </p>
   </section>
 
   <section class = 'global_impact'>
@@ -196,6 +204,11 @@ bind:progress
 
   .timeline{
     height: 150vh;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .global_impact{
+    height: 100vh;
     font-family: 'Nunito', sans-serif;
   }
 
