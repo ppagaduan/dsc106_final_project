@@ -137,6 +137,7 @@ bind:progress
     <h2 class = 'subheading'>
       Risk Factors & Transmission
     </h2>
+    <Viz />
   </section>
 
   <section class = 'global_impact'>
@@ -150,6 +151,7 @@ bind:progress
       How You Can Help <!-- resource links -->
     </h2>
   </section>
+
 </div>
 </Scroller>
 
