@@ -137,7 +137,7 @@ bind:progress
     <h2 class = 'subheading'>
       Risk Factors & Transmission
     </h2>
-    <Viz />
+    <Viz/>
     <br>
     <br>
     <br>
