@@ -3,17 +3,6 @@
   import { onMount } from "svelte";
 
   // mapboxgl.accessToken = "pk.eyJ1IjoicHBhZ2FkdWFuIiwiYSI6ImNsdDY2cDgyNjA4cWIybHBkNHpnaHg1YjYifQ.JC-taM_C1H3Ch8uJ2p_Hzw";
-
-  let data = [];
-
-  onMount(
-    async() => {
-      const res = await fetch('aids_cases_by_region.csv')
-      const csv = await res.text();
-      data = d3.csvParse(csv, d3.autoType)
-    }
-  )
-  $: console.log("App.svelte: " + data);
 </script>
 
 <main>

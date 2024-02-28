@@ -10,8 +10,6 @@
     const marginRight = 50;
     const marginBottom = 50;
     const marginLeft = 45;
-  
-    // export let data = [];
 
     let data = [];
 
@@ -34,15 +32,11 @@
     let tooltipY = 0; 
     let tooltipContent = '';
 
-    //data not importing into viz.svelte
-    $: console.log("Viz.svelte: " + data.length);
-  
-    // goal: one bar per country, height = NO_CASES
-    // 0. filter out data only for 2000
-    // 1. create a <g>, write a #each loop to draw one rectangle per bar in html
-    // 2. position bars on x-axis
-    // 3. position bars on y-axis
-    // 4. add axes
+
+    //TODO:
+    //1. fix labels for visibility
+    //2. adjust data to exclude duplicates
+
   
     // STEP ZERO: FILTER OUT DATA FOR SELECTED YEAR
     $: filteredData = data.filter(function(d) {
