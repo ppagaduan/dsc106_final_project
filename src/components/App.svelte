@@ -11,6 +11,8 @@
       data = d3.csvParse(csv, d3.autoType)
     }
   )
+  
+  $: console.log(data)
 </script>
 
 <main>

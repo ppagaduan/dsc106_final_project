@@ -21,6 +21,8 @@
     let tooltipX = 0; 
     let tooltipY = 0; 
     let tooltipContent = '';
+
+    $: console.log(data);
   
     // goal: one bar per country, height = NO_CASES
     // 0. filter out data only for 2000
