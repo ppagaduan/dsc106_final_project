@@ -1,12 +1,28 @@
 <script>
   import Scroller from "@sveltejs/svelte-scroller";
-  import Map from "./Map.svelte"
+  import { geoMercator } from "d3-geo";
+  import world_map from "./Map.svelte"
   import { onMount } from 'svelte';
-  import Slider from './Slider.svelte';
+  import Graph from './Graph.svelte';
   import Viz from './viz.svelte';
 
   let count, index, offset, progress;
+<<<<<<< HEAD
   
+=======
+  let width, height;
+
+  let data = [];
+
+  onMount(
+    async() => {
+      const res = await fetch('aids_cases_by_region.csv')
+      const csv = await res.text();
+      data = d3.csvParse(csv, d3.autoType)
+    }
+  )
+
+>>>>>>> 8747191a7cf855ad02adfe4b658907ede6da8aa5
 </script>
 
 <Scroller
@@ -64,7 +80,7 @@ bind:progress
       </p>
   </section>
 
-  <section class = 'timeline'> 
+  <section class = 'intro'> 
     <p class = 'subheading'>
       The Symptoms
     </p>
@@ -80,40 +96,69 @@ bind:progress
   </section>
 
   <section class = 'timeline'> 
-    <h2 class = 'subheading'>
-      1980s
+    <h2 class="subheading">
+      Timeline
     </h2>
-  </section>
+    <div class="row">
+
+      <div class="column">
+        <h2 class = 'subheading'>
+          1980s
+        </h2>
   
-  <section class = 'timeline'> 
-    <h2 class = 'subheading'>
-      1990s
-    </h2>
-  </section>
+        <h2 class = 'subheading'>
+          1990s
+        </h2>
+  
+        <h2 class = 'subheading'>
+          2000s
+        </h2>
+    
+  
+        <h2 class = 'subheading'>
+          2010s
+        </h2>
+  
+        <h2 class = 'subheading'>
+          2020s
+        </h2>
+      </div>
 
-  <section class = 'timeline'> 
-    <h2 class = 'subheading'>
-      2000s
-    </h2>
-  </section>
+      <div class="column">
+        <p class = 'blurb'>
+          HIV was discovered and AIDS became globally recognized by the World Health Organization.
+        </p>
+  
+  
+        <p class = 'blurb'>
+          The AIDS epidemic became widespread in the U.S. 
+        </p>
+  
+  
+  
+        <p class = 'blurb'>
+          blah blah blah
+        </p>
+  
+  
+  
+        <p class = 'blurb'>
+          blah blah blah
+        </p>
 
-  <section class = 'timeline'> 
-    <h2 class = 'subheading'>
-      2010s
-    </h2>
-  </section>
+        <p class = 'blurb'>
+          blah blah blah blah blabh lbah
+        </p>
 
-  <section class = 'timeline'> 
-    <h2 class = 'subheading'>
-      2020s
-    </h2>
+      </div>
+    </div>
   </section>
 
   <section class = 'global_impact'>
     <h2 class = 'subheading'>
       Global Impact <!-- perhaps include an interactive or static map here?? -->
     </h2>
-  	<div id = "map" ></div>
+  	<div id = "map"></div>
   </section>
 
   <section class = 'global_impact'>
@@ -121,6 +166,17 @@ bind:progress
       Risk Factors & Transmission
     </h2>
     <Viz/>
+<<<<<<< HEAD
+=======
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>
+      Use the slider to observe the change in global AIDS cases by year!
+    </p>
+>>>>>>> 8747191a7cf855ad02adfe4b658907ede6da8aa5
   </section>
 
   <section class = 'global_impact'>
@@ -134,6 +190,7 @@ bind:progress
       How You Can Help <!-- resource links -->
     </h2>
   </section>
+
 </div>
 </Scroller>
 
@@ -174,6 +231,28 @@ bind:progress
     font-size: 1em;
     font-weight: 200;
     line-height: 2;
+  }  
+
+  .column {
+  float: left;
+  width: 50%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .timeline{
+    height: 150vh;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .global_impact{
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
   }
 
   section {

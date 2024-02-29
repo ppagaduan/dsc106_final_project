@@ -1,6 +1,7 @@
 <script>
-	mapboxgl.accessToken = "pk.eyJ1IjoicHBhZ2FkdWFuIiwiYSI6ImNsc2pxMTltMjJ2bjcya3JreDd1dnFiMmMifQ.81ErEYIY2_oxdwbDSz2IDg";
-	const map = new mapboxgl.Map({
+	mapboxgl.accessToken = "pk.eyJ1IjoicHBhZ2FkdWFuIiwiYSI6ImNsdDY2cDgyNjA4cWIybHBkNHpnaHg1YjYifQ.JC-taM_C1H3Ch8uJ2p_Hzw";
+	
+	const world_map = new mapboxgl.Map({
 		container: "map",
 		style: "mapbox://styles/mapbox/light-v11", 
 		center: [0, 0], 
@@ -10,12 +11,13 @@
         height: 400,
         width: 400,
 	});
-    map.on("load", () => {
-		map.addSource("world_map", {
+
+    world_map.on("load", () => {
+		world_map.addSource("world_map", {
 			type: "geojson",
 			data: "https://raw.githubusercontent.com/ppagaduan/dsc106_final_project/main/static/world_map.geo.json",
 		});
-		map.addLayer({
+		world_map.addLayer({
 			id: "world_map",
 			type: "fill",
 			source: "world_map",
