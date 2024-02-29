@@ -9,6 +9,16 @@
   let count, index, offset, progress;
   let width, height;
 
+  let data = [];
+
+  onMount(
+    async() => {
+      const res = await fetch('aids_cases_by_region.csv')
+      const csv = await res.text();
+      data = d3.csvParse(csv, d3.autoType)
+    }
+  )
+
   let geoJsonToFit = {
     type: "FeatureCollection",
     features: [
