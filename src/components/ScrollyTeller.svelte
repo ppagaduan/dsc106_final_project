@@ -6,6 +6,7 @@
   import Viz from './viz.svelte';
 
   let count, index, offset, progress;
+  
 </script>
 
 <Scroller
@@ -119,7 +120,7 @@ bind:progress
     <h2 class = 'subheading'>
       Risk Factors & Transmission
     </h2>
-    <Viz />
+    <Viz/>
   </section>
 
   <section class = 'global_impact'>
