@@ -19,27 +19,6 @@
     }
   )
 
-  let geoJsonToFit = {
-    type: "FeatureCollection",
-    features: [
-      {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [1, 0],
-        },
-      },
-      {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [0, 1],
-        },
-      },
-    ],
-  };
-
-  $: projection = geoMercator().fitSize([width, height], geoJsonToFit);
 </script>
 
 <Scroller
@@ -113,27 +92,62 @@ bind:progress
   </section>
 
   <section class = 'timeline'> 
-    <Graph {index} {width} {height} {projection} />
-
-    <h2 class = 'subheading'>
-      1980s
+    <h2 class="subheading">
+      Timeline
     </h2>
+    <div class="row">
 
-    <h2 class = 'subheading'>
-      1990s
-    </h2>
+      <div class="column">
+        <h2 class = 'subheading'>
+          1980s
+        </h2>
+  
+        <h2 class = 'subheading'>
+          1990s
+        </h2>
+  
+        <h2 class = 'subheading'>
+          2000s
+        </h2>
+    
+  
+        <h2 class = 'subheading'>
+          2010s
+        </h2>
+  
+        <h2 class = 'subheading'>
+          2020s
+        </h2>
+      </div>
 
-    <h2 class = 'subheading'>
-      2000s
-    </h2>
+      <div class="column">
+        <p class = 'blurb'>
+          HIV was discovered and AIDS became globally recognized by the World Health Organization.
+        </p>
+  
+  
+        <p class = 'blurb'>
+          The AIDS epidemic became widespread in the U.S. 
+        </p>
+  
+  
+  
+        <p class = 'blurb'>
+          blah blah blah
+        </p>
+  
+  
+  
+        <p class = 'blurb'>
+          blah blah blah
+        </p>
 
-    <h2 class = 'subheading'>
-      2010s
-    </h2>
+        <p class = 'blurb'>
+          blah blah blah blah blabh lbah
+        </p>
 
-    <h2 class = 'subheading'>
-      2020s
-    </h2>
+      </div>
+    </div>
   </section>
 
   <section class = 'global_impact'>
@@ -210,6 +224,18 @@ bind:progress
     font-size: 1em;
     font-weight: 200;
     line-height: 2;
+  }  
+
+  .column {
+  float: left;
+  width: 50%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
   .timeline{

@@ -3,7 +3,7 @@
     import { tweened } from "svelte/motion";
     import { cubicOut, cubicInOut } from "svelte/easing";
 
-    export let index, width, height, projection;
+    export let index, width, height;
 
     let years = ['1980s', '1990s', '2000s', '2010s', '2020s']
 
@@ -23,24 +23,21 @@
         tweenOptions
     );
 
-    $: tweenedData = years.map((city, i) => ({
+    $: tweenedData = years.map((years, i) => ({
         x: $tweenedX[i],
         y: $tweenedY[i],
-        properties: city.properties,
+        years,
     }));
 
     $: {
         if (index === 1) {
-        tweenedX.set(years.map((city) => width / 2));
-        tweenedY.set(years.map((city, i) => height / 2 + i * 20));
+        tweenedX.set(years.map((years) => width / 2));
+        tweenedY.set(years.map((years, i) => height / 2 + i * 20));
         }
 
         if (index > 1) {
         tweenedX.set(
-            cities.features.map((city) => projection(city.geometry.coordinates)[0])
-        );
-        tweenedY.set(
-            cities.features.map((city) => projection(city.geometry.coordinates)[1])
+            years.features.map((years) => width / 2)
         );
         }
     }
