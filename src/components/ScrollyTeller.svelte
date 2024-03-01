@@ -6,6 +6,7 @@
   import Graph from './Graph.svelte';
   import Viz from './viz.svelte';
   import * as d3 from 'd3';
+  import Button from './Button.svelte';
 
   let count, index, offset, progress;
   let width, height;
@@ -208,6 +209,26 @@ bind:progress
     <h2 class = 'subheading'>
       Treatment & Prevention
     </h2>
+    <h3> Click a button below to learn about the different transmission methods and risk factors. </h3>
+    <Button class="unprotected_sex">
+      Unprotected Sex
+    </Button>
+    <br> <br>
+
+    <Button class="drug_usage">
+      Drug Usage
+    </Button>
+    <br> <br>
+
+    <Button class="mother_to_child_transmission">
+      Mother to Child Transmission
+    </Button>
+    <br> <br>
+
+    <Button class="sti">
+      Sexually Transmitted Infections
+    </Button>
+
   </section>
 
   <section class = 'call_to_action'>
