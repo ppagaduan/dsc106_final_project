@@ -175,10 +175,10 @@ bind:progress
 
   <section class = 'global_impact'>
     <h2 class = 'subheading'>
-      Global Impact <!-- perhaps include an interactive or static map here?? -->
+      Worldwide Reach: Mapping the Prevalence of HIV/AIDS
     </h2>
-    <Map bind:geoJsonToFit {index}/> <!--added -->
-    <Graph {index} {width} {height} {projection} /> <!--added -->
+    <Map bind:geoJsonToFit {index}/> 
+    <Graph {index} {width} {height} {projection} /> 
     <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
     <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
     <br> <br> <br> 
@@ -192,43 +192,46 @@ bind:progress
 
   <section class = 'global_impact'>
     <h2 class = 'subheading'>
-      Risk Factors & Transmission
+      Charting AIDS Prevalence Across Nations
     </h2>
+    <h3>Use the slider to observe the change in global AIDS cases by year! </h3>
     <Viz/>
     <br>
     <br>
     <br>
     <br>
     <br>
-    <p>
-      Use the slider to observe the change in global AIDS cases by year!
+    <p class = 'blurb'>
+      insert analysis of global impact rates here
     </p>
   </section>
 
   <section class = 'global_impact'>
     <h2 class = 'subheading'>
-      Treatment & Prevention
+      Risk Factors & Transmission
     </h2>
     <h3> Click a button below to learn about the different transmission methods and risk factors. </h3>
-    <Button class="unprotected_sex">
-      Unprotected Sex
+    <Button class="unprotected_sex" buttonText= "Unprotected Sex"> 
     </Button>
     <br> <br>
 
-    <Button class="drug_usage">
-      Drug Usage
+    <Button class="drug_usage" buttonText = "Drug Usage">
     </Button>
     <br> <br>
 
-    <Button class="mother_to_child_transmission">
-      Mother to Child Transmission
+    <Button class="mother_to_child_transmission" buttonText = "Mother to Child Transmission">
     </Button>
     <br> <br>
 
-    <Button class="sti">
-      Sexually Transmitted Infections
+    <Button class="sti" buttonText = "Sexually Transmitted Infections">
     </Button>
 
+  </section>
+
+  <section class = 'treatment_and_prevention'>
+    <h2 class = 'subheading'>
+      Treatment and Prevention
+    </h2>
   </section>
 
   <section class = 'call_to_action'>
