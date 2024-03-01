@@ -20,6 +20,28 @@
     }
   )
 
+  let geoJsonToFit = { // added
+    type: "FeatureCollection",
+    features: [
+      {
+        type: "Feature",
+        geometry: {
+          type: "Point",
+          coordinates: [1, 0],
+        },
+      },
+      {
+        type: "Feature",
+        geometry: {
+          type: "Point",
+          coordinates: [0, 1],
+        },
+      },
+    ],
+  };
+
+  $: projection = geoMercator().fitSize([width, height], geoJsonToFit);
+
 </script>
 
 <Scroller
@@ -155,7 +177,8 @@ bind:progress
     <h2 class = 'subheading'>
       Global Impact <!-- perhaps include an interactive or static map here?? -->
     </h2>
-    <Map/>
+    <Map bind:geoJsonToFit {index}/> <!--added -->
+    <Graph {index} {width} {height} {projection} /> <!--added -->
   </section>
 
   <section class = 'global_impact'>

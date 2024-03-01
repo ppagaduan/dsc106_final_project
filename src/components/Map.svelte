@@ -1,53 +1,109 @@
 <script>
-	import mapboxgl from 'mapbox-gl';
-	import 'mapbox-gl/dist/mapbox-gl.css';
-	import { onMount, onDestroy } from "svelte";
-	mapboxgl.accessToken = "pk.eyJ1IjoiaHRhbTg4IiwiYSI6ImNsc2d2M2xrMzB0YXAycnBncWNwMWlkc3gifQ._-vNYE1-qImQWrRbu76uUw";
-
-	let mapContainer;
-
+	import mapboxgl from "mapbox-gl";
+	import { onMount } from "svelte";
+	export let index;
+	export let geoJsonToFit;
+  
+	mapboxgl.accessToken =
+	  "pk.eyJ1IjoiaHRhbTg4IiwiYSI6ImNsc2d2M2xrMzB0YXAycnBncWNwMWlkc3gifQ._-vNYE1-qImQWrRbu76uUw";
+  
+	let container;
+	let map;
+  
+	let zoomLevel;
+  
+	function updateZoomLevel() {
+	  const screenWidth = window.innerWidth;
+	  zoomLevel = screenWidth <= 600 ? 4 : 5.85; // Adjust these values as needed
+	}
+  
+	function handleResize() {
+	  updateZoomLevel();
+	  map.setZoom(zoomLevel);
+	}
+  
 	onMount(() => {
-	const world_map = new mapboxgl.Map({
-		container: mapContainer,
-		style: "mapbox://styles/mapbox/light-v11", 
-		center: [0, 0], 
-		zoom: 13, // starting zoom level
-		minZoom: 12,
-		maxZoom: 15,
-        height: 400,
-        width: 400,
+	  updateZoomLevel();
+	  map = new mapboxgl.Map({
+		container,
+		style: "mapbox://styles/mapbox/light-v11",
+		center: [31.3, 55],
+		zoom: zoomLevel,
+		attributionControl: true, // removes attribution from the bottom of the map
+	  });
+  
+	  window.addEventListener("resize", handleResize);
+  
+	  function hideLabelLayers() {
+		const labelLayerIds = map
+		  .getStyle()
+		  .layers.filter(
+			(layer) =>
+			  layer.type === "symbol" && /label|text|place/.test(layer.id)
+		  )
+		  .map((layer) => layer.id);
+  
+		for (const layerId of labelLayerIds) {
+		  map.setLayoutProperty(layerId, "visibility", "none");
+		}
+	  }
+  
+	  map.on("load", () => {
+		hideLabelLayers();
+		updateBounds();
+		map.on("zoom", updateBounds);
+		map.on("drag", updateBounds);
+		map.on("move", updateBounds);
+	  });
 	});
 	
-	});
-	
-	
-
-    // world_map.on("load", () => {
-	// 	world_map.addSource("world_map", {
-	// 		type: "geojson",
-	// 		data: "https://raw.githubusercontent.com/ppagaduan/dsc106_final_project/main/static/world_map.geo.json",
-	// 	});
-	// 	world_map.addLayer({
-	// 		id: "world_map",
-	// 		type: "fill",
-	// 		source: "world_map",
-	// 		paint: {
-    //             "fill-color": "#BEE5B0",
-    //             "fill-opacity": 0.5,
-	// 		},
-	// 	});
-	// });
-
-</script>
-
-<div class="map-wrap">
-	<div class="map" bind:this={mapContainer} />
-</div>
-
-<style>
+	function updateBounds() {
+	  const bounds = map.getBounds();
+	  geoJsonToFit.features[0].geometry.coordinates = [
+		bounds._ne.lng,
+		bounds._ne.lat,
+	  ];
+	  geoJsonToFit.features[1].geometry.coordinates = [
+		bounds._sw.lng,
+		bounds._sw.lat,
+	  ];
+	}
+  
+	let isVisible = false;
+  
+  $: if (index === 3) {
+	isVisible = true;
+  } else {
+	isVisible = false;
+  }
+  
+  </script>
+  
+  <svelte:head>
+	<link
+	  rel="stylesheet"
+	  href="https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.css"
+	/>
+  </svelte:head>
+  
+  <div class="map" class:visible={isVisible} bind:this={container} />
+  
+  <style>
 	.map {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-}
-</style>
+	  width: 100vw;
+	  height: 100vh;
+	  position: absolute;
+	  left: 0;
+	  opacity: 0;
+	  visibility: hidden;
+	  transition: opacity 2s, visibility 2s;
+	  outline: blue solid 3px;
+	}
+  
+	.map.visible {
+	  opacity: 1;
+	  visibility: visible;
+	}
+  </style>
+  
+  
