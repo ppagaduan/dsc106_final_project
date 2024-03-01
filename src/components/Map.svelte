@@ -27,7 +27,7 @@
 	  map = new mapboxgl.Map({
 		container,
 		style: "mapbox://styles/mapbox/light-v11",
-		center: [31.3, 55],
+		center: [30, -30],
 		zoom: zoomLevel,
 		attributionControl: true, // removes attribution from the bottom of the map
 	  });
@@ -69,7 +69,7 @@
 	  ];
 	}
   
-	let isVisible = false;
+	let isVisible = true;
   
   $: if (index === 3) {
 	isVisible = true;
@@ -91,7 +91,7 @@
   <style>
 	.map {
 	  width: 150%;
-	  height: 100vh;
+	  height: 80vh;
 	  position: absolute;
 	  left: -10vh;
 	  opacity: 0;
