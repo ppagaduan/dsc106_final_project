@@ -90,10 +90,10 @@
   
   <style>
 	.map {
-	  width: 100vw;
+	  width: 150%;
 	  height: 100vh;
 	  position: absolute;
-	  left: 0;
+	  left: -10vw;
 	  opacity: 0;
 	  visibility: hidden;
 	  transition: opacity 2s, visibility 2s;
