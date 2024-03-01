@@ -9,7 +9,6 @@
 
   let count, index, offset, progress;
   let width, height;
-
   let data = [];
 
   onMount(
@@ -179,6 +178,15 @@ bind:progress
     </h2>
     <Map bind:geoJsonToFit {index}/> <!--added -->
     <Graph {index} {width} {height} {projection} /> <!--added -->
+    <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+    <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <br> <br> <br> 
+    <p class = 'blurb'>
+      This map is centered on Eswatini, formerly known as Swaziland, located in Southern Africa. It is almost entirely
+    landlocked by South Africa, and is also bordered by Mozambique. Eswantini, along with other countries in Southern Africa,
+    have some of the highest percentages of adult prevalence of HIV / AIDS in the country. To view other countries, use your cursor
+    to zoom in and out of the map!
+    </p> <br> <br> <br> <br> <br> <br> 
   </section>
 
   <section class = 'global_impact'>
