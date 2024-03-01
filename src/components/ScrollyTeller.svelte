@@ -242,9 +242,10 @@ bind:progress
 
   <section>
     <h2 class="subheading">
-      1. What have you done so far? <br>
-      2. What will be the most challenging of your project to design and why?
+      Reflection
     </h2>
+    <h3 class = 'instructions'> 1. What have you done so far? <br>
+      2. What will be the most challenging of your project to design and why?</h3>
     <p class = "blurb">
       So far, we have created the base template for the layout of our website. The ScrollyTeller is functional and is based off of
       Lab 7. Each section of our website will detail a different aspect of the AIDS epidemic that we want to communicate to the
@@ -305,6 +306,10 @@ bind:progress
   .column {
   float: left;
   width: 50%;
+  }
+
+  .instructions{
+    text-align: left;
   }
 
   /* Clear floats after the columns */
