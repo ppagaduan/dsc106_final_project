@@ -240,6 +240,26 @@ bind:progress
     </h2>
   </section>
 
+  <section>
+    <h2 class="subheading">
+      1. What have you done so far? <br>
+      2. What will be the most challenging of your project to design and why?
+    </h2>
+    <p class = "blurb">
+      So far, we have created the base template for the layout of our website. The ScrollyTeller is functional and is based off of
+      Lab 7. Each section of our website will detail a different aspect of the AIDS epidemic that we want to communicate to the
+      viewer, as represented through the headings in each section. We have also imported our interactive bar chart from Project 3 to
+      this project, as it touches on the same topics and is helpful to describe the trends in AIDS cases throughout the years.
+      Additionally, we've included a world map that is zoomable to one of the sections to further emphasize the global impact that AIDS
+      has. <br> <br>
+      The most challenging part of the project to design will be the timeline, in our opinion. We are attempting to have the decade
+      years tween in through animation, as well as have the information associated with each year toggle in and out depending on how
+      far down the page the viewer has scrolled. However, our current implemenation of these animations is not working and Lab 7 does not
+      provide an adequate template that we can use for this process. But after the lectures this week about animation in data
+      visualizations, we think that we can approach this issue with a new perspective and try to implement these animations 
+      successfully. 
+    </p>
+  </section>
 </div>
 </Scroller>
 
@@ -300,7 +320,7 @@ bind:progress
   }
 
   .global_impact{
-    height: 100vh;
+    height: 120vh;
     font-family: 'Nunito', sans-serif;
   }
 
