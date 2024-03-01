@@ -93,7 +93,7 @@
 	  width: 150%;
 	  height: 100vh;
 	  position: absolute;
-	  left: -10vw;
+	  left: -10vh;
 	  opacity: 0;
 	  visibility: hidden;
 	  transition: opacity 2s, visibility 2s;
