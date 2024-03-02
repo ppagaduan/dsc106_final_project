@@ -212,23 +212,26 @@ bind:progress
     </h2>
     <h3> Click a button below to learn about the different transmission methods and risk factors. </h3>
     <Button class="unprotected_sex" buttonText= "Unprotected Sex"> 
-    </Button>
-    <br> <br>
+    </Button> <br><br>
 
     <Button class="drug_usage" buttonText = "Drug Usage">
-    </Button>
-    <br> <br>
+    </Button> <br><br>
 
     <Button class="mother_to_child_transmission" buttonText = "Mother to Child Transmission">
-    </Button>
-    <br> <br>
+    </Button> <br><br>
 
     <Button class="sti" buttonText = "Sexually Transmitted Infections">
     </Button>
+    <br><br> ------------------------ <br>
+    <h3> Click the button below to see how HIV transmits between people. </h3>
+
+    <section class = 'blood'>
+      <Button class='HIV' buttonText='HIV'> </Button>
+    </section>
 
   </section>
 
-  <section class = 'treatment_and_prevention'>
+  <section class = 'treatment_and_prevention'>  
     <h2 class = 'subheading'>
       Treatment and Prevention
     </h2>
@@ -339,5 +342,12 @@ bind:progress
     color: black;
     padding: 1em;
     margin: 0 0 2em 0;
+  }
+
+  .blood {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.2);
   }
 </style>

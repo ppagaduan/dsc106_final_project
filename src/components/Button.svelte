@@ -7,34 +7,46 @@
     }
     let message = writable("");
     let isMessageVisible = false;
+    let hivButtons = [];
 
     function handleClick(customMessage){
-        if (isMessageVisible){
+        if (buttonProps.class.includes("HIV")){
+            let count = hivButtons.length + 5;
+            hivButtons = Array.from({ length: count }, (_, i) => ({ label: "HIV " + (i + 1) }));
+            message.set("HIV replicates in the bloodstream.");
+        } else{
+            if (isMessageVisible){
             message.set(""); // hide the message when you unclick
         } else {
-            if (buttonProps.class.includes('unprotected_sex')){
-                message.set("People are at a higher risk of contracting HIV when they have anal or vaginal sex without a condom.\
-                This is fairly common among teenagers and young adults, age groups that tend to have higher rates of HIV compared\
-                to other Americans.");
-            } else if (buttonProps.class.includes('drug_usage')) {
-                message.set("Studies have found the consumption of alcohol and/or drugs to also be associated with increased risks \
-                for HIV. Ingesting alcohol and using drugs can impair the user's judgement, causing them to partake in risky sexual \
-                behaviors, such as having unprotected sex or engaging in sexual activity with multiple partners. This can prompt \
-                a greater likelihood of contracting HIV. Sharing needles or syringes during drug injection can also increase risk\
-                since the needles may be contaminated. If a person currently has HIV, substance use can affect disease progression and\
-                adherence to HIV treatment (antiretroviral therapy), which can result in worse symptoms of the virus.")
-            } else if (buttonProps.class.includes('mother_to_child_transmission')){
-                message.set("Babies can get HIV from their affected mothers before or during birth. Babies can also contract HIV \
-                from their mothers after birth through breastfeeding.")
-            } else if (buttonProps.class.includes('sti')){
-                message.set("People with other sexually-transmitted infections (STIs), such as syphilis, herpes, chlamydia, \
-                gonorrhoea and bacterial vaginosis")
+                if (buttonProps.class.includes('unprotected_sex')){
+                    message.set("People are at a higher risk of contracting HIV when they have anal or vaginal sex without a condom.\
+                    This is fairly common among teenagers and young adults, age groups that tend to have higher rates of HIV compared\
+                    to other Americans.");
+                } else if (buttonProps.class.includes('drug_usage')) {
+                    message.set("Studies have found the consumption of alcohol and/or drugs to also be associated with increased risks \
+                    for HIV. Ingesting alcohol and using drugs can impair the user's judgement, causing them to partake in risky sexual \
+                    behaviors, such as having unprotected sex or engaging in sexual activity with multiple partners. This can prompt \
+                    a greater likelihood of contracting HIV. Sharing needles or syringes during drug injection can also increase risk\
+                    since the needles may be contaminated. If a person currently has HIV, substance use can affect disease progression and\
+                    adherence to HIV treatment (antiretroviral therapy), which can result in worse symptoms of the virus.")
+                } else if (buttonProps.class.includes('mother_to_child_transmission')){
+                    message.set("Babies can get HIV from their affected mothers before or during birth. Babies can also contract HIV \
+                    from their mothers after birth through breastfeeding.")
+                } else if (buttonProps.class.includes('sti')){
+                    message.set("People with other sexually-transmitted infections (STIs), such as syphilis, herpes, chlamydia, \
+                    gonorrhoea and bacterial vaginosis")
+                } // below is for simulation
+                else if (buttonProps.class.includes('HIV')){
+                    message.set('HIV, also known as human immodeficiency virus, is a virus that targets the immune system and causes AIDS,\
+                    a late stage of HIV infection.')
+                }
+                
             }
-            
-        } isMessageVisible = !isMessageVisible;
+        }
+         isMessageVisible = !isMessageVisible;
     }
 </script>
-    <button on:click = {handleClick(buttonText)}
+    <button on:click = {handleClick}
             on:mouseover
             on:focus
             on:mouseenter
@@ -43,6 +55,14 @@
             <slot/>
         {buttonText || 'Button'}
     </button>
+
+    <!-- HIV replication -->
+    {#if buttonProps.class.includes('HIV')}
+        {#each hivButtons.slice(0, 5) as button, index} <!-- Render only the first 5 buttons -->
+            <button class = 'HIV' key={index}>{button.label}</button>
+        {/each} 
+       
+    {/if}
 
     {#if $message}
         <p>{$message}</p>
@@ -67,6 +87,10 @@
     }
     .sti{
         background-color: yellow;
+        color: black;
+    }
+    .HIV{
+        background-color: lightgreen;
         color: black;
     }
 </style>
