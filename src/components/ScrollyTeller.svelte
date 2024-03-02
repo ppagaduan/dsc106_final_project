@@ -223,7 +223,7 @@ bind:progress
     <Button class="sti" buttonText = "Sexually Transmitted Infections">
     </Button>
     <br><br> ------------------------ <br>
-    <h3> Click the button below to see how HIV transmits between people. </h3>
+    <h3> Click the first light green button, representing HIV, below to visualize the rate of HIV replication. </h3>
 
     <section class = 'blood'>
       <Button class='HIV' buttonText='HIV'> </Button>

@@ -8,12 +8,43 @@
     let message = writable("");
     let isMessageVisible = false;
     let hivButtons = [];
-
+    let replicationFactor = 3; 
     function handleClick(customMessage){
         if (buttonProps.class.includes("HIV")){
-            let count = hivButtons.length + 5;
-            hivButtons = Array.from({ length: count }, (_, i) => ({ label: "HIV " + (i + 1) }));
-            message.set("HIV replicates in the bloodstream.");
+            let count = hivButtons.length * replicationFactor || 1;
+            if (count < 2){
+                hivButtons = Array.from({ length: count }, (_, i) => ({ label: "HIV " + (i + 1)}));
+                message.set("HIV replicates in the bloodstream.");
+            } else if (count < 5) {
+                hivButtons = Array.from({ length: count }, (_, i) => ({ label: "HIV " + (i + 1)}));
+                message.set("For an individual with HIV who is not currently receiving antiviral drug therapy, there 10,000\
+                 virions per milliliter of blood. A virion is a functional virus that can affect living tissue; in our case, \
+                 the virions are HIV.");
+            } 
+            else if (count < 10) {
+                hivButtons = Array.from({ length: count }, (_, i) => ({ label: "HIV " + (i + 1)}));
+                message.set("About 5,000 new virions per milliliter of blood are produced every day.");
+            }else if (count < 30){
+                hivButtons = Array.from({ length: count }, (_, i) => ({ label: "HIV " + (i + 1)}));
+                message.set("Notice that in our simulation, the number of HIV viruses triples every time you click.\
+                In real life, HIV's burst size, or number of virions produced per infected cell, can be between 1,000 and 3,000\
+                virions. That means in our simulation, each additional HIV virion represents 1,000 virions in real life. This is \
+                significantly faster than the burst size for influenza, also known as the flu, which is about 500-1,000 virions. ")
+            }
+            else if (count < 50) {
+                hivButtons = Array.from({ length: count }, (_, i) => ({ label: "HIV " + (i + 1)}));
+                message.set("HIV has a very high mutation rate, mutating at 3 x 10^(-5) nucleotide bases per cycle of replication.\
+                On the other hand, he human genome typically mutates at a rate of 10^(-6) to 10^(-8) nucleotide bases per cycle of \
+                replication.");
+            } else if (count < 100){
+                hivButtons = Array.from({ length: count }, (_, i) => ({ label: "HIV " + (i + 1)}));
+                message.set("This means the virions produced every day can be very variable, making it harder for the human body to cope\
+                with and for doctors to treat. As a result, HIV can spread very quickly if not treated early.");
+            } else {
+                message.set('The simulation has ended.');
+            }
+
+
         } else{
             if (isMessageVisible){
             message.set(""); // hide the message when you unclick
@@ -45,6 +76,7 @@
         }
          isMessageVisible = !isMessageVisible;
     }
+
 </script>
     <button on:click = {handleClick}
             on:mouseover
@@ -58,10 +90,10 @@
 
     <!-- HIV replication -->
     {#if buttonProps.class.includes('HIV')}
-        {#each hivButtons.slice(0, 5) as button, index} <!-- Render only the first 5 buttons -->
-            <button class = 'HIV' key={index}>{button.label}</button>
-        {/each} 
-       
+        {#each hivButtons as button, index}
+            <button class='HIV' key={index}>{button.label}</button>
+        {/each}
+
     {/if}
 
     {#if $message}
@@ -92,5 +124,8 @@
     .HIV{
         background-color: lightgreen;
         color: black;
+    }
+    .hidden{
+        display: None;
     }
 </style>
