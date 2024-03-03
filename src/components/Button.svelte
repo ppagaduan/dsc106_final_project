@@ -12,7 +12,7 @@
     let isResetVisible = false;
 
     function handleClick(customMessage){
-        if (buttonProps.class.includes("HIV")){
+        if (buttonProps.class.includes("HIV")){ // simulation
             let count = hivButtons.length * replicationFactor || 1;
             if (count < 2){
                 hivButtons = Array.from({ length: count }, (_, i) => ({ label: "HIV " + (i + 1)}));
@@ -51,7 +51,7 @@
         } else{
             if (isMessageVisible){
             message.set(""); // hide the message when you unclick
-        } else {
+        } else { // risks & transmissions
                 if (buttonProps.class.includes('unprotected_sex')){
                     message.set("People are at a higher risk of contracting HIV when they have anal or vaginal sex without a condom.\
                     This is fairly common among teenagers and young adults, age groups that tend to have higher rates of HIV compared\
@@ -69,12 +69,7 @@
                 } else if (buttonProps.class.includes('sti')){
                     message.set("People with other sexually-transmitted infections (STIs), such as syphilis, herpes, chlamydia, \
                     gonorrhoea and bacterial vaginosis, are more susceptible to HIV.")
-                } // below is for simulation
-                else if (buttonProps.class.includes('HIV')){
-                    message.set('HIV, also known as human immodeficiency virus, is a virus that targets the immune system and causes AIDS,\
-                    a late stage of HIV infection.')
-                }
-                
+                }               
             }
         }
          isMessageVisible = !isMessageVisible;
@@ -147,5 +142,17 @@
     }
     .hidden{
         display: None;
+    }
+    .learn_more{
+        background-color: blue;
+        color: white;
+    }
+    .volunteer{
+        background-color: green;
+        color: white;
+    }
+    .donate{
+        background-color: lightblue;
+        color: black;
     }
 </style>

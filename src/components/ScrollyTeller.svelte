@@ -242,6 +242,46 @@ bind:progress
     <h2 class = 'subheading'>
       How You Can Help <!-- resource links -->
     </h2>
+    <h3 class = 'instructions'> HIV is still a persisting issue. According to UNAIDS, in 2022, about 39 million people globally
+      were afflicted with HIV. Of these people, 1.3 million were diagnosed with HIV that year, which is a 38% decline in new infections
+      since 2010 and a 59% decline since HIV was most prevalent in 1995. Click the links below to explore how you can help combat HIV and AIDS.
+    </h3>
+
+    <!-- donate -->
+    <h2 class = 'subheading2'> Donate</h2>
+    <a href = 'https://www.unaids.org/en/donate'> 
+      <Button buttonText = 'UNAIDS' class = 'donate'> </Button>
+    </a>
+    <a href = 'https://aidsunited.org/donate/'> 
+      <Button buttonText = "AIDS United" class = 'donate'> </Button>
+    </a>
+    <a href = 'https://www.amfar.org'> 
+      <Button buttonText = 'The Foundation for AIDS Research (amfAR)' class = 'donate'> </Button>
+    </a>
+
+    <!-- volunteer -->
+    <h2 class = 'subheading2'> Volunteer </h2>
+    <a href = 'http://beingalivesd.com'> 
+      <Button buttonText = 'Being Alive' class = 'volunteer'> </Button>
+    </a>
+    <a href = 'https://christiesplace.org/volunteer/'> 
+      <Button buttonText = "Christie's Place" class = 'volunteer'> </Button>
+    </a>
+    <a href = 'https://sdvlp.org/hiv-aids-law/'> 
+      <Button buttonText = 'San Diego Volunteer Lawyer Program' class = 'volunteer'> </Button>
+    </a>
+
+    <!-- learn more links -->
+    <h2 class = 'subheading2'> Learn More </h2>
+    <a href = 'https://www.cdc.gov/hiv/basics/whatishiv.html#:~:text=What%20is%20HIV%3F,they%20have%20it%20for%20life.'> 
+      <Button buttonText = 'Centers for Disease Control & Prevention (CDC)' class = 'learn_more'> </Button>
+    </a>
+    <a href = 'https://www.hiv.gov/hiv-basics/overview/about-hiv-and-aids/what-are-hiv-and-aids'> 
+      <Button buttonText = 'HIV.gov' class = 'learn_more'> </Button>
+    </a>
+    <a href = 'https://www.who.int/news-room/fact-sheets/detail/hiv-aids'> 
+      <Button buttonText = 'World Health Organization (WHO)' class = 'learn_more'> </Button>
+    </a>
   </section>
 
   <section>
@@ -296,6 +336,14 @@ bind:progress
     font-size: 2em;
     font-weight: 400;
     line-height: 2;
+    color: red
+  }
+
+  .subheading2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    font-weight: 150;
+    line-height: 1;
     color: red
   }
 
