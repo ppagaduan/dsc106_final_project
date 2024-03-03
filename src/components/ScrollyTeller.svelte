@@ -223,7 +223,8 @@ bind:progress
     <Button class="sti" buttonText = "Sexually Transmitted Infections">
     </Button>
     <br><br> ------------------------ <br>
-    <h3> Click the first light green button, representing HIV, below to visualize the rate of HIV replication. </h3>
+    <h3> Click the first light green button, representing HIV, below to visualize the rate of HIV replication. For
+      optimized performance, please close all expanded tabs in the "Risk Factors & Transmission" section.</h3>
 
     <section class = 'blood'>
       <Button class='HIV' buttonText='HIV'> </Button>

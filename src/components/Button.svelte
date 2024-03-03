@@ -9,6 +9,8 @@
     let isMessageVisible = false;
     let hivButtons = [];
     let replicationFactor = 3; 
+    let isResetVisible = false;
+
     function handleClick(customMessage){
         if (buttonProps.class.includes("HIV")){
             let count = hivButtons.length * replicationFactor || 1;
@@ -41,7 +43,8 @@
                 message.set("This means the virions produced every day can be very variable, making it harder for the human body to cope\
                 with and for doctors to treat. As a result, HIV can spread very quickly if not treated early.");
             } else {
-                message.set('The simulation has ended.');
+                message.set('The simulation has ended. Click the button below to play again.');
+                isResetVisible = true;
             }
 
 
@@ -65,7 +68,7 @@
                     from their mothers after birth through breastfeeding.")
                 } else if (buttonProps.class.includes('sti')){
                     message.set("People with other sexually-transmitted infections (STIs), such as syphilis, herpes, chlamydia, \
-                    gonorrhoea and bacterial vaginosis")
+                    gonorrhoea and bacterial vaginosis, are more susceptible to HIV.")
                 } // below is for simulation
                 else if (buttonProps.class.includes('HIV')){
                     message.set('HIV, also known as human immodeficiency virus, is a virus that targets the immune system and causes AIDS,\
@@ -75,6 +78,18 @@
             }
         }
          isMessageVisible = !isMessageVisible;
+
+    }
+
+    function replay(){
+            // reset everything to their initial state
+            buttonProps = {
+                class:[$$restProps.class]
+            }
+            message = writable("");
+            hivButtons = [];
+            replicationFactor = 3; 
+            isResetVisible = false;
     }
 
 </script>
@@ -98,6 +113,11 @@
 
     {#if $message}
         <p>{$message}</p>
+    {/if}
+
+    <!-- replay button -->
+    {#if isResetVisible}
+        <button on:click = {replay}>Replay ↻ </button>
     {/if}
 
 <style>
