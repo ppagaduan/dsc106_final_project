@@ -1,4 +1,4 @@
-,Country_Code,Reference_Date,Population Subgroup,NO_CASES,NO_DEATHS,PREV_RATE,Country_x,Population,GDP ($ per capita),Region,cases_normalized_percentage,flag,Country,Alpha-3 code,Latitude (average),Longitude (average)
+,Country_Code,Reference_Date,Population Subgroup,NO_CASES,NO_DEATHS,PREV_RATE,Country_x,Population,GDP ($ per capita),Region,cases_normalized_percentage,flag,Country,Alpha-3 code,Latitude_(average),Longitude_(average)
 0,ABW,1995,Cumulative AIDS cases & deaths,20,16,-1.0,Aruba,71891,28000.0,LATIN AMER. & CARIB,0.0278198940062038,🇦🇼,Aruba,ABW,12.5,-69.9667
 1,ABW,1996,Cumulative AIDS cases & deaths,37,17,-1.0,Aruba,71891,28000.0,LATIN AMER. & CARIB,0.0514668039114771,🇦🇼,Aruba,ABW,12.5,-69.9667
 2,AIA,1989,Cumulative AIDS cases & deaths,2,1,-1.0,Anguilla,13477,8600.0,LATIN AMER. & CARIB,0.0148400979446464,🇦🇮,Anguilla,AIA,18.25,-63.1667

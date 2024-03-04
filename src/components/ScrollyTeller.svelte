@@ -14,7 +14,7 @@
 
   onMount(
     async() => {
-      const res = await fetch('aids_cases_final.csv')
+      const res = await fetch('HIV_demographic_data.csv')
       const csv = await res.text();
       data = d3.csvParse(csv, d3.autoType)
     }
