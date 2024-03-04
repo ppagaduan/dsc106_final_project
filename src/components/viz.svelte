@@ -15,7 +15,7 @@
 
   onMount(
     async() => {
-      const res = await fetch('aids_cases_by_region.csv')
+      const res = await fetch('aids_cases_final.csv')
       const csv = await res.text();
       data = d3.csvParse(csv, d3.autoType)
     }
@@ -66,7 +66,7 @@
           .tickSizeOuter(0)
           .ticks(Array.from(new Set(filteredData.map(d => d.Country)))))
     .selectAll("text")
-    .attr("transform", "rotate(-45) translate(0, 70)");
+    .attr("transform", "rotate(-45) translate(-30, 10)");
           
   //static y-axis
   $: d3.select(gy)

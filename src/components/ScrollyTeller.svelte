@@ -14,7 +14,7 @@
 
   onMount(
     async() => {
-      const res = await fetch('aids_cases_by_region.csv')
+      const res = await fetch('aids_cases_final.csv')
       const csv = await res.text();
       data = d3.csvParse(csv, d3.autoType)
     }
@@ -202,6 +202,8 @@ bind:progress
     <br>
     <br>
     <p class = 'blurb'>
+      Note: Some countries appear to have multiple columns within the same year. This is because some countries received multiple records
+      of data that year. <br>
       insert analysis of global impact rates here
     </p>
   </section>
