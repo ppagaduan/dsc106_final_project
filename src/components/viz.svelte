@@ -48,7 +48,7 @@
   // DEFINE X FUNCTION
   $: x = d3
     .scaleBand()
-    .domain(Array.from(new Set(filteredData.map(d => d.Country))))
+    .domain(Array.from(new Set(filteredData.map(d => d.Country_x))))
     .range([marginLeft, width - marginRight])
     .padding(0.1);
 
@@ -64,7 +64,7 @@
     .attr("transform", `translate(0, ${height - marginBottom})`)
     .call(d3.axisBottom(x)
           .tickSizeOuter(0)
-          .ticks(Array.from(new Set(filteredData.map(d => d.Country)))))
+          .ticks(Array.from(new Set(filteredData.map(d => d.Country_x)))))
     .selectAll("text")
     .attr("transform", "rotate(-45) translate(-30, 10)");
           
@@ -203,7 +203,7 @@
 
     <!-- Emojis -->
     <text
-      x={x(d.Country) + x.bandwidth() / 2}
+      x={x(d.Country_x) + x.bandwidth() / 2}
       y={y(d.cases_normalized_percentage) - 10}
       text-anchor="middle"
       font-size="20"
@@ -214,7 +214,7 @@
 
     <rect
       key={i}
-      x={x(d.Country)}
+      x={x(d.Country_x)}
       y = {y(d.cases_normalized_percentage)}
       fill={color(d.Region)}
       width= {x.bandwidth()}
