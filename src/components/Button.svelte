@@ -9,13 +9,11 @@
     let isMessageVisible = false;
     let hivButtons = [];
     let popButtons = [];
-    let hcButtons = [];
     let replicationFactor = 3; 
     let isResetVisible = false;
     let count = 0;
-    let stage;
 
-    function handleClick(customMessage){
+    function handleClick(){
         if (buttonProps.class.includes("HIV")){ // simulation
             count = hivButtons.length * replicationFactor || 1;
             if (count < 2){
@@ -51,11 +49,11 @@
                 isResetVisible = true;
             }
 
-        } else if (buttonProps.class.includes("population")) {
+        } else if (buttonProps.class.includes("population")) { // stats demonstration
             if (count === 0) {
                 count = 29
                 popButtons = Array.from({ length: 29 }, (_, i) => ({label: i + 2, class: ''}));
-                message.set('30 million people were accessing antiretroviral therapy to treat HIV in 2022.')
+                message.set('29.8 million people were accessing antiretroviral therapy to treat HIV in 2022.')
             } else if (count === 29) {
                 count = 39
                 popButtons = Array.from({ length: 38}, (_, i) => ({ label: i + 2, class: ''}));

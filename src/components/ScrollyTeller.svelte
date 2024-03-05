@@ -113,7 +113,7 @@ bind:progress
     <p class = 'subheading'>
       The Stats
     </p> <br>
-    <h3> Let's visualize how people acquired HIV infections. Each square will represent 1 million people. 
+    <h3> Let's visualize global HIV statistics. Each square will represent 1 million people. 
       Click the '1' below to begin. Continue clicking the '1' until the simulation has ended.</h3>
     <Button class = 'population' buttonText = 1> </Button>
   </section>
