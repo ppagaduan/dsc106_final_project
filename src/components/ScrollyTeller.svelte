@@ -14,7 +14,7 @@
 
   onMount(
     async() => {
-      const res = await fetch('aids_cases_by_region.csv')
+      const res = await fetch('HIV_demographic_data.csv')
       const csv = await res.text();
       data = d3.csvParse(csv, d3.autoType)
     }
@@ -107,11 +107,15 @@ bind:progress
     <p class = 'subheading'>
       The Stages
     </p>
+  </section>
 
+  <section class = 'stats'>
     <p class = 'subheading'>
       The Stats
-      <!-- perhaps insert some static visualizations here -->
-    </p>
+    </p> <br>
+    <h3> Let's visualize how people acquired HIV infections. Each square will represent 1 million people. 
+      Click the '1' below to begin. Continue clicking the '1' until the simulation has ended.</h3>
+    <Button class = 'population' buttonText = 1> </Button>
   </section>
 
   <section class = 'timeline'> 
@@ -202,6 +206,8 @@ bind:progress
     <br>
     <br>
     <p class = 'blurb'>
+      Note: Some countries appear to have multiple columns within the same year. This is because some countries received multiple records
+      of data that year. <br>
       insert analysis of global impact rates here
     </p>
   </section>
@@ -223,8 +229,9 @@ bind:progress
     <Button class="sti" buttonText = "Sexually Transmitted Infections">
     </Button>
     <br><br> ------------------------ <br>
-    <h3> Click the first light green button, representing HIV, below to visualize the rate of HIV replication. For
-      optimized performance, please close all expanded tabs in the "Risk Factors & Transmission" section.</h3>
+    <h3> Click the green button below, labelled 'HIV', below to visualize the rate of HIV replication. Continue
+      clicking the 'HIV' button until the simulation has ended. For optimized performance, please close all expanded tabs in the
+      "Risk Factors & Transmission" section.</h3>
 
     <section class = 'blood'>
       <Button class='HIV' buttonText='HIV'> </Button>
@@ -240,7 +247,7 @@ bind:progress
 
   <section class = 'call_to_action'>
     <h2 class = 'subheading'>
-      How You Can Help <!-- resource links -->
+      Let's Save Lives Together <!-- resource links -->
     </h2>
     <h3 class = 'instructions'> HIV is still a persisting issue. According to UNAIDS, in 2022, about 39 million people globally
       were afflicted with HIV. Of these people, 1.3 million were diagnosed with HIV that year, which is a 38% decline in new infections

@@ -1,0 +1,380 @@
+,Country_Code,Reference_Date,Population Subgroup,NO_CASES,NO_DEATHS,PREV_RATE,Country_x,Population,GDP ($ per capita),Region,cases_normalized_percentage,flag,Country,Alpha-3 code,Latitude_(average),Longitude_(average)
+0,ABW,1995,Cumulative AIDS cases & deaths,20,16,-1.0,Aruba,71891,28000.0,LATIN AMER. & CARIB,0.0278198940062038,🇦🇼,Aruba,ABW,12.5,-69.9667
+1,ABW,1996,Cumulative AIDS cases & deaths,37,17,-1.0,Aruba,71891,28000.0,LATIN AMER. & CARIB,0.0514668039114771,🇦🇼,Aruba,ABW,12.5,-69.9667
+2,AIA,1989,Cumulative AIDS cases & deaths,2,1,-1.0,Anguilla,13477,8600.0,LATIN AMER. & CARIB,0.0148400979446464,🇦🇮,Anguilla,AIA,18.25,-63.1667
+3,AIA,1995,Cumulative AIDS cases & deaths,5,3,-1.0,Anguilla,13477,8600.0,LATIN AMER. & CARIB,0.037100244861616,🇦🇮,Anguilla,AIA,18.25,-63.1667
+4,AIA,1995,Cumulative AIDS cases & deaths,5,3,-1.0,Anguilla,13477,8600.0,LATIN AMER. & CARIB,0.037100244861616,🇦🇮,Anguilla,AIA,18.25,-63.1667
+5,AIA,1987,Cumulative AIDS cases & deaths,2,0,-1.0,Anguilla,13477,8600.0,LATIN AMER. & CARIB,0.0148400979446464,🇦🇮,Anguilla,AIA,18.25,-63.1667
+6,ALB,2011,Cumulative AIDS cases & deaths,199,93,-1.0,Albania,3581655,4500.0,EASTERN EUROPE,0.0055560906899184,🇦🇱,Albania,ALB,41.0,20.0
+7,ARG,1987,Cumulative AIDS cases & deaths,78,33,-1.0,Argentina,39921833,11200.0,LATIN AMER. & CARIB,0.000195381810249,🇦🇷,Argentina,ARG,-34.0,-64.0
+8,ARG,1999,Cumulative AIDS cases & deaths,15673,"3,883",-1.0,Argentina,39921833,11200.0,LATIN AMER. & CARIB,0.0392592193850417,🇦🇷,Argentina,ARG,-34.0,-64.0
+9,ARG,1987,Cumulative AIDS cases & deaths,112,56,-1.0,Argentina,39921833,11200.0,LATIN AMER. & CARIB,0.0002805482403576,🇦🇷,Argentina,ARG,-34.0,-64.0
+10,ARG,1995,Cumulative AIDS cases & deaths,7417,"2,249",-1.0,Argentina,39921833,11200.0,LATIN AMER. & CARIB,0.0185788062386814,🇦🇷,Argentina,ARG,-34.0,-64.0
+11,ARG,1988,Cumulative AIDS cases & deaths,315,158,-1.0,Argentina,39921833,11200.0,LATIN AMER. & CARIB,0.0007890419260057,🇦🇷,Argentina,ARG,-34.0,-64.0
+12,ARG,1989,Cumulative AIDS cases & deaths,356,151,-1.0,Argentina,39921833,11200.0,LATIN AMER. & CARIB,0.0008917426211366,🇦🇷,Argentina,ARG,-34.0,-64.0
+13,AUS,2003,Cumulative AIDS cases & deaths,9260,"4,521",-1.0,Australia,20264082,29000.0,OCEANIA,0.0456966172955675,🇦🇺,Australia,AUS,-27.0,133.0
+14,AUS,1995,Cumulative AIDS cases & deaths,5883,"4,199",-1.0,Australia,20264082,29000.0,OCEANIA,0.0290316630183395,🇦🇺,Australia,AUS,-27.0,133.0
+15,AZE,2011,Cumulative AIDS cases & deaths,700,354,-1.0,Azerbaijan,7961619,3400.0,C.W. OF IND. STATES,0.0087921815902016,🇦🇿,Azerbaijan,AZE,40.5,47.5
+16,BDI,1993,Cumulative AIDS cases & deaths,7131,"1,636",-1.0,Burundi,8090068,600.0,SUB-SAHARAN AFRICA,0.0881451181868928,🇧🇮,Burundi,BDI,-3.5,30.0
+17,BGD,2006,Cumulative AIDS cases & deaths,365,123,-1.0,Bangladesh,147365352,1900.0,ASIA (EX. NEAR EAST),0.0002476837296191,🇧🇩,Bangladesh,BGD,24.0,90.0
+18,BLR,2007,Cumulative AIDS cases & deaths,603,362,-1.0,Belarus,10293011,6100.0,C.W. OF IND. STATES,0.0058583440744404,🇧🇾,Belarus,BLR,53.0,28.0
+19,BLZ,1989,Cumulative AIDS cases & deaths,8,5,-1.0,Belize,287730,4900.0,LATIN AMER. & CARIB,0.0027803843881416,🇧🇿,Belize,BLZ,17.25,-88.75
+20,BLZ,1988,Cumulative AIDS cases & deaths,11,8,-1.0,Belize,287730,4900.0,LATIN AMER. & CARIB,0.0038230285336947,🇧🇿,Belize,BLZ,17.25,-88.75
+21,BLZ,1995,Cumulative AIDS cases & deaths,138,130,-1.0,Belize,287730,4900.0,LATIN AMER. & CARIB,0.0479616306954436,🇧🇿,Belize,BLZ,17.25,-88.75
+22,BLZ,1997,Cumulative AIDS cases & deaths,184,190,-1.0,Belize,287730,4900.0,LATIN AMER. & CARIB,0.0639488409272582,🇧🇿,Belize,BLZ,17.25,-88.75
+23,BLZ,1987,Cumulative AIDS cases & deaths,2,2,-1.0,Belize,287730,4900.0,LATIN AMER. & CARIB,0.0006950960970354,🇧🇿,Belize,BLZ,17.25,-88.75
+24,BOL,1995,Cumulative AIDS cases & deaths,109,85,-1.0,Bolivia,8989046,2400.0,LATIN AMER. & CARIB,0.0012125869641784,🇧🇴,"Bolivia, Plurinational State of",BOL,-17.0,-65.0
+25,BOL,1995,Cumulative AIDS cases & deaths,109,85,-1.0,Bolivia,8989046,2400.0,LATIN AMER. & CARIB,0.0012125869641784,🇧🇴,Bolivia,BOL,-17.0,-65.0
+26,BOL,1998,Cumulative AIDS cases & deaths,141,107,-1.0,Bolivia,8989046,2400.0,LATIN AMER. & CARIB,0.0015685757976986,🇧🇴,"Bolivia, Plurinational State of",BOL,-17.0,-65.0
+27,BOL,1998,Cumulative AIDS cases & deaths,141,107,-1.0,Bolivia,8989046,2400.0,LATIN AMER. & CARIB,0.0015685757976986,🇧🇴,Bolivia,BOL,-17.0,-65.0
+28,BOL,1988,Cumulative AIDS cases & deaths,16,12,-1.0,Bolivia,8989046,2400.0,LATIN AMER. & CARIB,0.0001779944167601,🇧🇴,"Bolivia, Plurinational State of",BOL,-17.0,-65.0
+29,BOL,1988,Cumulative AIDS cases & deaths,16,12,-1.0,Bolivia,8989046,2400.0,LATIN AMER. & CARIB,0.0001779944167601,🇧🇴,Bolivia,BOL,-17.0,-65.0
+30,BOL,1986,Cumulative AIDS cases & deaths,1,1,-1.0,Bolivia,8989046,2400.0,LATIN AMER. & CARIB,1.1124651047508268e-05,🇧🇴,"Bolivia, Plurinational State of",BOL,-17.0,-65.0
+31,BOL,1986,Cumulative AIDS cases & deaths,1,1,-1.0,Bolivia,8989046,2400.0,LATIN AMER. & CARIB,1.1124651047508268e-05,🇧🇴,Bolivia,BOL,-17.0,-65.0
+32,BOL,1987,Cumulative AIDS cases & deaths,2,1,-1.0,Bolivia,8989046,2400.0,LATIN AMER. & CARIB,2.2249302095016533e-05,🇧🇴,"Bolivia, Plurinational State of",BOL,-17.0,-65.0
+33,BOL,1987,Cumulative AIDS cases & deaths,2,1,-1.0,Bolivia,8989046,2400.0,LATIN AMER. & CARIB,2.2249302095016533e-05,🇧🇴,Bolivia,BOL,-17.0,-65.0
+34,BRA,1988,Cumulative AIDS cases & deaths,4946,"2,564",-1.0,Brazil,188078227,7600.0,LATIN AMER. & CARIB,0.0026297568192196,🇧🇷,Brazil,BRA,-10.0,-55.0
+35,BRA,1987,Cumulative AIDS cases & deaths,1542,702,-1.0,Brazil,188078227,7600.0,LATIN AMER. & CARIB,0.0008198716165056,🇧🇷,Brazil,BRA,-10.0,-55.0
+36,BRA,1987,Cumulative AIDS cases & deaths,2013,734,-1.0,Brazil,188078227,7600.0,LATIN AMER. & CARIB,0.0010702993281619,🇧🇷,Brazil,BRA,-10.0,-55.0
+37,BRA,1999,Cumulative AIDS cases & deaths,170078,"66,636",-1.0,Brazil,188078227,7600.0,LATIN AMER. & CARIB,0.0904293935097548,🇧🇷,Brazil,BRA,-10.0,-55.0
+38,BRB,1999,Cumulative AIDS cases & deaths,1043,856,-1.0,Barbados,279912,15700.0,LATIN AMER. & CARIB,0.3726171082340164,🇧🇧,Barbados,BRB,13.1667,-59.5333
+39,BRB,1995,Cumulative AIDS cases & deaths,632,530,-1.0,Barbados,279912,15700.0,LATIN AMER. & CARIB,0.2257852467918488,🇧🇧,Barbados,BRB,13.1667,-59.5333
+40,BRB,1988,Cumulative AIDS cases & deaths,70,50,-1.0,Barbados,279912,15700.0,LATIN AMER. & CARIB,0.0250078596130212,🇧🇧,Barbados,BRB,13.1667,-59.5333
+41,BRB,1987,Cumulative AIDS cases & deaths,44,27,-1.0,Barbados,279912,15700.0,LATIN AMER. & CARIB,0.0157192260424704,🇧🇧,Barbados,BRB,13.1667,-59.5333
+42,BRB,1987,Cumulative AIDS cases & deaths,39,25,-1.0,Barbados,279912,15700.0,LATIN AMER. & CARIB,0.0139329503558261,🇧🇧,Barbados,BRB,13.1667,-59.5333
+43,BRB,1989,Cumulative AIDS cases & deaths,111,81,-1.0,Barbados,279912,15700.0,LATIN AMER. & CARIB,0.0396553202435051,🇧🇧,Barbados,BRB,13.1667,-59.5333
+44,BRN,1995,Cumulative AIDS cases & deaths,6,4,-1.0,Brunei,379444,18600.0,ASIA (EX. NEAR EAST),0.0015812610029411,🇧🇳,Brunei Darussalam,BRN,4.5,114.6667
+45,BRN,1995,Cumulative AIDS cases & deaths,6,4,-1.0,Brunei,379444,18600.0,ASIA (EX. NEAR EAST),0.0015812610029411,🇧🇳,Brunei,BRN,4.5,114.6667
+46,BWA,1987,Cumulative AIDS cases & deaths,13,4,-1.0,Botswana,1639833,9000.0,SUB-SAHARAN AFRICA,0.000792763653372,🇧🇼,Botswana,BWA,-22.0,24.0
+47,CHL,1995,Cumulative AIDS cases & deaths,1363,836,-1.0,Chile,16134219,9900.0,LATIN AMER. & CARIB,0.0084478833465691,🇨🇱,Chile,CHL,-30.0,-71.0
+48,CHL,1987,Cumulative AIDS cases & deaths,28,17,-1.0,Chile,16134219,9900.0,LATIN AMER. & CARIB,0.0001735441920058,🇨🇱,Chile,CHL,-30.0,-71.0
+49,CHL,1988,Cumulative AIDS cases & deaths,123,48,-1.0,Chile,16134219,9900.0,LATIN AMER. & CARIB,0.0007623548434541,🇨🇱,Chile,CHL,-30.0,-71.0
+50,CHL,1999,Cumulative AIDS cases & deaths,3127,"1,631",-1.0,Chile,16134219,9900.0,LATIN AMER. & CARIB,0.019381167442936,🇨🇱,Chile,CHL,-30.0,-71.0
+51,CHL,1987,Cumulative AIDS cases & deaths,57,27,-1.0,Chile,16134219,9900.0,LATIN AMER. & CARIB,0.0003532863908689,🇨🇱,Chile,CHL,-30.0,-71.0
+52,CHL,1987,Cumulative AIDS cases & deaths,42,22,-1.0,Chile,16134219,9900.0,LATIN AMER. & CARIB,0.0002603162880087,🇨🇱,Chile,CHL,-30.0,-71.0
+53,CHN,2012,Cumulative AIDS cases & deaths,184276,"56,336",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0140243292675368,🇨🇳,China,CHN,35.0,105.0
+54,CHN,2016,Cumulative AIDS cases & deaths,54360,"14,091",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0041370690647903,🇨🇳,China,CHN,35.0,105.0
+55,CHN,2015,Cumulative AIDS cases & deaths,50330,"12,755",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0038303658210246,🇨🇳,China,CHN,35.0,105.0
+56,CHN,2014,Cumulative AIDS cases & deaths,45145,"12,030",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0034357612753855,🇨🇳,China,CHN,35.0,105.0
+57,CHN,2012,Cumulative AIDS cases & deaths,202163,"61,741",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0153856198187124,🇨🇳,China,CHN,35.0,105.0
+58,CHN,2012,Cumulative AIDS cases & deaths,41604,"11,439",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0031662733879973,🇨🇳,China,CHN,35.0,105.0
+59,CHN,2013,Cumulative AIDS cases & deaths,63498,"10,974",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0048325167674035,🇨🇳,China,CHN,35.0,105.0
+60,CHN,2012,Cumulative AIDS cases & deaths,187079,"57,319",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.014237651647754,🇨🇳,China,CHN,35.0,105.0
+61,CHN,2012,Cumulative AIDS cases & deaths,200161,"61,016",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.015233257562132,🇨🇳,China,CHN,35.0,105.0
+62,CHN,2012,Cumulative AIDS cases & deaths,190712,"58,457",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0145141411972828,🇨🇳,China,CHN,35.0,105.0
+63,CHN,2010,Cumulative AIDS cases & deaths,138288,"72,616",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0105244114575372,🇨🇳,China,CHN,35.0,105.0
+64,CHN,2010,Cumulative AIDS cases & deaths,5661,"2,679",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.000430830536714,🇨🇳,China,CHN,35.0,105.0
+65,CHN,2010,Cumulative AIDS cases & deaths,7147,"4,244",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0005439226012887,🇨🇳,China,CHN,35.0,105.0
+66,CHN,2010,Cumulative AIDS cases & deaths,4023,"2,252",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0003061705086028,🇨🇳,China,CHN,35.0,105.0
+67,CHN,2010,Cumulative AIDS cases & deaths,1925,"1,242",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0001465021697888,🇨🇳,China,CHN,35.0,105.0
+68,CHN,2010,Cumulative AIDS cases & deaths,4599,993,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0003500070020046,🇨🇳,China,CHN,35.0,105.0
+69,CHN,2012,Cumulative AIDS cases & deaths,197096,"60,093",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0149999956658189,🇨🇳,China,CHN,35.0,105.0
+70,CHN,2012,Cumulative AIDS cases & deaths,193986,"59,285",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0147633090434587,🇨🇳,China,CHN,35.0,105.0
+71,CHN,1998,Cumulative AIDS cases & deaths,42,23,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),3.1964109772110793e-06,🇨🇳,China,CHN,35.0,105.0
+72,CHN,2016,Cumulative AIDS cases & deaths,37179,"15,422",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0028295086600412,🇨🇳,China,CHN,35.0,105.0
+73,CHN,2012,Cumulative AIDS cases & deaths,181491,"55,530",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0138123767777384,🇨🇳,China,CHN,35.0,105.0
+74,CHN,2012,Cumulative AIDS cases & deaths,178002,"54,582",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0135468463515601,🇨🇳,China,CHN,35.0,105.0
+75,CHN,2009,Cumulative AIDS cases & deaths,1572,888,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0001196370965756,🇨🇳,China,CHN,35.0,105.0
+76,CHN,2001,Cumulative AIDS cases & deaths,2,2,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),1.522100465338609e-07,🇨🇳,China,CHN,35.0,105.0
+77,CHN,2012,Cumulative AIDS cases & deaths,205420,"62,785",-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0156334938794928,🇨🇳,China,CHN,35.0,105.0
+78,CHN,2011,Cumulative AIDS cases & deaths,461,138,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),3.508441572605494e-05,🇨🇳,China,CHN,35.0,105.0
+79,CHN,2011,Cumulative AIDS cases & deaths,17,4,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),1.2937853955378175e-06,🇨🇳,China,CHN,35.0,105.0
+80,CHN,2011,Cumulative AIDS cases & deaths,48,15,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),3.6530411168126617e-06,🇨🇳,China,CHN,35.0,105.0
+81,CHN,2011,Cumulative AIDS cases & deaths,230,42,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),1.7504155351394005e-05,🇨🇳,China,CHN,35.0,105.0
+82,CHN,2011,Cumulative AIDS cases & deaths,5,2,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),3.805251163346523e-07,🇨🇳,China,CHN,35.0,105.0
+83,CHN,2003,Cumulative AIDS cases & deaths,7,5,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),5.327351628685132e-07,🇨🇳,China,CHN,35.0,105.0
+84,CHN,2011,Cumulative AIDS cases & deaths,72,28,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),5.479561675218993e-06,🇨🇳,China,CHN,35.0,105.0
+85,CHN,2011,Cumulative AIDS cases & deaths,44,10,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),3.34862102374494e-06,🇨🇳,China,CHN,35.0,105.0
+86,CHN,2011,Cumulative AIDS cases & deaths,41,20,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),3.120305953944149e-06,🇨🇳,China,CHN,35.0,105.0
+87,CHN,2000,Cumulative AIDS cases & deaths,0,0,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0,🇨🇳,China,CHN,35.0,105.0
+88,CHN,2002,Cumulative AIDS cases & deaths,7,4,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),5.327351628685132e-07,🇨🇳,China,CHN,35.0,105.0
+89,CHN,2011,Cumulative AIDS cases & deaths,918,259,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),6.986441135904216e-05,🇨🇳,China,CHN,35.0,105.0
+90,CHN,2011,Cumulative AIDS cases & deaths,0,0,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),0.0,🇨🇳,China,CHN,35.0,105.0
+91,CHN,1995,Cumulative AIDS cases & deaths,77,49,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),5.8600867915536445e-06,🇨🇳,China,CHN,35.0,105.0
+92,CHN,2004,Cumulative AIDS cases & deaths,23,8,-1.0,China,1313973713,5000.0,ASIA (EX. NEAR EAST),1.7504155351394006e-06,🇨🇳,China,CHN,35.0,105.0
+93,COK,2004,Cumulative AIDS cases & deaths,0,0,-1.0,Cook Islands,21388,5000.0,OCEANIA,0.0,🇨🇰,Cook Islands,COK,-21.2333,-159.7667
+94,COL,1988,Cumulative AIDS cases & deaths,308,98,-1.0,Colombia,43593035,6300.0,LATIN AMER. & CARIB,0.0007065348856761,🇨🇴,Colombia,COL,4.0,-72.0
+95,COL,1999,Cumulative AIDS cases & deaths,6006,"3,375",-1.0,Colombia,43593035,6300.0,LATIN AMER. & CARIB,0.0137774302706842,🇨🇴,Colombia,COL,4.0,-72.0
+96,COL,1995,Cumulative AIDS cases & deaths,6541,"2,867",-1.0,Colombia,43593035,6300.0,LATIN AMER. & CARIB,0.0150046905428814,🇨🇴,Colombia,COL,4.0,-72.0
+97,COL,1987,Cumulative AIDS cases & deaths,57,34,-1.0,Colombia,43593035,6300.0,LATIN AMER. & CARIB,0.0001307548327387,🇨🇴,Colombia,COL,4.0,-72.0
+98,COL,1987,Cumulative AIDS cases & deaths,153,53,-1.0,Colombia,43593035,6300.0,LATIN AMER. & CARIB,0.000350973498404,🇨🇴,Colombia,COL,4.0,-72.0
+99,CRI,1995,Cumulative AIDS cases & deaths,898,499,-1.0,Costa Rica,4075261,9100.0,LATIN AMER. & CARIB,0.0220353984689569,🇨🇷,Costa Rica,CRI,10.0,-84.0
+100,CRI,1987,Cumulative AIDS cases & deaths,31,18,-1.0,Costa Rica,4075261,9100.0,LATIN AMER. & CARIB,0.0007606874749862,🇨🇷,Costa Rica,CRI,10.0,-84.0
+101,CRI,1988,Cumulative AIDS cases & deaths,93,41,-1.0,Costa Rica,4075261,9100.0,LATIN AMER. & CARIB,0.0022820624249587,🇨🇷,Costa Rica,CRI,10.0,-84.0
+102,CRI,1987,Cumulative AIDS cases & deaths,27,15,-1.0,Costa Rica,4075261,9100.0,LATIN AMER. & CARIB,0.0006625342524073,🇨🇷,Costa Rica,CRI,10.0,-84.0
+103,CRI,1999,Cumulative AIDS cases & deaths,1277,840,-1.0,Costa Rica,4075261,9100.0,LATIN AMER. & CARIB,0.0313354163083051,🇨🇷,Costa Rica,CRI,10.0,-84.0
+104,CUB,1995,Cumulative AIDS cases & deaths,440,288,-1.0,Cuba,11382820,2900.0,LATIN AMER. & CARIB,0.0038654744606345,🇨🇺,Cuba,CUB,21.5,-80.0
+105,CUB,1987,Cumulative AIDS cases & deaths,4,3,-1.0,Cuba,11382820,2900.0,LATIN AMER. & CARIB,3.514067691485941e-05,🇨🇺,Cuba,CUB,21.5,-80.0
+106,CUB,1988,Cumulative AIDS cases & deaths,43,11,-1.0,Cuba,11382820,2900.0,LATIN AMER. & CARIB,0.0003777622768347,🇨🇺,Cuba,CUB,21.5,-80.0
+107,CUB,1986,Cumulative AIDS cases & deaths,3,3,-1.0,Cuba,11382820,2900.0,LATIN AMER. & CARIB,2.6355507686144556e-05,🇨🇺,Cuba,CUB,21.5,-80.0
+108,CUB,1999,Cumulative AIDS cases & deaths,889,578,-1.0,Cuba,11382820,2900.0,LATIN AMER. & CARIB,0.0078100154443275,🇨🇺,Cuba,CUB,21.5,-80.0
+109,CYM,1989,Cumulative AIDS cases & deaths,5,5,-1.0,Cayman Islands,45436,35000.0,LATIN AMER. & CARIB,0.0110044898318513,🇰🇾,Cayman Islands,CYM,19.5,-80.5
+110,CYM,1999,Cumulative AIDS cases & deaths,26,19,-1.0,Cayman Islands,45436,35000.0,LATIN AMER. & CARIB,0.0572233471256272,🇰🇾,Cayman Islands,CYM,19.5,-80.5
+111,CYM,1995,Cumulative AIDS cases & deaths,18,16,-1.0,Cayman Islands,45436,35000.0,LATIN AMER. & CARIB,0.039616163394665,🇰🇾,Cayman Islands,CYM,19.5,-80.5
+112,CYM,1986,Cumulative AIDS cases & deaths,2,2,-1.0,Cayman Islands,45436,35000.0,LATIN AMER. & CARIB,0.0044017959327405,🇰🇾,Cayman Islands,CYM,19.5,-80.5
+113,CYM,1987,Cumulative AIDS cases & deaths,2,2,-1.0,Cayman Islands,45436,35000.0,LATIN AMER. & CARIB,0.0044017959327405,🇰🇾,Cayman Islands,CYM,19.5,-80.5
+114,CYM,1988,Cumulative AIDS cases & deaths,4,2,-1.0,Cayman Islands,45436,35000.0,LATIN AMER. & CARIB,0.0088035918654811,🇰🇾,Cayman Islands,CYM,19.5,-80.5
+115,CZE,2009,Cumulative AIDS cases & deaths,292,156,-1.0,Czech Republic,10235455,15700.0,EASTERN EUROPE,0.0028528287213416,🇨🇿,Czech Republic,CZE,49.75,15.5
+116,DMA,1989,Cumulative AIDS cases & deaths,10,4,-1.0,Dominica,68910,5400.0,LATIN AMER. & CARIB,0.0145116819039326,🇩🇲,Dominica,DMA,15.4167,-61.3333
+117,DMA,1988,Cumulative AIDS cases & deaths,6,6,-1.0,Dominica,68910,5400.0,LATIN AMER. & CARIB,0.0087070091423596,🇩🇲,Dominica,DMA,15.4167,-61.3333
+118,DMA,1998,Cumulative AIDS cases & deaths,97,94,-1.0,Dominica,68910,5400.0,LATIN AMER. & CARIB,0.1407633144681468,🇩🇲,Dominica,DMA,15.4167,-61.3333
+119,DMA,1995,Cumulative AIDS cases & deaths,31,11,-1.0,Dominica,68910,5400.0,LATIN AMER. & CARIB,0.0449862139021912,🇩🇲,Dominica,DMA,15.4167,-61.3333
+120,DMA,1987,Cumulative AIDS cases & deaths,5,3,-1.0,Dominica,68910,5400.0,LATIN AMER. & CARIB,0.0072558409519663,🇩🇲,Dominica,DMA,15.4167,-61.3333
+121,DMA,1987,Cumulative AIDS cases & deaths,3,3,-1.0,Dominica,68910,5400.0,LATIN AMER. & CARIB,0.0043535045711798,🇩🇲,Dominica,DMA,15.4167,-61.3333
+122,DOM,1988,Cumulative AIDS cases & deaths,701,65,-1.0,Dominican Republic,9183984,6000.0,LATIN AMER. & CARIB,0.0076328530189076,🇩🇴,Dominican Republic,DOM,19.0,-70.6667
+123,DOM,1986,Cumulative AIDS cases & deaths,200,35,-1.0,Dominican Republic,9183984,6000.0,LATIN AMER. & CARIB,0.0021777041423417,🇩🇴,Dominican Republic,DOM,19.0,-70.6667
+124,DOM,2000,Cumulative AIDS cases & deaths,4965,989,-1.0,Dominican Republic,9183984,6000.0,LATIN AMER. & CARIB,0.0540615053336329,🇩🇴,Dominican Republic,DOM,19.0,-70.6667
+125,DOM,1987,Cumulative AIDS cases & deaths,200,35,-1.0,Dominican Republic,9183984,6000.0,LATIN AMER. & CARIB,0.0021777041423417,🇩🇴,Dominican Republic,DOM,19.0,-70.6667
+126,DOM,1995,Cumulative AIDS cases & deaths,3090,617,-1.0,Dominican Republic,9183984,6000.0,LATIN AMER. & CARIB,0.0336455289991794,🇩🇴,Dominican Republic,DOM,19.0,-70.6667
+127,ECU,1997,Cumulative AIDS cases & deaths,553,430,-1.0,Ecuador,13547510,3300.0,LATIN AMER. & CARIB,0.0040819309230995,🇪🇨,Ecuador,ECU,-2.0,-77.5
+128,ECU,1995,Cumulative AIDS cases & deaths,543,393,-1.0,Ecuador,13547510,3300.0,LATIN AMER. & CARIB,0.0040081166206926,🇪🇨,Ecuador,ECU,-2.0,-77.5
+129,ECU,1987,Cumulative AIDS cases & deaths,52,6,-1.0,Ecuador,13547510,3300.0,LATIN AMER. & CARIB,0.0003838343725156,🇪🇨,Ecuador,ECU,-2.0,-77.5
+130,ECU,1988,Cumulative AIDS cases & deaths,45,26,-1.0,Ecuador,13547510,3300.0,LATIN AMER. & CARIB,0.0003321643608308,🇪🇨,Ecuador,ECU,-2.0,-77.5
+131,ECU,1987,Cumulative AIDS cases & deaths,18,6,-1.0,Ecuador,13547510,3300.0,LATIN AMER. & CARIB,0.0001328657443323,🇪🇨,Ecuador,ECU,-2.0,-77.5
+132,FJI,2004,Cumulative AIDS cases & deaths,30,17,-1.0,Fiji,905949,5800.0,OCEANIA,0.0033114446839722,🇫🇯,Fiji,FJI,-18.0,175.0
+133,FJI,1995,Cumulative AIDS cases & deaths,7,7,-1.0,Fiji,905949,5800.0,OCEANIA,0.0007726704262601,🇫🇯,Fiji,FJI,-18.0,175.0
+134,GEO,2006,Cumulative AIDS cases & deaths,518,269,-1.0,Georgia,4661473,2500.0,C.W. OF IND. STATES,0.0111123672710321,🇬🇪,Georgia,GEO,42.0,43.5
+135,GRD,1997,Cumulative AIDS cases & deaths,102,68,-1.0,Grenada,89703,5000.0,LATIN AMER. & CARIB,0.1137085716196782,🇬🇩,Grenada,GRD,12.1167,-61.6667
+136,GRD,1995,Cumulative AIDS cases & deaths,76,53,-1.0,Grenada,89703,5000.0,LATIN AMER. & CARIB,0.0847240337558387,🇬🇩,Grenada,GRD,12.1167,-61.6667
+137,GRD,1988,Cumulative AIDS cases & deaths,16,5,-1.0,Grenada,89703,5000.0,LATIN AMER. & CARIB,0.0178366386854397,🇬🇩,Grenada,GRD,12.1167,-61.6667
+138,GRD,1987,Cumulative AIDS cases & deaths,4,3,-1.0,Grenada,89703,5000.0,LATIN AMER. & CARIB,0.0044591596713599,🇬🇩,Grenada,GRD,12.1167,-61.6667
+139,GRD,1987,Cumulative AIDS cases & deaths,6,5,-1.0,Grenada,89703,5000.0,LATIN AMER. & CARIB,0.0066887395070398,🇬🇩,Grenada,GRD,12.1167,-61.6667
+140,GRD,1989,Cumulative AIDS cases & deaths,19,12,-1.0,Grenada,89703,5000.0,LATIN AMER. & CARIB,0.0211810084389596,🇬🇩,Grenada,GRD,12.1167,-61.6667
+141,GTM,2000,Cumulative AIDS cases & deaths,3338,537,-1.0,Guatemala,12293545,4100.0,LATIN AMER. & CARIB,0.0271524609052962,🇬🇹,Guatemala,GTM,15.5,-90.25
+142,GTM,1988,Cumulative AIDS cases & deaths,47,36,-1.0,Guatemala,12293545,4100.0,LATIN AMER. & CARIB,0.0003823144585227,🇬🇹,Guatemala,GTM,15.5,-90.25
+143,GTM,1987,Cumulative AIDS cases & deaths,27,27,-1.0,Guatemala,12293545,4100.0,LATIN AMER. & CARIB,0.000219627454896,🇬🇹,Guatemala,GTM,15.5,-90.25
+144,GTM,1987,Cumulative AIDS cases & deaths,22,13,-1.0,Guatemala,12293545,4100.0,LATIN AMER. & CARIB,0.0001789557039893,🇬🇹,Guatemala,GTM,15.5,-90.25
+145,GTM,1995,Cumulative AIDS cases & deaths,711,242,-1.0,Guatemala,12293545,4100.0,LATIN AMER. & CARIB,0.0057835229789291,🇬🇹,Guatemala,GTM,15.5,-90.25
+146,GUY,1995,Cumulative AIDS cases & deaths,698,193,-1.0,Guyana,767245,4000.0,LATIN AMER. & CARIB,0.0909748515793521,🇬🇾,Guyana,GUY,5.0,-59.0
+147,GUY,1988,Cumulative AIDS cases & deaths,40,19,-1.0,Guyana,767245,4000.0,LATIN AMER. & CARIB,0.0052134585432293,🇬🇾,Guyana,GUY,5.0,-59.0
+148,GUY,1987,Cumulative AIDS cases & deaths,4,2,-1.0,Guyana,767245,4000.0,LATIN AMER. & CARIB,0.0005213458543229,🇬🇾,Guyana,GUY,5.0,-59.0
+149,GUY,1987,Cumulative AIDS cases & deaths,2,0,-1.0,Guyana,767245,4000.0,LATIN AMER. & CARIB,0.0002606729271614,🇬🇾,Guyana,GUY,5.0,-59.0
+150,GUY,2000,Cumulative AIDS cases & deaths,1214,377,-1.0,Guyana,767245,4000.0,LATIN AMER. & CARIB,0.1582284667870106,🇬🇾,Guyana,GUY,5.0,-59.0
+151,GUY,1989,Cumulative AIDS cases & deaths,82,23,-1.0,Guyana,767245,4000.0,LATIN AMER. & CARIB,0.0106875900136201,🇬🇾,Guyana,GUY,5.0,-59.0
+152,HKG,1995,Cumulative AIDS cases & deaths,148,74,-1.0,Hong Kong,6940432,28800.0,ASIA (EX. NEAR EAST),0.0021324321022092,🇭🇰,Hong Kong,HKG,22.25,114.1667
+153,HND,1995,Cumulative AIDS cases & deaths,4973,955,-1.0,Honduras,7326496,2600.0,LATIN AMER. & CARIB,0.0678769223377723,🇭🇳,Honduras,HND,15.0,-86.5
+154,HND,1988,Cumulative AIDS cases & deaths,211,97,-1.0,Honduras,7326496,2600.0,LATIN AMER. & CARIB,0.0028799578952885,🇭🇳,Honduras,HND,15.0,-86.5
+155,HND,1987,Cumulative AIDS cases & deaths,29,13,-1.0,Honduras,7326496,2600.0,LATIN AMER. & CARIB,0.0003958235969827,🇭🇳,Honduras,HND,15.0,-86.5
+156,HND,1987,Cumulative AIDS cases & deaths,20,11,-1.0,Honduras,7326496,2600.0,LATIN AMER. & CARIB,0.0002729817910226,🇭🇳,Honduras,HND,15.0,-86.5
+157,HND,1999,Cumulative AIDS cases & deaths,10866,"1,081",-1.0,Honduras,7326496,2600.0,LATIN AMER. & CARIB,0.1483110070625849,🇭🇳,Honduras,HND,15.0,-86.5
+158,HTI,1995,Cumulative AIDS cases & deaths,4967,297,-1.0,Haiti,8308504,1600.0,LATIN AMER. & CARIB,0.0597821220282255,🇭🇹,Haiti,HTI,19.0,-72.4167
+159,HTI,1988,Cumulative AIDS cases & deaths,1849,295,-1.0,Haiti,8308504,1600.0,LATIN AMER. & CARIB,0.0222543071532492,🇭🇹,Haiti,HTI,19.0,-72.4167
+160,HTI,1987,Cumulative AIDS cases & deaths,912,124,-1.0,Haiti,8308504,1600.0,LATIN AMER. & CARIB,0.0109767053130142,🇭🇹,Haiti,HTI,19.0,-72.4167
+161,HTI,1999,Cumulative AIDS cases & deaths,8902,"1,280",-1.0,Haiti,8308504,1600.0,LATIN AMER. & CARIB,0.107143235412777,🇭🇹,Haiti,HTI,19.0,-72.4167
+162,HTI,1986,Cumulative AIDS cases & deaths,810,124,-1.0,Haiti,8308504,1600.0,LATIN AMER. & CARIB,0.0097490474819534,🇭🇹,Haiti,HTI,19.0,-72.4167
+163,IDN,1997,Cumulative AIDS cases & deaths,153,84,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),6.23337920869565e-05,🇮🇩,Indonesia,IDN,-5.0,120.0
+164,IDN,1997,Cumulative AIDS cases & deaths,0,0,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),0.0,🇮🇩,Indonesia,IDN,-5.0,120.0
+165,IDN,1997,Cumulative AIDS cases & deaths,37,17,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),1.507418501449275e-05,🇮🇩,Indonesia,IDN,-5.0,120.0
+166,IDN,1997,Cumulative AIDS cases & deaths,2,0,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),8.148208115942026e-07,🇮🇩,Indonesia,IDN,-5.0,120.0
+167,IDN,1997,Cumulative AIDS cases & deaths,13,6,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),5.296335275362317e-06,🇮🇩,Indonesia,IDN,-5.0,120.0
+168,IDN,1997,Cumulative AIDS cases & deaths,0,0,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),0.0,🇮🇩,Indonesia,IDN,-5.0,120.0
+169,IDN,1997,Cumulative AIDS cases & deaths,2,2,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),8.148208115942026e-07,🇮🇩,Indonesia,IDN,-5.0,120.0
+170,IDN,1997,Cumulative AIDS cases & deaths,0,0,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),0.0,🇮🇩,Indonesia,IDN,-5.0,120.0
+171,IDN,1997,Cumulative AIDS cases & deaths,8,6,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),3.2592832463768105e-06,🇮🇩,Indonesia,IDN,-5.0,120.0
+172,IDN,1997,Cumulative AIDS cases & deaths,2,0,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),8.148208115942026e-07,🇮🇩,Indonesia,IDN,-5.0,120.0
+173,IDN,1997,Cumulative AIDS cases & deaths,11,8,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),4.481514463768115e-06,🇮🇩,Indonesia,IDN,-5.0,120.0
+174,IDN,1997,Cumulative AIDS cases & deaths,1,1,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),4.074104057971013e-07,🇮🇩,Indonesia,IDN,-5.0,120.0
+175,IDN,1997,Cumulative AIDS cases & deaths,0,0,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),0.0,🇮🇩,Indonesia,IDN,-5.0,120.0
+176,IDN,1997,Cumulative AIDS cases & deaths,2,2,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),8.148208115942026e-07,🇮🇩,Indonesia,IDN,-5.0,120.0
+177,IDN,1997,Cumulative AIDS cases & deaths,0,0,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),0.0,🇮🇩,Indonesia,IDN,-5.0,120.0
+178,IDN,1997,Cumulative AIDS cases & deaths,70,37,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),2.8518728405797095e-05,🇮🇩,Indonesia,IDN,-5.0,120.0
+179,IDN,1997,Cumulative AIDS cases & deaths,152,82,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),6.19263816811594e-05,🇮🇩,Indonesia,IDN,-5.0,120.0
+180,IDN,1997,Cumulative AIDS cases & deaths,0,0,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),0.0,🇮🇩,Indonesia,IDN,-5.0,120.0
+181,IDN,1997,Cumulative AIDS cases & deaths,2,1,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),8.148208115942026e-07,🇮🇩,Indonesia,IDN,-5.0,120.0
+182,IDN,1997,Cumulative AIDS cases & deaths,0,0,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),0.0,🇮🇩,Indonesia,IDN,-5.0,120.0
+183,IDN,1997,Cumulative AIDS cases & deaths,0,0,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),0.0,🇮🇩,Indonesia,IDN,-5.0,120.0
+184,IDN,1997,Cumulative AIDS cases & deaths,0,0,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),0.0,🇮🇩,Indonesia,IDN,-5.0,120.0
+185,IDN,1997,Cumulative AIDS cases & deaths,2,2,-1.0,Indonesia,245452739,3200.0,ASIA (EX. NEAR EAST),8.148208115942026e-07,🇮🇩,Indonesia,IDN,-5.0,120.0
+186,JAM,1987,Cumulative AIDS cases & deaths,47,29,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0017040568154296,🇯🇲,Jamaica,JAM,18.25,-77.5
+187,JAM,1990,Cumulative AIDS cases & deaths,218,127,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0079039231013543,🇯🇲,Jamaica,JAM,18.25,-77.5
+188,JAM,2001,Cumulative AIDS cases & deaths,6038,"3,720",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.2189169159907241,🇯🇲,Jamaica,JAM,18.25,-77.5
+189,JAM,1991,Cumulative AIDS cases & deaths,361,232,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0130886066036189,🇯🇲,Jamaica,JAM,18.25,-77.5
+190,JAM,1992,Cumulative AIDS cases & deaths,496,340,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0179832378819806,🇯🇲,Jamaica,JAM,18.25,-77.5
+191,JAM,2004,Cumulative AIDS cases & deaths,9209,"5,727",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.3338863662402415,🇯🇲,Jamaica,JAM,18.25,-77.5
+192,JAM,2005,Cumulative AIDS cases & deaths,10553,"6,241",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.382615139855931,🇯🇲,Jamaica,JAM,18.25,-77.5
+193,JAM,2007,Cumulative AIDS cases & deaths,12520,"6,993",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.4539317304080599,🇯🇲,Jamaica,JAM,18.25,-77.5
+194,JAM,2009,Cumulative AIDS cases & deaths,14354,"7,772",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.5204262027378029,🇯🇲,Jamaica,JAM,18.25,-77.5
+195,JAM,2002,Cumulative AIDS cases & deaths,7027,"4,412",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.2547746221707219,🇯🇲,Jamaica,JAM,18.25,-77.5
+196,JAM,1995,Cumulative AIDS cases & deaths,1533,907,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0555812574053958,🇯🇲,Jamaica,JAM,18.25,-77.5
+197,JAM,1988,Cumulative AIDS cases & deaths,79,50,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0028642657110412,🇯🇲,Jamaica,JAM,18.25,-77.5
+198,JAM,1996,Cumulative AIDS cases & deaths,2052,"1,198",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0743983954310973,🇯🇲,Jamaica,JAM,18.25,-77.5
+199,JAM,1987,Cumulative AIDS cases & deaths,30,20,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0010876958396359,🇯🇲,Jamaica,JAM,18.25,-77.5
+200,JAM,1987,Cumulative AIDS cases & deaths,21,17,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0007613870877451,🇯🇲,Jamaica,JAM,18.25,-77.5
+201,JAM,1999,Cumulative AIDS cases & deaths,3976,"1,642",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.1441559552797481,🇯🇲,Jamaica,JAM,18.25,-77.5
+202,JAM,1998,Cumulative AIDS cases & deaths,3304,"1,966",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.1197915684719033,🇯🇲,Jamaica,JAM,18.25,-77.5
+203,JAM,2000,Cumulative AIDS cases & deaths,5099,"3,132",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.1848720362101196,🇯🇲,Jamaica,JAM,18.25,-77.5
+204,JAM,1986,Cumulative AIDS cases & deaths,13,11,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0004713348638422,🇯🇲,Jamaica,JAM,18.25,-77.5
+205,JAM,1994,Cumulative AIDS cases & deaths,1050,686,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0380693543872574,🇯🇲,Jamaica,JAM,18.25,-77.5
+206,JAM,1985,Cumulative AIDS cases & deaths,5,2,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0001812826399393,🇯🇲,Jamaica,JAM,18.25,-77.5
+207,JAM,2003,Cumulative AIDS cases & deaths,8097,"5,062",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.2935691071177365,🇯🇲,Jamaica,JAM,18.25,-77.5
+208,JAM,2006,Cumulative AIDS cases & deaths,11739,"6,673",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.425615382049538,🇯🇲,Jamaica,JAM,18.25,-77.5
+209,JAM,1999,Cumulative AIDS cases & deaths,4196,"2,515",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.1521323914370782,🇯🇲,Jamaica,JAM,18.25,-77.5
+210,JAM,1995,Cumulative AIDS cases & deaths,1561,955,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.056596440189056,🇯🇲,Jamaica,JAM,18.25,-77.5
+211,JAM,1993,Cumulative AIDS cases & deaths,715,486,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0259234175113229,🇯🇲,Jamaica,JAM,18.25,-77.5
+212,JAM,1997,Cumulative AIDS cases & deaths,2661,"1,591",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0964786209757066,🇯🇲,Jamaica,JAM,18.25,-77.5
+213,JAM,1982,Cumulative AIDS cases & deaths,1,0,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,3.625652798786421e-05,🇯🇲,Jamaica,JAM,18.25,-77.5
+214,JAM,2008,Cumulative AIDS cases & deaths,13445,"7,394",-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.4874690187968344,🇯🇲,Jamaica,JAM,18.25,-77.5
+215,JAM,1983,Cumulative AIDS cases & deaths,2,1,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,7.251305597572842e-05,🇯🇲,Jamaica,JAM,18.25,-77.5
+216,JAM,1984,Cumulative AIDS cases & deaths,2,2,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,7.251305597572842e-05,🇯🇲,Jamaica,JAM,18.25,-77.5
+217,JAM,2005,Cumulative AIDS cases & deaths,10553,0,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.382615139855931,🇯🇲,Jamaica,JAM,18.25,-77.5
+218,JAM,1989,Cumulative AIDS cases & deaths,137,88,-1.0,Jamaica,2758124,3900.0,LATIN AMER. & CARIB,0.0049671443343373,🇯🇲,Jamaica,JAM,18.25,-77.5
+219,JPN,1995,Cumulative AIDS cases & deaths,1026,626,-1.0,Japan,127463611,28200.0,ASIA (EX. NEAR EAST),0.0008049356141338,🇯🇵,Japan,JPN,36.0,138.0
+220,KAZ,2007,Cumulative AIDS cases & deaths,433,400,-1.0,Kazakhstan,15233244,6300.0,C.W. OF IND. STATES,0.0028424674350387,🇰🇿,Kazakhstan,KAZ,48.0,68.0
+221,KHM,1995,Cumulative AIDS cases & deaths,86,12,-1.0,Cambodia,13881427,1900.0,ASIA (EX. NEAR EAST),0.0006195328477396,🇰🇭,Cambodia,KHM,13.0,105.0
+222,KIR,2004,Cumulative AIDS cases & deaths,28,23,-1.0,Kiribati,105432,800.0,OCEANIA,0.0265574019273086,🇰🇮,Kiribati,KIR,1.4167,173.0
+223,LAO,1995,Cumulative AIDS cases & deaths,13,13,-1.0,Laos,6368481,1700.0,ASIA (EX. NEAR EAST),0.0002041303098808,🇱🇦,Lao People's Democratic Republic,LAO,18.0,105.0
+224,LCA,1999,Cumulative AIDS cases & deaths,111,104,-1.0,Saint Lucia,168458,5400.0,LATIN AMER. & CARIB,0.0658917949874746,🇱🇨,Saint Lucia,LCA,13.8833,-61.1333
+225,LCA,1995,Cumulative AIDS cases & deaths,76,66,-1.0,Saint Lucia,168458,5400.0,LATIN AMER. & CARIB,0.0451151028743069,🇱🇨,Saint Lucia,LCA,13.8833,-61.1333
+226,LCA,1988,Cumulative AIDS cases & deaths,11,8,-1.0,Saint Lucia,168458,5400.0,LATIN AMER. & CARIB,0.0065298175212812,🇱🇨,Saint Lucia,LCA,13.8833,-61.1333
+227,LCA,1987,Cumulative AIDS cases & deaths,6,2,-1.0,Saint Lucia,168458,5400.0,LATIN AMER. & CARIB,0.0035617186479716,🇱🇨,Saint Lucia,LCA,13.8833,-61.1333
+228,LCA,1986,Cumulative AIDS cases & deaths,3,2,-1.0,Saint Lucia,168458,5400.0,LATIN AMER. & CARIB,0.0017808593239858,🇱🇨,Saint Lucia,LCA,13.8833,-61.1333
+229,LCA,1989,Cumulative AIDS cases & deaths,17,8,-1.0,Saint Lucia,168458,5400.0,LATIN AMER. & CARIB,0.0100915361692528,🇱🇨,Saint Lucia,LCA,13.8833,-61.1333
+230,LKA,2005,Cumulative AIDS cases & deaths,190,135,-1.0,Sri Lanka,20222240,3700.0,ASIA (EX. NEAR EAST),0.0009395596135739,🇱🇰,Sri Lanka,LKA,7.0,81.0
+231,LKA,2003,Cumulative AIDS cases & deaths,614,11,-1.0,Sri Lanka,20222240,3700.0,ASIA (EX. NEAR EAST),0.0030362610670232,🇱🇰,Sri Lanka,LKA,7.0,81.0
+232,LKA,2002,Cumulative AIDS cases & deaths,539,9,-1.0,Sri Lanka,20222240,3700.0,ASIA (EX. NEAR EAST),0.0026653822721914,🇱🇰,Sri Lanka,LKA,7.0,81.0
+233,LKA,2012,Cumulative AIDS cases & deaths,414,275,-1.0,Sri Lanka,20222240,3700.0,ASIA (EX. NEAR EAST),0.0020472509474716,🇱🇰,Sri Lanka,LKA,7.0,81.0
+234,LKA,2011,Cumulative AIDS cases & deaths,374,253,-1.0,Sri Lanka,20222240,3700.0,ASIA (EX. NEAR EAST),0.0018494489235613,🇱🇰,Sri Lanka,LKA,7.0,81.0
+235,LKA,2010,Cumulative AIDS cases & deaths,340,221,-1.0,Sri Lanka,20222240,3700.0,ASIA (EX. NEAR EAST),0.0016813172032376,🇱🇰,Sri Lanka,LKA,7.0,81.0
+236,LKA,2009,Cumulative AIDS cases & deaths,309,202,-1.0,Sri Lanka,20222240,3700.0,ASIA (EX. NEAR EAST),0.0015280206347071,🇱🇰,Sri Lanka,LKA,7.0,81.0
+237,LTU,2001,Cumulative AIDS cases & deaths,46,20,-1.0,Lithuania,3585906,11400.0,BALTICS,0.001282799939541,🇱🇹,Lithuania,LTU,56.0,24.0
+238,LTU,2001,Cumulative AIDS cases & deaths,43,20,-1.0,Lithuania,3585906,11400.0,BALTICS,0.0011991390739188,🇱🇹,Lithuania,LTU,56.0,24.0
+239,LTU,2001,Cumulative AIDS cases & deaths,3,0,-1.0,Lithuania,3585906,11400.0,BALTICS,8.366086562224442e-05,🇱🇹,Lithuania,LTU,56.0,24.0
+240,LVA,2000,Cumulative AIDS cases & deaths,72,22,-1.0,Latvia,2274735,10200.0,BALTICS,0.003165203858911,🇱🇻,Latvia,LVA,57.0,25.0
+241,LVA,2001,Cumulative AIDS cases & deaths,114,36,-1.0,Latvia,2274735,10200.0,BALTICS,0.0050115727766091,🇱🇻,Latvia,LVA,57.0,25.0
+242,LVA,1997,Cumulative AIDS cases & deaths,20,4,-1.0,Latvia,2274735,10200.0,BALTICS,0.0008792232941419,🇱🇻,Latvia,LVA,57.0,25.0
+243,LVA,1993,Cumulative AIDS cases & deaths,7,1,-1.0,Latvia,2274735,10200.0,BALTICS,0.0003077281529496,🇱🇻,Latvia,LVA,57.0,25.0
+244,LVA,1991,Cumulative AIDS cases & deaths,3,1,-1.0,Latvia,2274735,10200.0,BALTICS,0.0001318834941212,🇱🇻,Latvia,LVA,57.0,25.0
+245,LVA,1990,Cumulative AIDS cases & deaths,2,0,-1.0,Latvia,2274735,10200.0,BALTICS,8.79223294141955e-05,🇱🇻,Latvia,LVA,57.0,25.0
+246,LVA,1994,Cumulative AIDS cases & deaths,9,3,-1.0,Latvia,2274735,10200.0,BALTICS,0.0003956504823638,🇱🇻,Latvia,LVA,57.0,25.0
+247,LVA,1995,Cumulative AIDS cases & deaths,12,4,-1.0,Latvia,2274735,10200.0,BALTICS,0.0005275339764851,🇱🇻,Latvia,LVA,57.0,25.0
+248,LVA,1998,Cumulative AIDS cases & deaths,31,8,-1.0,Latvia,2274735,10200.0,BALTICS,0.00136279610592,🇱🇻,Latvia,LVA,57.0,25.0
+249,LVA,2002,Cumulative AIDS cases & deaths,169,55,-1.0,Latvia,2274735,10200.0,BALTICS,0.0074294368354995,🇱🇻,Latvia,LVA,57.0,25.0
+250,LVA,2003,Cumulative AIDS cases & deaths,171,57,-1.0,Latvia,2274735,10200.0,BALTICS,0.0075173591649137,🇱🇻,Latvia,LVA,57.0,25.0
+251,LVA,1996,Cumulative AIDS cases & deaths,17,4,-1.0,Latvia,2274735,10200.0,BALTICS,0.0007473398000206,🇱🇻,Latvia,LVA,57.0,25.0
+252,LVA,1992,Cumulative AIDS cases & deaths,4,1,-1.0,Latvia,2274735,10200.0,BALTICS,0.0001758446588283,🇱🇻,Latvia,LVA,57.0,25.0
+253,LVA,1999,Cumulative AIDS cases & deaths,48,13,-1.0,Latvia,2274735,10200.0,BALTICS,0.0021101359059406,🇱🇻,Latvia,LVA,57.0,25.0
+254,MDA,2004,Cumulative AIDS cases & deaths,103,70,-1.0,Moldova,4466706,1800.0,C.W. OF IND. STATES,0.0023059498431282,🇲🇩,"Moldova, Republic of",MDA,47.0,29.0
+255,MDA,2006,Cumulative AIDS cases & deaths,318,123,-1.0,Moldova,4466706,1800.0,C.W. OF IND. STATES,0.0071193402923765,🇲🇩,"Moldova, Republic of",MDA,47.0,29.0
+256,MEX,1999,Cumulative AIDS cases & deaths,42283,"16,636",-1.0,Mexico,107449525,9000.0,LATIN AMER. & CARIB,0.0393515001578648,🇲🇽,Mexico,MEX,23.0,-102.0
+257,MEX,1988,Cumulative AIDS cases & deaths,2158,602,-1.0,Mexico,107449525,9000.0,LATIN AMER. & CARIB,0.0020083848672202,🇲🇽,Mexico,MEX,23.0,-102.0
+258,MEX,1987,Cumulative AIDS cases & deaths,534,177,-1.0,Mexico,107449525,9000.0,LATIN AMER. & CARIB,0.0004969775343353,🇲🇽,Mexico,MEX,23.0,-102.0
+259,MEX,1987,Cumulative AIDS cases & deaths,487,166,-1.0,Mexico,107449525,9000.0,LATIN AMER. & CARIB,0.0004532360659574,🇲🇽,Mexico,MEX,23.0,-102.0
+260,MHL,2004,Cumulative AIDS cases & deaths,2,2,-1.0,Marshall Islands,60422,1600.0,OCEANIA,0.0033100526298368,🇲🇭,Marshall Islands,MHL,9.0,168.0
+261,MHL,1995,Cumulative AIDS cases & deaths,2,2,-1.0,Marshall Islands,60422,1600.0,OCEANIA,0.0033100526298368,🇲🇭,Marshall Islands,MHL,9.0,168.0
+262,MSR,1999,Cumulative AIDS cases & deaths,7,0,-1.0,Montserrat,9439,3400.0,LATIN AMER. & CARIB,0.0741603983472825,🇲🇸,Montserrat,MSR,16.75,-62.2
+263,MSR,1995,Cumulative AIDS cases & deaths,7,0,-1.0,Montserrat,9439,3400.0,LATIN AMER. & CARIB,0.0741603983472825,🇲🇸,Montserrat,MSR,16.75,-62.2
+264,MSR,1988,Cumulative AIDS cases & deaths,0,0,-1.0,Montserrat,9439,3400.0,LATIN AMER. & CARIB,0.0,🇲🇸,Montserrat,MSR,16.75,-62.2
+265,MSR,1987,Cumulative AIDS cases & deaths,0,0,-1.0,Montserrat,9439,3400.0,LATIN AMER. & CARIB,0.0,🇲🇸,Montserrat,MSR,16.75,-62.2
+266,MSR,1989,Cumulative AIDS cases & deaths,1,0,-1.0,Montserrat,9439,3400.0,LATIN AMER. & CARIB,0.0105943426210403,🇲🇸,Montserrat,MSR,16.75,-62.2
+267,MYS,1997,Cumulative AIDS cases & deaths,667,603,-1.0,Malaysia,24385858,9000.0,ASIA (EX. NEAR EAST),0.0027351918476684,🇲🇾,Malaysia,MYS,2.5,112.5
+268,MYS,1995,Cumulative AIDS cases & deaths,259,201,-1.0,Malaysia,24385858,9000.0,ASIA (EX. NEAR EAST),0.0010620909873255,🇲🇾,Malaysia,MYS,2.5,112.5
+269,NCL,2004,Cumulative AIDS cases & deaths,101,50,-1.0,New Caledonia,219246,15000.0,OCEANIA,0.046066974996123,🇳🇨,New Caledonia,NCL,-21.5,165.5
+270,NCL,1995,Cumulative AIDS cases & deaths,43,25,-1.0,New Caledonia,219246,15000.0,OCEANIA,0.0196126725231019,🇳🇨,New Caledonia,NCL,-21.5,165.5
+271,NIC,1999,Cumulative AIDS cases & deaths,214,117,-1.0,Nicaragua,5570129,2300.0,LATIN AMER. & CARIB,0.0038419217939117,🇳🇮,Nicaragua,NIC,13.0,-85.0
+272,NIC,1995,Cumulative AIDS cases & deaths,126,72,-1.0,Nicaragua,5570129,2300.0,LATIN AMER. & CARIB,0.0022620661029574,🇳🇮,Nicaragua,NIC,13.0,-85.0
+273,NIC,1988,Cumulative AIDS cases & deaths,2,2,-1.0,Nicaragua,5570129,2300.0,LATIN AMER. & CARIB,3.590581115805397e-05,🇳🇮,Nicaragua,NIC,13.0,-85.0
+274,NIC,1987,Cumulative AIDS cases & deaths,19,0,-1.0,Nicaragua,5570129,2300.0,LATIN AMER. & CARIB,0.0003411052060015,🇳🇮,Nicaragua,NIC,13.0,-85.0
+275,NRU,2004,Cumulative AIDS cases & deaths,1,1,-1.0,Nauru,13287,5000.0,OCEANIA,0.0075261533830059,🇳🇷,Nauru,NRU,-0.5333,166.9167
+276,NZL,2004,Cumulative AIDS cases & deaths,845,607,-1.0,New Zealand,4076140,21600.0,OCEANIA,0.0207303968951017,🇳🇿,New Zealand,NZL,-41.0,174.0
+277,NZL,1995,Cumulative AIDS cases & deaths,511,417,-1.0,New Zealand,4076140,21600.0,OCEANIA,0.0125363701933692,🇳🇿,New Zealand,NZL,-41.0,174.0
+278,NZL,1987,Cumulative AIDS cases & deaths,45,21,-1.0,New Zealand,4076140,21600.0,OCEANIA,0.0011039856334669,🇳🇿,New Zealand,NZL,-41.0,174.0
+279,PAK,1989,Cumulative AIDS cases & deaths,12,6,-1.0,Pakistan,165803560,2100.0,ASIA (EX. NEAR EAST),7.23748030500672e-06,🇵🇰,Pakistan,PAK,30.0,70.0
+280,PAN,1999,Cumulative AIDS cases & deaths,3087,"1,830",-1.0,Panama,3191319,6300.0,LATIN AMER. & CARIB,0.0967311635095081,🇵🇦,Panama,PAN,9.0,-80.0
+281,PAN,1995,Cumulative AIDS cases & deaths,1006,604,-1.0,Panama,3191319,6300.0,LATIN AMER. & CARIB,0.0315230160319291,🇵🇦,Panama,PAN,9.0,-80.0
+282,PAN,1988,Cumulative AIDS cases & deaths,84,43,-1.0,Panama,3191319,6300.0,LATIN AMER. & CARIB,0.00263214050366,🇵🇦,Panama,PAN,9.0,-80.0
+283,PAN,1987,Cumulative AIDS cases & deaths,22,18,-1.0,Panama,3191319,6300.0,LATIN AMER. & CARIB,0.0006893701319109,🇵🇦,Panama,PAN,9.0,-80.0
+284,PAN,1987,Cumulative AIDS cases & deaths,14,11,-1.0,Panama,3191319,6300.0,LATIN AMER. & CARIB,0.0004386900839433,🇵🇦,Panama,PAN,9.0,-80.0
+285,PER,1999,Cumulative AIDS cases & deaths,8119,"2,220",-1.0,Peru,28302603,5100.0,LATIN AMER. & CARIB,0.0286864073951077,🇵🇪,Peru,PER,-10.0,-76.0
+286,PER,1995,Cumulative AIDS cases & deaths,2709,711,-1.0,Peru,28302603,5100.0,LATIN AMER. & CARIB,0.0095715577821587,🇵🇪,Peru,PER,-10.0,-76.0
+287,PER,1988,Cumulative AIDS cases & deaths,137,75,-1.0,Peru,28302603,5100.0,LATIN AMER. & CARIB,0.0004840544171855,🇵🇪,Peru,PER,-10.0,-76.0
+288,PER,1987,Cumulative AIDS cases & deaths,44,6,-1.0,Peru,28302603,5100.0,LATIN AMER. & CARIB,0.0001554627325267,🇵🇪,Peru,PER,-10.0,-76.0
+289,PER,1986,Cumulative AIDS cases & deaths,9,6,-1.0,Peru,28302603,5100.0,LATIN AMER. & CARIB,3.1799195289564005e-05,🇵🇪,Peru,PER,-10.0,-76.0
+290,PHL,1995,Cumulative AIDS cases & deaths,220,105,-1.0,Philippines,89468677,4600.0,ASIA (EX. NEAR EAST),0.0002458961140109,🇵🇭,Philippines,PHL,13.0,122.0
+291,PLW,2004,Cumulative AIDS cases & deaths,4,3,-1.0,Palau,20579,9000.0,OCEANIA,0.0194372904417124,🇵🇼,Palau,PLW,7.5,134.5
+292,PLW,1995,Cumulative AIDS cases & deaths,1,1,-1.0,Palau,20579,9000.0,OCEANIA,0.0048593226104281,🇵🇼,Palau,PLW,7.5,134.5
+293,PNG,2004,Cumulative AIDS cases & deaths,1926,353,-1.0,Papua New Guinea,5670544,2200.0,OCEANIA,0.033964995245606,🇵🇬,Papua New Guinea,PNG,-6.0,147.0
+294,PNG,1995,Cumulative AIDS cases & deaths,141,65,-1.0,Papua New Guinea,5670544,2200.0,OCEANIA,0.0024865339198496,🇵🇬,Papua New Guinea,PNG,-6.0,147.0
+295,PNG,1992,Cumulative AIDS cases & deaths,47,28,-1.0,Papua New Guinea,5670544,2200.0,OCEANIA,0.0008288446399498,🇵🇬,Papua New Guinea,PNG,-6.0,147.0
+296,PNG,1995,Cumulative AIDS cases & deaths,141,65,-1.0,Papua New Guinea,5670544,2200.0,OCEANIA,0.0024865339198496,🇵🇬,Papua New Guinea,PNG,-6.0,147.0
+297,PRY,2000,Cumulative AIDS cases & deaths,469,242,-1.0,Paraguay,6506464,4700.0,LATIN AMER. & CARIB,0.0072082163214919,🇵🇾,Paraguay,PRY,-23.0,-58.0
+298,PRY,1995,Cumulative AIDS cases & deaths,190,131,-1.0,Paraguay,6506464,4700.0,LATIN AMER. & CARIB,0.0029201729234189,🇵🇾,Paraguay,PRY,-23.0,-58.0
+299,PRY,1988,Cumulative AIDS cases & deaths,9,8,-1.0,Paraguay,6506464,4700.0,LATIN AMER. & CARIB,0.000138323980583,🇵🇾,Paraguay,PRY,-23.0,-58.0
+300,PRY,1987,Cumulative AIDS cases & deaths,14,9,-1.0,Paraguay,6506464,4700.0,LATIN AMER. & CARIB,0.0002151706364624,🇵🇾,Paraguay,PRY,-23.0,-58.0
+301,PRY,1987,Cumulative AIDS cases & deaths,10,6,-1.0,Paraguay,6506464,4700.0,LATIN AMER. & CARIB,0.0001536933117588,🇵🇾,Paraguay,PRY,-23.0,-58.0
+302,PYF,2004,Cumulative AIDS cases & deaths,94,61,-1.0,French Polynesia,274578,17500.0,OCEANIA,0.0342343523516086,🇵🇫,French Polynesia,PYF,-15.0,-140.0
+303,PYF,1995,Cumulative AIDS cases & deaths,45,33,-1.0,French Polynesia,274578,17500.0,OCEANIA,0.0163887857002381,🇵🇫,French Polynesia,PYF,-15.0,-140.0
+304,SGP,1995,Cumulative AIDS cases & deaths,145,98,-1.0,Singapore,4492150,23700.0,ASIA (EX. NEAR EAST),0.0032278530325122,🇸🇬,Singapore,SGP,1.3667,103.8
+305,SLB,2004,Cumulative AIDS cases & deaths,2,2,-1.0,Solomon Islands,552438,1700.0,OCEANIA,0.000362031576394,🇸🇧,Solomon Islands,SLB,-8.0,159.0
+306,SLE,2002,Cumulative AIDS cases & deaths,1028,510,-1.0,Sierra Leone,6005250,500.0,SUB-SAHARAN AFRICA,0.017118354772907,🇸🇱,Sierra Leone,SLE,8.5,-11.5
+307,SLV,1999,Cumulative AIDS cases & deaths,2285,305,-1.0,El Salvador,6822378,4800.0,LATIN AMER. & CARIB,0.0334927205733836,🇸🇻,El Salvador,SLV,13.8333,-88.9167
+308,SLV,1995,Cumulative AIDS cases & deaths,1372,236,-1.0,El Salvador,6822378,4800.0,LATIN AMER. & CARIB,0.0201102899897953,🇸🇻,El Salvador,SLV,13.8333,-88.9167
+309,SLV,1988,Cumulative AIDS cases & deaths,71,27,-1.0,El Salvador,6822378,4800.0,LATIN AMER. & CARIB,0.0010406928493261,🇸🇻,El Salvador,SLV,13.8333,-88.9167
+310,SLV,1987,Cumulative AIDS cases & deaths,12,6,-1.0,El Salvador,6822378,4800.0,LATIN AMER. & CARIB,0.0001758917491818,🇸🇻,El Salvador,SLV,13.8333,-88.9167
+311,SLV,1987,Cumulative AIDS cases & deaths,9,6,-1.0,El Salvador,6822378,4800.0,LATIN AMER. & CARIB,0.0001319188118864,🇸🇻,El Salvador,SLV,13.8333,-88.9167
+312,SUR,1995,Cumulative AIDS cases & deaths,211,191,-1.0,Suriname,439117,4000.0,LATIN AMER. & CARIB,0.0480509750248794,🇸🇷,Suriname,SUR,4.0,-56.0
+313,SUR,1995,Cumulative AIDS cases & deaths,209,189,-1.0,Suriname,439117,4000.0,LATIN AMER. & CARIB,0.0475955155459706,🇸🇷,Suriname,SUR,4.0,-56.0
+314,SUR,1988,Cumulative AIDS cases & deaths,11,11,-1.0,Suriname,439117,4000.0,LATIN AMER. & CARIB,0.0025050271339984,🇸🇷,Suriname,SUR,4.0,-56.0
+315,SUR,1987,Cumulative AIDS cases & deaths,6,5,-1.0,Suriname,439117,4000.0,LATIN AMER. & CARIB,0.0013663784367264,🇸🇷,Suriname,SUR,4.0,-56.0
+316,SUR,1987,Cumulative AIDS cases & deaths,3,3,-1.0,Suriname,439117,4000.0,LATIN AMER. & CARIB,0.0006831892183632,🇸🇷,Suriname,SUR,4.0,-56.0
+317,SUR,1989,Cumulative AIDS cases & deaths,46,37,-1.0,Suriname,439117,4000.0,LATIN AMER. & CARIB,0.0104755680149026,🇸🇷,Suriname,SUR,4.0,-56.0
+318,THA,2004,Cumulative AIDS cases & deaths,238375,"65,565",-1.0,Thailand,64631595,7400.0,ASIA (EX. NEAR EAST),0.3688211624670565,🇹🇭,Thailand,THA,15.0,100.0
+319,TON,2004,Cumulative AIDS cases & deaths,9,8,-1.0,Tonga,114689,2200.0,OCEANIA,0.0078473088090401,🇹🇴,Tonga,TON,-20.0,-175.0
+320,TON,1995,Cumulative AIDS cases & deaths,5,5,-1.0,Tonga,114689,2200.0,OCEANIA,0.0043596160050222,🇹🇴,Tonga,TON,-20.0,-175.0
+321,TUV,2004,Cumulative AIDS cases & deaths,2,2,-1.0,Tuvalu,11810,1100.0,OCEANIA,0.016934801016088,🇹🇻,Tuvalu,TUV,-8.0,178.0
+322,URY,2000,Cumulative AIDS cases & deaths,1387,612,-1.0,Uruguay,3431932,12800.0,LATIN AMER. & CARIB,0.0404145536683127,🇺🇾,Uruguay,URY,-33.0,-56.0
+323,URY,1995,Cumulative AIDS cases & deaths,684,385,-1.0,Uruguay,3431932,12800.0,LATIN AMER. & CARIB,0.0199304648227295,🇺🇾,Uruguay,URY,-33.0,-56.0
+324,URY,1988,Cumulative AIDS cases & deaths,45,28,-1.0,Uruguay,3431932,12800.0,LATIN AMER. & CARIB,0.001311214790969,🇺🇾,Uruguay,URY,-33.0,-56.0
+325,URY,1987,Cumulative AIDS cases & deaths,13,8,-1.0,Uruguay,3431932,12800.0,LATIN AMER. & CARIB,0.0003787953840577,🇺🇾,Uruguay,URY,-33.0,-56.0
+326,URY,1986,Cumulative AIDS cases & deaths,8,5,-1.0,Uruguay,3431932,12800.0,LATIN AMER. & CARIB,0.0002331048517278,🇺🇾,Uruguay,URY,-33.0,-56.0
+327,VCT,2000,Cumulative AIDS cases & deaths,180,123,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.1527391215803407,🇻🇨,Saint Vincent & the Grenadines,VCT,13.25,-61.2
+328,VCT,2000,Cumulative AIDS cases & deaths,180,123,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.1527391215803407,🇻🇨,Saint Vincent and the Grenadines,VCT,13.25,-61.2
+329,VCT,2000,Cumulative AIDS cases & deaths,180,123,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.1527391215803407,🇻🇨,St. Vincent and the Grenadines,VCT,13.25,-61.2
+330,VCT,1995,Cumulative AIDS cases & deaths,68,69,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.0577014459303509,🇻🇨,Saint Vincent & the Grenadines,VCT,13.25,-61.2
+331,VCT,1995,Cumulative AIDS cases & deaths,68,69,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.0577014459303509,🇻🇨,Saint Vincent and the Grenadines,VCT,13.25,-61.2
+332,VCT,1995,Cumulative AIDS cases & deaths,68,69,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.0577014459303509,🇻🇨,St. Vincent and the Grenadines,VCT,13.25,-61.2
+333,VCT,1988,Cumulative AIDS cases & deaths,14,9,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.0118797094562487,🇻🇨,Saint Vincent & the Grenadines,VCT,13.25,-61.2
+334,VCT,1988,Cumulative AIDS cases & deaths,14,9,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.0118797094562487,🇻🇨,Saint Vincent and the Grenadines,VCT,13.25,-61.2
+335,VCT,1988,Cumulative AIDS cases & deaths,14,9,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.0118797094562487,🇻🇨,St. Vincent and the Grenadines,VCT,13.25,-61.2
+336,VCT,1987,Cumulative AIDS cases & deaths,3,2,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.002545652026339,🇻🇨,Saint Vincent & the Grenadines,VCT,13.25,-61.2
+337,VCT,1987,Cumulative AIDS cases & deaths,3,2,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.002545652026339,🇻🇨,Saint Vincent and the Grenadines,VCT,13.25,-61.2
+338,VCT,1987,Cumulative AIDS cases & deaths,3,2,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.002545652026339,🇻🇨,St. Vincent and the Grenadines,VCT,13.25,-61.2
+339,VCT,1986,Cumulative AIDS cases & deaths,3,2,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.002545652026339,🇻🇨,Saint Vincent & the Grenadines,VCT,13.25,-61.2
+340,VCT,1986,Cumulative AIDS cases & deaths,3,2,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.002545652026339,🇻🇨,Saint Vincent and the Grenadines,VCT,13.25,-61.2
+341,VCT,1986,Cumulative AIDS cases & deaths,3,2,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.002545652026339,🇻🇨,St. Vincent and the Grenadines,VCT,13.25,-61.2
+342,VCT,1989,Cumulative AIDS cases & deaths,22,15,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.0186681148598194,🇻🇨,Saint Vincent & the Grenadines,VCT,13.25,-61.2
+343,VCT,1989,Cumulative AIDS cases & deaths,22,15,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.0186681148598194,🇻🇨,Saint Vincent and the Grenadines,VCT,13.25,-61.2
+344,VCT,1989,Cumulative AIDS cases & deaths,22,15,-1.0,Saint Vincent and the Grenadines,117848,2900.0,LATIN AMER. & CARIB,0.0186681148598194,🇻🇨,St. Vincent and the Grenadines,VCT,13.25,-61.2
+345,VEN,1998,Cumulative AIDS cases & deaths,7548,"4,284",-1.0,Venezuela,25730435,4800.0,LATIN AMER. & CARIB,0.0293349101948723,🇻🇪,"Venezuela, Bolivarian Republic of",VEN,8.0,-66.0
+346,VEN,1998,Cumulative AIDS cases & deaths,7548,"4,284",-1.0,Venezuela,25730435,4800.0,LATIN AMER. & CARIB,0.0293349101948723,🇻🇪,Venezuela,VEN,8.0,-66.0
+347,VEN,1995,Cumulative AIDS cases & deaths,4960,"2,976",-1.0,Venezuela,25730435,4800.0,LATIN AMER. & CARIB,0.0192767825339913,🇻🇪,"Venezuela, Bolivarian Republic of",VEN,8.0,-66.0
+348,VEN,1995,Cumulative AIDS cases & deaths,4960,"2,976",-1.0,Venezuela,25730435,4800.0,LATIN AMER. & CARIB,0.0192767825339913,🇻🇪,Venezuela,VEN,8.0,-66.0
+349,VEN,1988,Cumulative AIDS cases & deaths,266,166,-1.0,Venezuela,25730435,4800.0,LATIN AMER. & CARIB,0.0010337951923471,🇻🇪,"Venezuela, Bolivarian Republic of",VEN,8.0,-66.0
+350,VEN,1988,Cumulative AIDS cases & deaths,266,166,-1.0,Venezuela,25730435,4800.0,LATIN AMER. & CARIB,0.0010337951923471,🇻🇪,Venezuela,VEN,8.0,-66.0
+351,VEN,1987,Cumulative AIDS cases & deaths,101,74,-1.0,Venezuela,25730435,4800.0,LATIN AMER. & CARIB,0.0003925312572445,🇻🇪,"Venezuela, Bolivarian Republic of",VEN,8.0,-66.0
+352,VEN,1987,Cumulative AIDS cases & deaths,101,74,-1.0,Venezuela,25730435,4800.0,LATIN AMER. & CARIB,0.0003925312572445,🇻🇪,Venezuela,VEN,8.0,-66.0
+353,VEN,1987,Cumulative AIDS cases & deaths,69,54,-1.0,Venezuela,25730435,4800.0,LATIN AMER. & CARIB,0.0002681649183156,🇻🇪,"Venezuela, Bolivarian Republic of",VEN,8.0,-66.0
+354,VEN,1987,Cumulative AIDS cases & deaths,69,54,-1.0,Venezuela,25730435,4800.0,LATIN AMER. & CARIB,0.0002681649183156,🇻🇪,Venezuela,VEN,8.0,-66.0
+355,VGB,1998,Cumulative AIDS cases & deaths,20,7,-1.0,Virgin Islands,108605,17200.0,LATIN AMER. & CARIB,0.018415358408913,🇻🇬,"Virgin Islands, British",VGB,18.5,-64.5
+356,VGB,1989,Cumulative AIDS cases & deaths,1,1,-1.0,Virgin Islands,108605,17200.0,LATIN AMER. & CARIB,0.0009207679204456,🇻🇬,"Virgin Islands, British",VGB,18.5,-64.5
+357,VNM,1994,Cumulative AIDS cases & deaths,75,18,-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),8.885943652738459e-05,🇻🇳,Viet Nam,VNM,16.0,106.0
+358,VNM,1994,Cumulative AIDS cases & deaths,75,18,-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),8.885943652738459e-05,🇻🇳,Vietnam,VNM,16.0,106.0
+359,VNM,1995,Cumulative AIDS cases & deaths,131,55,-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),0.0001552078158011,🇻🇳,Viet Nam,VNM,16.0,106.0
+360,VNM,1995,Cumulative AIDS cases & deaths,131,55,-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),0.0001552078158011,🇻🇳,Vietnam,VNM,16.0,106.0
+361,VNM,1995,Cumulative AIDS cases & deaths,292,133,-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),0.0003459594062132,🇻🇳,Viet Nam,VNM,16.0,106.0
+362,VNM,1995,Cumulative AIDS cases & deaths,292,133,-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),0.0003459594062132,🇻🇳,Vietnam,VNM,16.0,106.0
+363,VNM,2012,Cumulative AIDS cases & deaths,59839,"62,184",-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),0.0708967976314955,🇻🇳,Viet Nam,VNM,16.0,106.0
+364,VNM,2012,Cumulative AIDS cases & deaths,59839,"62,184",-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),0.0708967976314955,🇻🇳,Vietnam,VNM,16.0,106.0
+365,VNM,2010,Cumulative AIDS cases & deaths,37184,"45,227",-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),0.0440553238377902,🇻🇳,Viet Nam,VNM,16.0,106.0
+366,VNM,2010,Cumulative AIDS cases & deaths,37184,"45,227",-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),0.0440553238377902,🇻🇳,Vietnam,VNM,16.0,106.0
+367,VNM,1996,Cumulative AIDS cases & deaths,701,411,-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),0.0008305395334092,🇻🇳,Viet Nam,VNM,16.0,106.0
+368,VNM,1996,Cumulative AIDS cases & deaths,701,411,-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),0.0008305395334092,🇻🇳,Vietnam,VNM,16.0,106.0
+369,VNM,2005,Cumulative AIDS cases & deaths,16917,"9,862",-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),0.0200431345031168,🇻🇳,Viet Nam,VNM,16.0,106.0
+370,VNM,2005,Cumulative AIDS cases & deaths,16917,"9,862",-1.0,Vietnam,84402966,2500.0,ASIA (EX. NEAR EAST),0.0200431345031168,🇻🇳,Vietnam,VNM,16.0,106.0
+371,VUT,2004,Cumulative AIDS cases & deaths,2,0,-1.0,Vanuatu,208869,2900.0,OCEANIA,0.00095753797835,🇻🇺,Vanuatu,VUT,-16.0,167.0
+372,WLF,2004,Cumulative AIDS cases & deaths,1,0,-1.0,Wallis and Futuna,16025,3700.0,OCEANIA,0.0062402496099843,🇼🇫,Wallis and Futuna,WLF,-13.3,-176.2
+373,WLF,1995,Cumulative AIDS cases & deaths,1,0,-1.0,Wallis and Futuna,16025,3700.0,OCEANIA,0.0062402496099843,🇼🇫,Wallis and Futuna,WLF,-13.3,-176.2
+374,WSM,2004,Cumulative AIDS cases & deaths,8,8,-1.0,Samoa,176908,5600.0,OCEANIA,0.0045221244940873,🇼🇸,Samoa,WSM,-13.5833,-172.3333
+375,WSM,1995,Cumulative AIDS cases & deaths,2,2,-1.0,Samoa,176908,5600.0,OCEANIA,0.0011305311235218,🇼🇸,Samoa,WSM,-13.5833,-172.3333
+376,ZAF,1987,Cumulative AIDS cases & deaths,77,53,-1.0,South Africa,44187637,10700.0,SUB-SAHARAN AFRICA,0.0001742568854722,🇿🇦,South Africa,ZAF,-29.0,24.0
+377,ZAF,1988,Cumulative AIDS cases & deaths,175,106,-1.0,South Africa,44187637,10700.0,SUB-SAHARAN AFRICA,0.0003960383760733,🇿🇦,South Africa,ZAF,-29.0,24.0
+378,ZMB,1987,Cumulative AIDS cases & deaths,395,57,-1.0,Zambia,11502010,800.0,SUB-SAHARAN AFRICA,0.0034341823733417,🇿🇲,Zambia,ZMB,-15.0,30.0

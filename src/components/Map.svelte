@@ -1,16 +1,32 @@
 <script>
 	import mapboxgl from "mapbox-gl";
 	import { onMount } from "svelte";
+	import Papa from 'papaparse';
+	import { readable } from "svelte/store";
+
 	export let index;
-	export let geoJsonToFit;
   
 	mapboxgl.accessToken =
 	  "pk.eyJ1IjoiaHRhbTg4IiwiYSI6ImNsc2d2M2xrMzB0YXAycnBncWNwMWlkc3gifQ._-vNYE1-qImQWrRbu76uUw";
+
+	const aidsData = readable([], (set) => {
+    fetch('../../static/HIV_demographic_data.csv')
+      .then(response => response.text())
+      .then(text => {
+        const results = Papa.parse(text, { header: true }).data;
+        set(results);
+      });
+  });
   
 	let container;
 	let map;
   
 	let zoomLevel;
+  	
+	let geoJsonToFit = {
+		'type': 'FeatureCollection',
+		'features': []
+	}
   
 	function updateZoomLevel() {
 	  const screenWidth = window.innerWidth;
@@ -71,7 +87,7 @@
   
 	let isVisible = true;
   
-  $: if (index === 3) {
+  $: if (index === 4) {
 	isVisible = true;
   } else {
 	isVisible = false;
