@@ -87,7 +87,7 @@
   
 	let isVisible = true;
   
-  $: if (index === 3) {
+  $: if (index === 4) {
 	isVisible = true;
   } else {
 	isVisible = false;

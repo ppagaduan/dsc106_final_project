@@ -8,12 +8,16 @@
     let message = writable("");
     let isMessageVisible = false;
     let hivButtons = [];
+    let popButtons = [];
+    let hcButtons = [];
     let replicationFactor = 3; 
     let isResetVisible = false;
+    let count = 0;
+    let stage;
 
     function handleClick(customMessage){
         if (buttonProps.class.includes("HIV")){ // simulation
-            let count = hivButtons.length * replicationFactor || 1;
+            count = hivButtons.length * replicationFactor || 1;
             if (count < 2){
                 hivButtons = Array.from({ length: count }, (_, i) => ({ label: "HIV " + (i + 1)}));
                 message.set("HIV replicates in the bloodstream.");
@@ -47,8 +51,30 @@
                 isResetVisible = true;
             }
 
-
-        } else{
+        } else if (buttonProps.class.includes("population")) {
+            if (count === 0) {
+                count = 29
+                popButtons = Array.from({ length: 29 }, (_, i) => ({label: i + 2, class: ''}));
+                message.set('30 million people were accessing antiretroviral therapy to treat HIV in 2022.')
+            } else if (count === 29) {
+                count = 39
+                popButtons = Array.from({ length: 38}, (_, i) => ({ label: i + 2, class: ''}));
+                message.set('39 million people globally were living with HIV in 2022.');
+            } else if (count === 39) {
+                count = 40
+                popButtons = Array.from({ length: 39}, (_, i) => ({ label: i + 2, class: ''}));
+                message.set('Since the start of the HIV/AIDS epidemic, about 40.4 million people have died from AIDS-related illnesses.');
+            } else if (count === 40) {
+                count = 86
+                popButtons = Array.from({ length: 85}, (_, i) => ({ label: i + 2, class: ''}));
+                message.set('About 85.6 million people have become infected with HIV since the start of the epidemic.');
+            } else {
+                message.set('The simulation has ended. Click the button below to play again.');
+                isResetVisible = true;
+            }
+        }
+        
+        else{
             if (isMessageVisible){
             message.set(""); // hide the message when you unclick
         } else { // risks & transmissions
@@ -83,8 +109,10 @@
             }
             message = writable("");
             hivButtons = [];
+            popButtons = [];
             replicationFactor = 3; 
             isResetVisible = false;
+            count = 0;
     }
 
 </script>
@@ -104,6 +132,13 @@
             <button class='HIV' key={index}>{button.label}</button>
         {/each}
 
+    {/if}
+
+    <!-- stats visualization -->
+    {#if buttonProps.class.includes('population')}
+        {#each popButtons as button, index}
+            <button class='population' key={index}>{button.label}</button>
+        {/each}
     {/if}
 
     {#if $message}
@@ -153,6 +188,10 @@
     }
     .donate{
         background-color: lightblue;
+        color: black;
+    }
+    .population{
+        background-color: yellow;
         color: black;
     }
 </style>
