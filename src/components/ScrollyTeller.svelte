@@ -128,7 +128,7 @@ bind:progress
     <p class = 'blurb'>
       <span class="bullet">>></span> Develops 2-4 weeks after infection with HIV<br>
       <span class="bullet">>></span> Flu-like symptoms: fever, headache, rash <br>
-      <span class="bullet">>></span> HIV multiplies rapidly and destroys CD4 T lympocytes, which fight infections <br>
+      <span class="bullet">>></span> HIV multiplies rapidly and destroys CD4 T lymphocytes, which fight infections <br>
       <span class="bullet">>></span> High levels of HIV are present in the blood
     </p>
     <!-- stage 2 -->
