@@ -7,6 +7,7 @@
   import Viz from './viz.svelte';
   import * as d3 from 'd3';
   import Button from './Button.svelte';
+  import Stage from './Stage.svelte';
 
   let count, index, offset, progress;
   let width, height;
@@ -104,6 +105,7 @@ bind:progress
     <p class = 'subheading'>
       The Symptoms
     </p>
+    <!-- <Stage {index} {width} {height}/>  -->
     <p class="symptoms">
       <span class="bullet">>></span> fever <br>
       <span class="bullet">>></span> night sweats <br>
@@ -349,7 +351,7 @@ bind:progress
   }
 
   .intro{
-    height: 100vh;
+    height: 110vh;
   }
 
   .blurb{
