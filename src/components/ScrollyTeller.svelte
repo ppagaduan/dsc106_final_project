@@ -10,8 +10,7 @@
 
   let count, index, offset, progress;
   let width, height;
-  let data = [];
-
+let data = [];
   onMount(
     async() => {
       const res = await fetch('HIV_demographic_data.csv')
@@ -113,8 +112,8 @@ bind:progress
     <p class = 'subheading'>
       The Stats
     </p> <br>
-    <h3> Let's visualize global HIV statistics. Each square will represent 1 million people. 
-      Click the '1' below to begin. Continue clicking the '1' until the simulation has ended.</h3>
+    <p class='instructions'> Let's visualize global HIV statistics. Each square will represent 1 million people. 
+      Click the '1' below to begin. Continue clicking the '1' until the simulation has ended.</p>
     <Button class = 'population' buttonText = 1> </Button>
   </section>
 
@@ -122,59 +121,7 @@ bind:progress
     <h2 class="subheading">
       Timeline
     </h2>
-    <div class="row">
-
-      <div class="column">
-        <h2 class = 'subheading'>
-          1980s
-        </h2>
-  
-        <h2 class = 'subheading'>
-          1990s
-        </h2>
-  
-        <h2 class = 'subheading'>
-          2000s
-        </h2>
-    
-  
-        <h2 class = 'subheading'>
-          2010s
-        </h2>
-  
-        <h2 class = 'subheading'>
-          2020s
-        </h2>
-      </div>
-
-      <div class="column">
-        <p class = 'blurb'>
-          HIV was discovered and AIDS became globally recognized by the World Health Organization.
-        </p>
-  
-  
-        <p class = 'blurb'>
-          The AIDS epidemic became widespread in the U.S. 
-        </p>
-  
-  
-  
-        <p class = 'blurb'>
-          blah blah blah
-        </p>
-  
-  
-  
-        <p class = 'blurb'>
-          blah blah blah
-        </p>
-
-        <p class = 'blurb'>
-          blah blah blah blah blabh lbah
-        </p>
-
-      </div>
-    </div>
+    <Graph {index} {width} {height}/> 
   </section>
 
   <section class = 'global_impact'>
@@ -182,16 +129,13 @@ bind:progress
       Worldwide Reach: Mapping the Prevalence of HIV/AIDS
     </h2>
     <Map bind:geoJsonToFit {index}/> 
-    <Graph {index} {width} {height} {projection} /> 
-    <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
-    <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-    <br> <br> <br> 
+    <br>
     <p class = 'blurb'>
       This map is centered on Eswatini, formerly known as Swaziland, located in Southern Africa. It is almost entirely
     landlocked by South Africa, and is also bordered by Mozambique. Eswantini, along with other countries in Southern Africa,
     have some of the highest percentages of adult prevalence of HIV / AIDS in the country. To view other countries, use your cursor
     to zoom in and out of the map!
-    </p> <br> <br> <br> <br> <br> <br> 
+    </p>
   </section>
 
   <section class = 'global_impact'>
@@ -212,11 +156,11 @@ bind:progress
     </p>
   </section>
 
-  <section class = 'global_impact'>
+  <section class = 'risk_factors_and_transmission'>
     <h2 class = 'subheading'>
       Risk Factors & Transmission
     </h2>
-    <h3> Click a button below to learn about the different transmission methods and risk factors. </h3>
+    <p class = 'instructions', style="text-align:center"> Click a button below to learn about the different transmission methods and risk factors. </p>
     <Button class="unprotected_sex" buttonText= "Unprotected Sex"> 
     </Button> <br><br>
 
@@ -229,20 +173,13 @@ bind:progress
     <Button class="sti" buttonText = "Sexually Transmitted Infections">
     </Button>
     <br><br> ------------------------ <br>
-    <h3> Click the green button below, labelled 'HIV', below to visualize the rate of HIV replication. Continue
-      clicking the 'HIV' button until the simulation has ended. For optimized performance, please close all expanded tabs in the
-      "Risk Factors & Transmission" section.</h3>
+    <p class = 'instructions'> Click the green button below, labelled 'HIV', below to visualize the rate of HIV replication. Continue
+      clicking the 'HIV' button until the simulation has ended.</p>
 
-    <section class = 'blood'>
+    <div class = 'blood'>
       <Button class='HIV' buttonText='HIV'> </Button>
-    </section>
+    </div>
 
-  </section>
-
-  <section class = 'treatment_and_prevention'>  
-    <h2 class = 'subheading'>
-      Treatment and Prevention
-    </h2>
   </section>
 
   <section class = 'call_to_action'>
@@ -362,30 +299,33 @@ bind:progress
     line-height: 2;
   }  
 
-  .column {
-  float: left;
-  width: 50%;
-  }
-
   .instructions{
+    font-family: 'Nunito', sans-serif;
     text-align: left;
   }
 
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
   .timeline{
-    height: 150vh;
+    height: 140vh;
     font-family: 'Nunito', sans-serif;
   }
 
   .global_impact{
     height: 120vh;
     font-family: 'Nunito', sans-serif;
+  }
+
+  .risk_factors_and_transmission{
+    height: 175vh;
+  }
+
+  .blood {
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(255, 0, 0, 0.2);
+
+    outline: brown 3px;
+    text-align: center;
+    max-width: 800px; /* adjust at will */
   }
 
   section {
@@ -398,12 +338,5 @@ bind:progress
     color: black;
     padding: 1em;
     margin: 0 0 2em 0;
-  }
-
-  .blood {
-    width: 100%;
-    height: 60vh;
-    position: relative;
-    background-color: rgba(255, 0, 0, 0.2);
   }
 </style>
