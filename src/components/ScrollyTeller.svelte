@@ -347,6 +347,7 @@ bind:progress
     height: 100vh;
     position: relative;
     outline: red solid 3px;
+    background-color: rgba(244, 126, 85, 0.2);
   }
 
   .foreground {
