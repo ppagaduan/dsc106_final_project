@@ -10,7 +10,7 @@
 
   let count, index, offset, progress;
   let width, height;
-let data = [];
+  let data = [];
   onMount(
     async() => {
       const res = await fetch('HIV_demographic_data.csv')
@@ -74,6 +74,8 @@ bind:progress
         What is HIV?
       </h2>
 
+      <img src = 'https://medlineplus.gov/images/HIV.png' alt = ''>
+
       <p class = 'blurb'>
         Human immunodeficiency virus (HIV) is a virus that attacks the human immune system. There is currently no cure for HIV, 
         but with proper medical treatment, the effects of HIV can be controlled and those diagnosed with HIV can lead long, 
@@ -87,31 +89,77 @@ bind:progress
       </h2>
 
       <p class='blurb'>
-        >> HIV is theorized to have originally spread from chimpanzees to humans. Based on numerous studies, researchers believe 
+        <span class="bullet">>></span> HIV is theorized to have originally spread from chimpanzees to humans. Based on numerous studies, researchers believe 
         the initial form of HIV came from a type of chimpanzee in Central Africa, as far back as the 1800s.  <br>
-        >> The chimpanzee form of the HIV virus was called simian immunodeficiency virus. Scientists believe humans acquired this 
+        <span class="bullet">>></span> The chimpanzee form of the HIV virus was called simian immunodeficiency virus. Scientists believe humans acquired this 
         virus when humans hunted chimpanzees for their meat, and became ill when they became in contact with the chimpanzees' 
         infected blood. <br>
-        >> Over time, HIV spread through Africa, and eventually other parts of the world. HIV has been recorded in the United States 
+        <span class="bullet">>></span> Over time, HIV spread through Africa, and eventually other parts of the world. HIV has been recorded in the United States 
         since the mid to late 1970s. According to the CDC (Center for Disease Control), in 2006, about 56,000 people in the United
         States had acquired AIDS, a late stage of the HIV infection. <br>
       </p>
   </section>
 
-  <section class = 'intro'> 
+  <section class = 'symptoms_and_stages'> 
     <p class = 'subheading'>
       The Symptoms
     </p>
-
-    <p class = 'subheading'>
-      The Stages
+    <p class="symptoms">
+      <span class="bullet">>></span> fever <br>
+      <span class="bullet">>></span> night sweats <br>
+      <span class="bullet">>></span> mouth ulcers <br>
+      <span class="bullet">>></span> sore throat <br>
+      <span class="bullet">>></span> swollen lymph nodes <br>
+      <span class="bullet">>></span> chills <br>
+      <span class="bullet">>></span> fatigue <br>
+      <span class="bullet">>></span> rash <br>
+      <span class="bullet">>></span> muscle aches <br>
     </p>
+
+    <p class="subheading">
+      Stages of HIV
+    </p>
+    <!-- image -->
+    <img src = "https://hivinfo.nih.gov/sites/default/files/fact_sheets_data/images/hiv-progression.jpg" alt = ''>
+    <!-- stage 1 -->
+    <p class='subheading3'>
+      STAGE 1: ACUTE HIV INFECTION
+    </p>
+    <p class = 'blurb'>
+      <span class="bullet">>></span> Develops 2-4 weeks after infection with HIV<br>
+      <span class="bullet">>></span> Flu-like symptoms: fever, headache, rash <br>
+      <span class="bullet">>></span> HIV multiplies rapidly and destroys CD4 T lympocytes, which fight infections <br>
+      <span class="bullet">>></span> High levels of HIV are present in the blood
+    </p>
+    <!-- stage 2 -->
+    <p class='subheading3'>
+      STAGE 2: CHRONIC HIV INFECTION
+    </p>
+    <p class = 'blurb'>
+      <span class="bullet">>></span> Also known as asymptotic HIV infection or clinical latency <br>
+      <span class="bullet">>></span> People may not have symptoms related to HIV <br>
+      <span class="bullet">>></span> HIV continues to multiply in the bloodstream but at a lower rate <br>
+      <span class="bullet">>></span> Without antiretroviral treatment, people could remain in this stage for as long as a decade
+    </p>
+    <!-- stage 3-->
+    <p class='subheading3'>
+      STAGE 3: AIDS
+    </p>
+    <p class = 'blurb'>
+      <span class="bullet">>></span> The most severe and final stage of the HIV infection <br>
+      <span class="bullet">>></span> The body is too weak to fight off infections or infection-related cancer <br>
+      <span class="bullet">>></span> The person afflicted has a CD4 count of less than 200 cells / mm^3 <br>
+      <span class="bullet">>></span> People are highly contagious and can quickly transmit HIV to others <br>
+      <span class="bullet">>></span> People with AIDS usually survive about 3 more years
+    </p>
+    
   </section>
 
   <section class = 'stats'>
     <p class = 'subheading'>
       The Stats
     </p> <br>
+
     <p class='instructions'> Let's visualize global HIV statistics. Each square will represent 1 million people. 
       Click the '1' below to begin. Continue clicking the '1' until the simulation has ended.</p>
     <Button class = 'population' buttonText = 1> </Button>
@@ -291,6 +339,19 @@ bind:progress
     color: red
   }
 
+  .subheading3{
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 150;
+    line-height: 1;
+    color: #F47e55;
+  }
+
+  .intro{
+    height: 100vh;
+  }
+
   .blurb{
     font-family: 'Nunito', sans-serif;
     text-align: left;
@@ -299,9 +360,20 @@ bind:progress
     line-height: 2;
   }  
 
+  .symptoms{
+    font-family: 'Nunito', sans-serif;
+    transform: translateX(325px);
+    text-align: left;
+  }
+
   .instructions{
     font-family: 'Nunito', sans-serif;
-    text-align: left;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .symptoms_and_stages{
+    height:180vh
   }
 
   .timeline{
@@ -328,13 +400,18 @@ bind:progress
     max-width: 800px; /* adjust at will */
   }
 
+  .bullet{
+    color: #F47e55;
+    font-weight: bold;
+  }
+
   section {
     height: 80vh;
     background-color: rgba(98, 204, 245, 0.2); /* 20% opaque */
     /* color: white; */
     outline: brown 3px;
     text-align: center;
-    max-width: 800px; /* adjust at will */
+    max-width: 800px; 
     color: black;
     padding: 1em;
     margin: 0 0 2em 0;
