@@ -276,6 +276,45 @@ bind:progress
     </a>
   </section>
 
+  <section class = 'references'>
+    <h2 class = 'subheading'>
+      References
+    </h2>
+    <p class = 'blurb'>
+      Bill & Melinda Gates Foundation. (n.d.). HIV disease overview¶. HIV disease overview - HIV Model documentation. https://docs.idmod.org/projects/emod-hiv/en/2.20_a/hiv-disease-overview.html#:~:text=HIV%20has%20a%20high%20replication,)%20is%20about%20500%20%2D%201%2C000. <br>
+    </p>
+    <p class = 'blurb'>
+      Centers for Disease Control and Prevention. (2021, April 21). HIV and substance use. Centers for Disease Control and Prevention. https://www.cdc.gov/hiv/basics/hiv-transmission/substance-use.html#:~:text=However%2C%20drinking%20alcohol%20and%20ingesting,to%20get%20and%20transmit%20HIV. <br>
+    </p>
+    <p class = 'blurb'>
+      Centers for Disease Control and Prevention. (2022, June 30). About HIV/AIDS. Centers for Disease Control and Prevention. https://www.cdc.gov/hiv/basics/whatishiv.html <br>
+    </p>
+    <p class = 'blurb'>
+      Global HIV & AIDS statistics - fact sheet. UNAIDS. (n.d.). https://www.unaids.org/en/resources/fact-sheet <br>
+    <p class = 'blurb'>
+      HIV.gov. (n.d.). Timeline of the HIV and AIDS epidemic. HIV.gov. https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline <br>
+    <p class = 'blurb'>
+      Lehigh University. (n.d.). BIOS 353. https://www.lehigh.edu/~jas0/V16.html#:~:text=So%2C%20for%20someone%20(not%20on,are%20being%20produced%20every%20day.<br>
+    </p>
+    <p class = 'blurb'>
+      MedlinePlus. (n.d.). Image of HIV. HIV_share.png. Retrieved from https://medlineplus.gov/images/HIV_share.png. <br>
+    </p>
+    <p class = 'blurb'>
+      Published: Jul 20, 2018. (2019, April 19). Global HIV/AIDS timeline. KFF. https://www.kff.org/global-health-policy/timeline/global-hivaids-timeline/  <br>
+    </p>
+    <p class = 'blurb'>
+      U.S. Department of Health and Human Services. (n.d.). The stages of HIV infection. National Institutes of Health. https://hivinfo.nih.gov/understanding-hiv/fact-sheets/stages-hiv-infection#:~:text=Without%20treatment%20with%20HIV%20medicines,acquired%20immunodeficiency%20syndrome%20(AIDS). <br>
+    <p class = 'blurb'>
+      U.S. Department of Health and Human Services. (n.d.). What factors make HIV more likely?. Eunice Kennedy Shriver National Institute of Child Health and Human Development. https://www.nichd.nih.gov/health/topics/hiv/conditioninfo/factors <br>
+    </p>
+    <p class = 'blurb'>
+      United States Census Bureau. (n.d.). International Programs - HIV Surveillance Data base. United States Census Bureau. https://www.census.gov/data-tools/demo/hiv/#/records <br>
+    </p>
+    <p class = 'blurb'>
+      World Health Organization. (n.d.). HIV and AIDS. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/hiv-aids <br>
+    </p>
+  </section>
+
   <section>
     <h2 class="subheading">
       Reflection
@@ -297,6 +336,7 @@ bind:progress
       successfully. 
     </p>
   </section>
+
 </div>
 </Scroller>
 
@@ -403,6 +443,10 @@ bind:progress
   .bullet{
     color: #F47e55;
     font-weight: bold;
+  }
+
+  .references{
+    height: 125vh;
   }
 
   section {
