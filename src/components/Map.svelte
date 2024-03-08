@@ -8,16 +8,10 @@
   
 	mapboxgl.accessToken =
 	  "pk.eyJ1IjoiaHRhbTg4IiwiYSI6ImNsc2d2M2xrMzB0YXAycnBncWNwMWlkc3gifQ._-vNYE1-qImQWrRbu76uUw";
-
-	const aidsData = readable([], (set) => {
-    fetch('../../static/HIV_demographic_data.csv')
-      .then(response => response.text())
-      .then(text => {
-        const results = Papa.parse(text, { header: true }).data;
-        set(results);
-      });
-  });
   
+
+//connect HIV_demgraphic_data.csv to map 
+
 	let container;
 	let map;
   
@@ -106,14 +100,14 @@
   
   <style>
 	.map {
-	  width: 150%;
+	  width: 100%;
 	  height: 80vh;
-	  position: absolute;
-	  left: -10vh;
+	  position: center;
+
 	  opacity: 0;
 	  visibility: hidden;
 	  transition: opacity 2s, visibility 2s;
-	  outline: blue solid 3px;
+	  outline: red solid 7px;
 	}
   
 	.map.visible {
