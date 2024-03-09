@@ -1,8 +1,7 @@
 <script>
 	import mapboxgl from "mapbox-gl";
 	import { onMount } from "svelte";
-	import Papa from 'papaparse';
-	import { readable } from "svelte/store";
+	import MapData from '../../static/map_data.geo.json'
 
 	export let index;
   
