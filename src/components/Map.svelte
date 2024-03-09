@@ -1,7 +1,6 @@
 <script>
 	import mapboxgl from "mapbox-gl";
 	import { onMount } from "svelte";
-	import MapData from '../../static/map_data.geo.json'
 
 	export let index;
   
@@ -64,6 +63,15 @@
 		map.on("drag", updateBounds);
 		map.on("move", updateBounds);
 	  });
+	  	map.addSource("hiv_map", {
+			type: "geojson",
+			data: "https://raw.githubusercontent.com/htam88/dsc106_final_project_forked/main/static/map_data.geo.json",
+		});
+		map.addLayer({
+			id: "hiv_map",
+			type: "point",
+			source: "hiv_map"
+		});
 	});
 	
 	function updateBounds() {
