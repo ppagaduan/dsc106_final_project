@@ -11,7 +11,7 @@
 
   let count, index, offset, progress;
   let width, height;
-  let data = [];  
+  let data = [];
   onMount(
     async() => {
       const res = await fetch('HIV_demographic_data.csv')
@@ -162,6 +162,7 @@ bind:progress
     <p class = 'subheading'>
       The Stats
     </p> <br>
+
     <p class='instructions'> Let's visualize global HIV statistics. Each square will represent 1 million people. 
       Click the '1' below to begin. Continue clicking the '1' until the simulation has ended.</p>
     <Button class = 'population' buttonText = 1> </Button>
@@ -403,13 +404,24 @@ bind:progress
     line-height: 2;
   }  
 
-  .instructions{
+  .symptoms{
     font-family: 'Nunito', sans-serif;
+    transform: translateX(325px);
     text-align: left;
   }
 
+  .instructions{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .symptoms_and_stages{
+    height:200vh
+  }
+
   .timeline{
-    height: 140vh;
+    height: 150vh;
     font-family: 'Nunito', sans-serif;
   }
 
@@ -424,12 +436,21 @@ bind:progress
 
   .blood {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     background-color: rgba(255, 0, 0, 0.2);
 
     outline: brown 3px;
     text-align: center;
     max-width: 800px; /* adjust at will */
+  }
+
+  .bullet{
+    color: #F47e55;
+    font-weight: bold;
+  }
+
+  .references{
+    height: 125vh;
   }
 
   section {
