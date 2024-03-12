@@ -1,0 +1,2249 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 31.5,-26.5 ]
+     },
+     "properties": {
+     "FIELD1":0,
+     "name":"Eswatini",
+     "value":26.8,
+     "ranking":1,
+     "region":"Africa",
+     "country_code":"SWZ",
+     "Country":"Swaziland",
+     "Alpha-3 code":"SWZ"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 28.5,-29.5 ]
+     },
+     "properties": {
+     "FIELD1":1,
+     "name":"Lesotho",
+     "value":21.1,
+     "ranking":2,
+     "region":"Africa",
+     "country_code":"LSO",
+     "Country":"Lesotho",
+     "Alpha-3 code":"LSO"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 24.0,-22.0 ]
+     },
+     "properties": {
+     "FIELD1":2,
+     "name":"Botswana",
+     "value":19.9,
+     "ranking":3,
+     "region":"Africa",
+     "country_code":"BWA",
+     "Country":"Botswana",
+     "Alpha-3 code":"BWA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 24.0,-29.0 ]
+     },
+     "properties": {
+     "FIELD1":3,
+     "name":"South Africa",
+     "value":19.1,
+     "ranking":4,
+     "region":"Africa",
+     "country_code":"ZAF",
+     "Country":"South Africa",
+     "Alpha-3 code":"ZAF"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 30.0,-20.0 ]
+     },
+     "properties": {
+     "FIELD1":4,
+     "name":"Zimbabwe",
+     "value":11.9,
+     "ranking":5,
+     "region":"Africa",
+     "country_code":"ZWE",
+     "Country":"Zimbabwe",
+     "Alpha-3 code":"ZWE"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 17.0,-22.0 ]
+     },
+     "properties": {
+     "FIELD1":5,
+     "name":"Namibia",
+     "value":11.6,
+     "ranking":6,
+     "region":"Africa",
+     "country_code":"NAM",
+     "Country":"Namibia",
+     "Alpha-3 code":"NAM"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 35.0,-18.25 ]
+     },
+     "properties": {
+     "FIELD1":6,
+     "name":"Mozambique",
+     "value":11.5,
+     "ranking":7,
+     "region":"Africa",
+     "country_code":"MOZ",
+     "Country":"Mozambique",
+     "Alpha-3 code":"MOZ"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 30.0,-15.0 ]
+     },
+     "properties": {
+     "FIELD1":7,
+     "name":"Zambia",
+     "value":11.1,
+     "ranking":8,
+     "region":"Africa",
+     "country_code":"ZMB",
+     "Country":"Zambia",
+     "Alpha-3 code":"ZMB"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 34.0,-13.5 ]
+     },
+     "properties": {
+     "FIELD1":8,
+     "name":"Malawi",
+     "value":8.1,
+     "ranking":9,
+     "region":"Africa",
+     "country_code":"MWI",
+     "Country":"Malawi",
+     "Alpha-3 code":"MWI"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 10.0,2.0 ]
+     },
+     "properties": {
+     "FIELD1":9,
+     "name":"Equatorial Guinea",
+     "value":7.3,
+     "ranking":10,
+     "region":"Africa",
+     "country_code":"GNQ",
+     "Country":"Equatorial Guinea",
+     "Alpha-3 code":"GNQ"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 32.0,1.0 ]
+     },
+     "properties": {
+     "FIELD1":10,
+     "name":"Uganda",
+     "value":5.4,
+     "ranking":11,
+     "region":"Africa",
+     "country_code":"UGA",
+     "Country":"Uganda",
+     "Alpha-3 code":"UGA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 35.0,-6.0 ]
+     },
+     "properties": {
+     "FIELD1":11,
+     "name":"Tanzania",
+     "value":4.7,
+     "ranking":12,
+     "region":"Africa",
+     "country_code":"TZA",
+     "Country":"Tanzania, United Republic of",
+     "Alpha-3 code":"TZA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 38.0,1.0 ]
+     },
+     "properties": {
+     "FIELD1":12,
+     "name":"Kenya",
+     "value":4.2,
+     "ranking":13,
+     "region":"Africa",
+     "country_code":"KEN",
+     "Country":"Kenya",
+     "Alpha-3 code":"KEN"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 15.0,-1.0 ]
+     },
+     "properties": {
+     "FIELD1":13,
+     "name":"Congo, Republic of the",
+     "value":3.3,
+     "ranking":14,
+     "region":"Africa",
+     "country_code":"COG",
+     "Country":"Congo",
+     "Alpha-3 code":"COG"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 12.0,6.0 ]
+     },
+     "properties": {
+     "FIELD1":14,
+     "name":"Cameroon",
+     "value":3,
+     "ranking":15,
+     "region":"Africa",
+     "country_code":"CMR",
+     "Country":"Cameroon",
+     "Alpha-3 code":"CMR"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 11.75,-1.0 ]
+     },
+     "properties": {
+     "FIELD1":15,
+     "name":"Gabon",
+     "value":3,
+     "ranking":16,
+     "region":"Africa",
+     "country_code":"GAB",
+     "Country":"Gabon",
+     "Alpha-3 code":"GAB"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -15.0,12.0 ]
+     },
+     "properties": {
+     "FIELD1":16,
+     "name":"Guinea-Bissau",
+     "value":3,
+     "ranking":17,
+     "region":"Africa",
+     "country_code":"GNB",
+     "Country":"Guinea-Bissau",
+     "Alpha-3 code":"GNB"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 21.0,7.0 ]
+     },
+     "properties": {
+     "FIELD1":17,
+     "name":"Central African Republic",
+     "value":2.9,
+     "ranking":18,
+     "region":"Africa",
+     "country_code":"CAF",
+     "Country":"Central African Republic",
+     "Alpha-3 code":"CAF"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 30.0,-2.0 ]
+     },
+     "properties": {
+     "FIELD1":18,
+     "name":"Rwanda",
+     "value":2.5,
+     "ranking":19,
+     "region":"Africa",
+     "country_code":"RWA",
+     "Country":"Rwanda",
+     "Alpha-3 code":"RWA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 30.0,8.0 ]
+     },
+     "properties": {
+     "FIELD1":19,
+     "name":"South Sudan",
+     "value":2.3,
+     "ranking":20,
+     "region":"Africa",
+     "country_code":"SSD",
+     "Country":"South Sudan",
+     "Alpha-3 code":"SSD"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -5.0,8.0 ]
+     },
+     "properties": {
+     "FIELD1":20,
+     "name":"Cote d'Ivoire",
+     "value":2.1,
+     "ranking":21,
+     "region":"Africa",
+     "country_code":"CIV",
+     "Country":"Côte d'Ivoire",
+     "Alpha-3 code":"CIV"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 1.1667,8.0 ]
+     },
+     "properties": {
+     "FIELD1":21,
+     "name":"Togo",
+     "value":2,
+     "ranking":22,
+     "region":"Africa",
+     "country_code":"TGO",
+     "Country":"Togo",
+     "Alpha-3 code":"TGO"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -72.4167,19.0 ]
+     },
+     "properties": {
+     "FIELD1":22,
+     "name":"Haiti",
+     "value":1.9,
+     "ranking":23,
+     "region":"Central America",
+     "country_code":"HTI",
+     "Country":"Haiti",
+     "Alpha-3 code":"HTI"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 18.5,-12.5 ]
+     },
+     "properties": {
+     "FIELD1":23,
+     "name":"Angola",
+     "value":1.8,
+     "ranking":24,
+     "region":"Africa",
+     "country_code":"AGO",
+     "Country":"Angola",
+     "Alpha-3 code":"AGO"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -2.0,8.0 ]
+     },
+     "properties": {
+     "FIELD1":24,
+     "name":"Ghana",
+     "value":1.7,
+     "ranking":26,
+     "region":"Africa",
+     "country_code":"GHA",
+     "Country":"Ghana",
+     "Alpha-3 code":"GHA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 57.55,-20.2833 ]
+     },
+     "properties": {
+     "FIELD1":25,
+     "name":"Mauritius",
+     "value":1.7,
+     "ranking":27,
+     "region":"Africa",
+     "country_code":"MUS",
+     "Country":"Mauritius",
+     "Alpha-3 code":"MUS"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -61.2,13.25 ]
+     },
+     "properties": {
+     "FIELD1":26,
+     "name":"Saint Vincent and the Grenadines",
+     "value":1.5,
+     "ranking":28,
+     "region":"Central America",
+     "country_code":"VCT",
+     "Country":"Saint Vincent and the Grenadines",
+     "Alpha-3 code":"VCT"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -11.5,8.5 ]
+     },
+     "properties": {
+     "FIELD1":27,
+     "name":"Sierra Leone",
+     "value":1.5,
+     "ranking":29,
+     "region":"Africa",
+     "country_code":"SLE",
+     "Country":"Sierra Leone",
+     "Alpha-3 code":"SLE"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -10.0,11.0 ]
+     },
+     "properties": {
+     "FIELD1":28,
+     "name":"Guinea",
+     "value":1.4,
+     "ranking":30,
+     "region":"Africa",
+     "country_code":"GIN",
+     "Country":"Guinea",
+     "Alpha-3 code":"GIN"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -77.5,18.25 ]
+     },
+     "properties": {
+     "FIELD1":29,
+     "name":"Jamaica",
+     "value":1.4,
+     "ranking":31,
+     "region":"Central America",
+     "country_code":"JAM",
+     "Country":"Jamaica",
+     "Alpha-3 code":"JAM"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -59.0,5.0 ]
+     },
+     "properties": {
+     "FIELD1":30,
+     "name":"Guyana",
+     "value":1.3,
+     "ranking":32,
+     "region":"South America",
+     "country_code":"GUY",
+     "Country":"Guyana",
+     "Alpha-3 code":"GUY"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 8.0,10.0 ]
+     },
+     "properties": {
+     "FIELD1":31,
+     "name":"Nigeria",
+     "value":1.3,
+     "ranking":33,
+     "region":"Africa",
+     "country_code":"NGA",
+     "Country":"Nigeria",
+     "Alpha-3 code":"NGA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -76.0,24.25 ]
+     },
+     "properties": {
+     "FIELD1":32,
+     "name":"Bahamas, The",
+     "value":1.2,
+     "ranking":34,
+     "region":"Central America",
+     "country_code":"BHS",
+     "Country":"Bahamas",
+     "Alpha-3 code":"BHS"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -88.75,17.25 ]
+     },
+     "properties": {
+     "FIELD1":33,
+     "name":"Belize",
+     "value":1.2,
+     "ranking":35,
+     "region":"Central America",
+     "country_code":"BLZ",
+     "Country":"Belize",
+     "Alpha-3 code":"BLZ"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 100.0,60.0 ]
+     },
+     "properties": {
+     "FIELD1":34,
+     "name":"Russia",
+     "value":1.2,
+     "ranking":36,
+     "region":"Central Asia",
+     "country_code":"RUS",
+     "Country":"Russian Federation",
+     "Alpha-3 code":"RUS"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -61.8,17.05 ]
+     },
+     "properties": {
+     "FIELD1":35,
+     "name":"Antigua and Barbuda",
+     "value":1.1,
+     "ranking":37,
+     "region":"Central America",
+     "country_code":"ATG",
+     "Country":"Antigua and Barbuda",
+     "Alpha-3 code":"ATG"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -59.5333,13.1667 ]
+     },
+     "properties": {
+     "FIELD1":36,
+     "name":"Barbados",
+     "value":1.1,
+     "ranking":38,
+     "region":"Central America",
+     "country_code":"BRB",
+     "Country":"Barbados",
+     "Alpha-3 code":"BRB"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 19.0,15.0 ]
+     },
+     "properties": {
+     "FIELD1":37,
+     "name":"Chad",
+     "value":1.1,
+     "ranking":39,
+     "region":"Africa",
+     "country_code":"TCD",
+     "Country":"Chad",
+     "Alpha-3 code":"TCD"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -9.5,6.5 ]
+     },
+     "properties": {
+     "FIELD1":38,
+     "name":"Liberia",
+     "value":1.1,
+     "ranking":40,
+     "region":"Africa",
+     "country_code":"LBR",
+     "Country":"Liberia",
+     "Alpha-3 code":"LBR"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -56.0,4.0 ]
+     },
+     "properties": {
+     "FIELD1":39,
+     "name":"Suriname",
+     "value":1.1,
+     "ranking":41,
+     "region":"South America",
+     "country_code":"SUR",
+     "Country":"Suriname",
+     "Alpha-3 code":"SUR"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 30.0,-3.5 ]
+     },
+     "properties": {
+     "FIELD1":40,
+     "name":"Burundi",
+     "value":1,
+     "ranking":42,
+     "region":"Africa",
+     "country_code":"BDI",
+     "Country":"Burundi",
+     "Alpha-3 code":"BDI"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -80.0,9.0 ]
+     },
+     "properties": {
+     "FIELD1":41,
+     "name":"Panama",
+     "value":1,
+     "ranking":43,
+     "region":"Central America",
+     "country_code":"PAN",
+     "Country":"Panama",
+     "Alpha-3 code":"PAN"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 100.0,15.0 ]
+     },
+     "properties": {
+     "FIELD1":42,
+     "name":"Thailand",
+     "value":1,
+     "ranking":44,
+     "region":"East Asia/Southeast Asia",
+     "country_code":"THA",
+     "Country":"Thailand",
+     "Alpha-3 code":"THA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 32.0,49.0 ]
+     },
+     "properties": {
+     "FIELD1":43,
+     "name":"Ukraine",
+     "value":1,
+     "ranking":45,
+     "region":"Europe",
+     "country_code":"UKR",
+     "Country":"Ukraine",
+     "Alpha-3 code":"UKR"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 2.25,9.5 ]
+     },
+     "properties": {
+     "FIELD1":44,
+     "name":"Benin",
+     "value":0.9,
+     "ranking":46,
+     "region":"Africa",
+     "country_code":"BEN",
+     "Country":"Benin",
+     "Alpha-3 code":"BEN"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -70.6667,19.0 ]
+     },
+     "properties": {
+     "FIELD1":45,
+     "name":"Dominican Republic",
+     "value":0.9,
+     "ranking":47,
+     "region":"Central America",
+     "country_code":"DOM",
+     "Country":"Dominican Republic",
+     "Alpha-3 code":"DOM"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 38.0,8.0 ]
+     },
+     "properties": {
+     "FIELD1":46,
+     "name":"Ethiopia",
+     "value":0.9,
+     "ranking":48,
+     "region":"Africa",
+     "country_code":"ETH",
+     "Country":"Ethiopia",
+     "Alpha-3 code":"ETH"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -4.0,17.0 ]
+     },
+     "properties": {
+     "FIELD1":47,
+     "name":"Mali",
+     "value":0.9,
+     "ranking":49,
+     "region":"Africa",
+     "country_code":"MLI",
+     "Country":"Mali",
+     "Alpha-3 code":"MLI"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 147.0,-6.0 ]
+     },
+     "properties": {
+     "FIELD1":48,
+     "name":"Papua New Guinea",
+     "value":0.9,
+     "ranking":50,
+     "region":"East Asia/Southeast Asia",
+     "country_code":"PNG",
+     "Country":"Papua New Guinea",
+     "Alpha-3 code":"PNG"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 43.0,11.5 ]
+     },
+     "properties": {
+     "FIELD1":49,
+     "name":"Djibouti",
+     "value":0.8,
+     "ranking":51,
+     "region":"Africa",
+     "country_code":"DJI",
+     "Country":"Djibouti",
+     "Alpha-3 code":"DJI"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 26.0,59.0 ]
+     },
+     "properties": {
+     "FIELD1":50,
+     "name":"Estonia",
+     "value":0.8,
+     "ranking":52,
+     "region":"Europe",
+     "country_code":"EST",
+     "Country":"Estonia",
+     "Alpha-3 code":"EST"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 29.0,47.0 ]
+     },
+     "properties": {
+     "FIELD1":51,
+     "name":"Moldova",
+     "value":0.8,
+     "ranking":53,
+     "region":"Europe",
+     "country_code":"MDA",
+     "Country":"Moldova, Republic of",
+     "Alpha-3 code":"MDA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -2.0,13.0 ]
+     },
+     "properties": {
+     "FIELD1":52,
+     "name":"Burkina Faso",
+     "value":0.7,
+     "ranking":54,
+     "region":"Africa",
+     "country_code":"BFA",
+     "Country":"Burkina Faso",
+     "Alpha-3 code":"BFA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 25.0,0.0 ]
+     },
+     "properties": {
+     "FIELD1":53,
+     "name":"Congo, Democratic Republic of the",
+     "value":0.7,
+     "ranking":55,
+     "region":"Africa",
+     "country_code":"COD",
+     "Country":"Congo, the Democratic Republic of the",
+     "Alpha-3 code":"COD"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -61.0,11.0 ]
+     },
+     "properties": {
+     "FIELD1":54,
+     "name":"Trinidad and Tobago",
+     "value":0.7,
+     "ranking":56,
+     "region":"Central America",
+     "country_code":"TTO",
+     "Country":"Trinidad and Tobago",
+     "Alpha-3 code":"TTO"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -55.0,-10.0 ]
+     },
+     "properties": {
+     "FIELD1":55,
+     "name":"Brazil",
+     "value":0.6,
+     "ranking":57,
+     "region":"South America",
+     "country_code":"BRA",
+     "Country":"Brazil",
+     "Alpha-3 code":"BRA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 98.0,22.0 ]
+     },
+     "properties": {
+     "FIELD1":56,
+     "name":"Burma",
+     "value":0.6,
+     "ranking":58,
+     "region":"East Asia/Southeast Asia",
+     "country_code":"MMR",
+     "Country":"Myanmar",
+     "Alpha-3 code":"MMR"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -71.0,-30.0 ]
+     },
+     "properties": {
+     "FIELD1":57,
+     "name":"Chile",
+     "value":0.6,
+     "ranking":59,
+     "region":"South America",
+     "country_code":"CHL",
+     "Country":"Chile",
+     "Alpha-3 code":"CHL"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -61.3333,15.4167 ]
+     },
+     "properties": {
+     "FIELD1":58,
+     "name":"Dominica",
+     "value":0.6,
+     "ranking":60,
+     "region":"Central America",
+     "country_code":"DMA",
+     "Country":"Dominica",
+     "Alpha-3 code":"DMA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -61.1333,13.8833 ]
+     },
+     "properties": {
+     "FIELD1":59,
+     "name":"Saint Lucia",
+     "value":0.6,
+     "ranking":61,
+     "region":"Central America",
+     "country_code":"LCA",
+     "Country":"Saint Lucia",
+     "Alpha-3 code":"LCA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 28.0,53.0 ]
+     },
+     "properties": {
+     "FIELD1":60,
+     "name":"Belarus",
+     "value":0.5,
+     "ranking":62,
+     "region":"Europe",
+     "country_code":"BLR",
+     "Country":"Belarus",
+     "Alpha-3 code":"BLR"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -24.0,16.0 ]
+     },
+     "properties": {
+     "FIELD1":61,
+     "name":"Cabo Verde",
+     "value":0.5,
+     "ranking":63,
+     "region":"Africa",
+     "country_code":"CPV",
+     "Country":"Cape Verde",
+     "Alpha-3 code":"CPV"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 105.0,13.0 ]
+     },
+     "properties": {
+     "FIELD1":62,
+     "name":"Cambodia",
+     "value":0.5,
+     "ranking":64,
+     "region":"East Asia/Southeast Asia",
+     "country_code":"KHM",
+     "Country":"Cambodia",
+     "Alpha-3 code":"KHM"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -88.9167,13.8333 ]
+     },
+     "properties": {
+     "FIELD1":63,
+     "name":"El Salvador",
+     "value":0.5,
+     "ranking":65,
+     "region":"Central America",
+     "country_code":"SLV",
+     "Country":"El Salvador",
+     "Alpha-3 code":"SLV"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 39.0,15.0 ]
+     },
+     "properties": {
+     "FIELD1":64,
+     "name":"Eritrea",
+     "value":0.5,
+     "ranking":66,
+     "region":"Africa",
+     "country_code":"ERI",
+     "Country":"Eritrea",
+     "Alpha-3 code":"ERI"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -61.6667,12.1167 ]
+     },
+     "properties": {
+     "FIELD1":65,
+     "name":"Grenada",
+     "value":0.5,
+     "ranking":67,
+     "region":"Central America",
+     "country_code":"GRD",
+     "Country":"Grenada",
+     "Alpha-3 code":"GRD"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -8.0,39.5 ]
+     },
+     "properties": {
+     "FIELD1":66,
+     "name":"Portugal",
+     "value":0.5,
+     "ranking":68,
+     "region":"Europe",
+     "country_code":"PRT",
+     "Country":"Portugal",
+     "Alpha-3 code":"PRT"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -62.75,17.3333 ]
+     },
+     "properties": {
+     "FIELD1":67,
+     "name":"Saint Kitts and Nevis",
+     "value":0.5,
+     "ranking":69,
+     "region":"Central America",
+     "country_code":"KNA",
+     "Country":"Saint Kitts and Nevis",
+     "Alpha-3 code":"KNA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -66.0,8.0 ]
+     },
+     "properties": {
+     "FIELD1":68,
+     "name":"Venezuela",
+     "value":0.5,
+     "ranking":70,
+     "region":"South America",
+     "country_code":"VEN",
+     "Country":"Venezuela, Bolivarian Republic of",
+     "Alpha-3 code":"VEN"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -64.0,-34.0 ]
+     },
+     "properties": {
+     "FIELD1":69,
+     "name":"Argentina",
+     "value":0.4,
+     "ranking":71,
+     "region":"South America",
+     "country_code":"ARG",
+     "Country":"Argentina",
+     "Alpha-3 code":"ARG"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -72.0,4.0 ]
+     },
+     "properties": {
+     "FIELD1":70,
+     "name":"Colombia",
+     "value":0.4,
+     "ranking":72,
+     "region":"South America",
+     "country_code":"COL",
+     "Country":"Colombia",
+     "Alpha-3 code":"COL"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -84.0,10.0 ]
+     },
+     "properties": {
+     "FIELD1":71,
+     "name":"Costa Rica",
+     "value":0.4,
+     "ranking":73,
+     "region":"Central America",
+     "country_code":"CRI",
+     "Country":"Costa Rica",
+     "Alpha-3 code":"CRI"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -80.0,21.5 ]
+     },
+     "properties": {
+     "FIELD1":72,
+     "name":"Cuba",
+     "value":0.4,
+     "ranking":74,
+     "region":"Central America",
+     "country_code":"CUB",
+     "Country":"Cuba",
+     "Alpha-3 code":"CUB"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 120.0,-5.0 ]
+     },
+     "properties": {
+     "FIELD1":73,
+     "name":"Indonesia",
+     "value":0.4,
+     "ranking":75,
+     "region":"East Asia/Southeast Asia",
+     "country_code":"IDN",
+     "Country":"Indonesia",
+     "Alpha-3 code":"IDN"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 112.5,2.5 ]
+     },
+     "properties": {
+     "FIELD1":74,
+     "name":"Malaysia",
+     "value":0.4,
+     "ranking":76,
+     "region":"East Asia/Southeast Asia",
+     "country_code":"MYS",
+     "Country":"Malaysia",
+     "Alpha-3 code":"MYS"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -102.0,23.0 ]
+     },
+     "properties": {
+     "FIELD1":75,
+     "name":"Mexico",
+     "value":0.4,
+     "ranking":77,
+     "region":"North America",
+     "country_code":"MEX",
+     "Country":"Mexico",
+     "Alpha-3 code":"MEX"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -4.0,40.0 ]
+     },
+     "properties": {
+     "FIELD1":76,
+     "name":"Spain",
+     "value":0.4,
+     "ranking":78,
+     "region":"Europe",
+     "country_code":"ESP",
+     "Country":"Spain",
+     "Alpha-3 code":"ESP"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -56.0,-33.0 ]
+     },
+     "properties": {
+     "FIELD1":77,
+     "name":"Uruguay",
+     "value":0.4,
+     "ranking":79,
+     "region":"South America",
+     "country_code":"URY",
+     "Country":"Uruguay",
+     "Alpha-3 code":"URY"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -77.5,-2.0 ]
+     },
+     "properties": {
+     "FIELD1":78,
+     "name":"Ecuador",
+     "value":0.3,
+     "ranking":80,
+     "region":"South America",
+     "country_code":"ECU",
+     "Country":"Ecuador",
+     "Alpha-3 code":"ECU"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 2.0,46.0 ]
+     },
+     "properties": {
+     "FIELD1":79,
+     "name":"France",
+     "value":0.3,
+     "ranking":81,
+     "region":"Europe",
+     "country_code":"FRA",
+     "Country":"France",
+     "Alpha-3 code":"FRA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 43.5,42.0 ]
+     },
+     "properties": {
+     "FIELD1":80,
+     "name":"Georgia",
+     "value":0.3,
+     "ranking":82,
+     "region":"Middle East",
+     "country_code":"GEO",
+     "Country":"Georgia",
+     "Alpha-3 code":"GEO"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 68.0,48.0 ]
+     },
+     "properties": {
+     "FIELD1":81,
+     "name":"Kazakhstan",
+     "value":0.3,
+     "ranking":83,
+     "region":"Central Asia",
+     "country_code":"KAZ",
+     "Country":"Kazakhstan",
+     "Alpha-3 code":"KAZ"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 105.0,18.0 ]
+     },
+     "properties": {
+     "FIELD1":82,
+     "name":"Laos",
+     "value":0.3,
+     "ranking":84,
+     "region":"East Asia/Southeast Asia",
+     "country_code":"LAO",
+     "Country":"Lao People's Democratic Republic",
+     "Alpha-3 code":"LAO"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 25.0,57.0 ]
+     },
+     "properties": {
+     "FIELD1":83,
+     "name":"Latvia",
+     "value":0.3,
+     "ranking":85,
+     "region":"Europe",
+     "country_code":"LVA",
+     "Country":"Latvia",
+     "Alpha-3 code":"LVA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 6.1667,49.75 ]
+     },
+     "properties": {
+     "FIELD1":84,
+     "name":"Luxembourg",
+     "value":0.3,
+     "ranking":86,
+     "region":"Europe",
+     "country_code":"LUX",
+     "Country":"Luxembourg",
+     "Alpha-3 code":"LUX"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 47.0,-20.0 ]
+     },
+     "properties": {
+     "FIELD1":85,
+     "name":"Madagascar",
+     "value":0.3,
+     "ranking":87,
+     "region":"Africa",
+     "country_code":"MDG",
+     "Country":"Madagascar",
+     "Alpha-3 code":"MDG"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -12.0,20.0 ]
+     },
+     "properties": {
+     "FIELD1":86,
+     "name":"Mauritania",
+     "value":0.3,
+     "ranking":88,
+     "region":"Africa",
+     "country_code":"MRT",
+     "Country":"Mauritania",
+     "Alpha-3 code":"MRT"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -58.0,-23.0 ]
+     },
+     "properties": {
+     "FIELD1":87,
+     "name":"Paraguay",
+     "value":0.3,
+     "ranking":89,
+     "region":"South America",
+     "country_code":"PRY",
+     "Country":"Paraguay",
+     "Alpha-3 code":"PRY"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -76.0,-10.0 ]
+     },
+     "properties": {
+     "FIELD1":88,
+     "name":"Peru",
+     "value":0.3,
+     "ranking":90,
+     "region":"South America",
+     "country_code":"PER",
+     "Country":"Peru",
+     "Alpha-3 code":"PER"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 7.0,1.0 ]
+     },
+     "properties": {
+     "FIELD1":89,
+     "name":"Sao Tome and Principe",
+     "value":0.3,
+     "ranking":91,
+     "region":"Africa",
+     "country_code":"STP",
+     "Country":"Sao Tome and Principe",
+     "Alpha-3 code":"STP"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -14.0,14.0 ]
+     },
+     "properties": {
+     "FIELD1":90,
+     "name":"Senegal",
+     "value":0.3,
+     "ranking":92,
+     "region":"Africa",
+     "country_code":"SEN",
+     "Country":"Senegal",
+     "Alpha-3 code":"SEN"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 106.0,16.0 ]
+     },
+     "properties": {
+     "FIELD1":91,
+     "name":"Vietnam",
+     "value":0.3,
+     "ranking":93,
+     "region":"East Asia/Southeast Asia",
+     "country_code":"VNM",
+     "Country":"Viet Nam",
+     "Alpha-3 code":"VNM"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 45.0,40.0 ]
+     },
+     "properties": {
+     "FIELD1":92,
+     "name":"Armenia",
+     "value":0.2,
+     "ranking":94,
+     "region":"Middle East",
+     "country_code":"ARM",
+     "Country":"Armenia",
+     "Alpha-3 code":"ARM"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 90.5,27.5 ]
+     },
+     "properties": {
+     "FIELD1":93,
+     "name":"Bhutan",
+     "value":0.2,
+     "ranking":95,
+     "region":"South Asia",
+     "country_code":"BTN",
+     "Country":"Bhutan",
+     "Alpha-3 code":"BTN"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -65.0,-17.0 ]
+     },
+     "properties": {
+     "FIELD1":94,
+     "name":"Bolivia",
+     "value":0.2,
+     "ranking":96,
+     "region":"South America",
+     "country_code":"BOL",
+     "Country":"Bolivia, Plurinational State of",
+     "Alpha-3 code":"BOL"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 175.0,-18.0 ]
+     },
+     "properties": {
+     "FIELD1":95,
+     "name":"Fiji",
+     "value":0.2,
+     "ranking":97,
+     "region":"Australia - Oceania",
+     "country_code":"FJI",
+     "Country":"Fiji",
+     "Alpha-3 code":"FJI"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 22.0,39.0 ]
+     },
+     "properties": {
+     "FIELD1":96,
+     "name":"Greece",
+     "value":0.2,
+     "ranking":98,
+     "region":"Europe",
+     "country_code":"GRC",
+     "Country":"Greece",
+     "Alpha-3 code":"GRC"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -90.25,15.5 ]
+     },
+     "properties": {
+     "FIELD1":97,
+     "name":"Guatemala",
+     "value":0.2,
+     "ranking":99,
+     "region":"Central America",
+     "country_code":"GTM",
+     "Country":"Guatemala",
+     "Alpha-3 code":"GTM"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -86.5,15.0 ]
+     },
+     "properties": {
+     "FIELD1":98,
+     "name":"Honduras",
+     "value":0.2,
+     "ranking":100,
+     "region":"Central America",
+     "country_code":"HND",
+     "Country":"Honduras",
+     "Alpha-3 code":"HND"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 77.0,20.0 ]
+     },
+     "properties": {
+     "FIELD1":99,
+     "name":"India",
+     "value":0.2,
+     "ranking":101,
+     "region":"South Asia",
+     "country_code":"IND",
+     "Country":"India",
+     "Alpha-3 code":"IND"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -8.0,53.0 ]
+     },
+     "properties": {
+     "FIELD1":100,
+     "name":"Ireland",
+     "value":0.2,
+     "ranking":102,
+     "region":"Europe",
+     "country_code":"IRL",
+     "Country":"Ireland",
+     "Alpha-3 code":"IRL"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 34.75,31.5 ]
+     },
+     "properties": {
+     "FIELD1":101,
+     "name":"Israel",
+     "value":0.2,
+     "ranking":103,
+     "region":"Middle East",
+     "country_code":"ISR",
+     "Country":"Israel",
+     "Alpha-3 code":"ISR"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 12.8333,42.8333 ]
+     },
+     "properties": {
+     "FIELD1":102,
+     "name":"Italy",
+     "value":0.2,
+     "ranking":104,
+     "region":"Europe",
+     "country_code":"ITA",
+     "Country":"Italy",
+     "Alpha-3 code":"ITA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 75.0,41.0 ]
+     },
+     "properties": {
+     "FIELD1":103,
+     "name":"Kyrgyzstan",
+     "value":0.2,
+     "ranking":105,
+     "region":"Central Asia",
+     "country_code":"KGZ",
+     "Country":"Kyrgyzstan",
+     "Alpha-3 code":"KGZ"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 5.75,52.5 ]
+     },
+     "properties": {
+     "FIELD1":104,
+     "name":"Netherlands",
+     "value":0.2,
+     "ranking":106,
+     "region":"Europe",
+     "country_code":"NLD",
+     "Country":"Netherlands",
+     "Alpha-3 code":"NLD"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -85.0,13.0 ]
+     },
+     "properties": {
+     "FIELD1":105,
+     "name":"Nicaragua",
+     "value":0.2,
+     "ranking":107,
+     "region":"Central America",
+     "country_code":"NIC",
+     "Country":"Nicaragua",
+     "Alpha-3 code":"NIC"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 8.0,10.0 ]
+     },
+     "properties": {
+     "FIELD1":106,
+     "name":"Niger",
+     "value":0.2,
+     "ranking":108,
+     "region":"Africa",
+     "country_code":"NGA",
+     "Country":"Nigeria",
+     "Alpha-3 code":"NGA"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 70.0,30.0 ]
+     },
+     "properties": {
+     "FIELD1":107,
+     "name":"Pakistan",
+     "value":0.2,
+     "ranking":109,
+     "region":"South Asia",
+     "country_code":"PAK",
+     "Country":"Pakistan",
+     "Alpha-3 code":"PAK"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 122.0,13.0 ]
+     },
+     "properties": {
+     "FIELD1":108,
+     "name":"Philippines",
+     "value":0.2,
+     "ranking":110,
+     "region":"East Asia/Southeast Asia",
+     "country_code":"PHL",
+     "Country":"Philippines",
+     "Alpha-3 code":"PHL"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 103.8,1.3667 ]
+     },
+     "properties": {
+     "FIELD1":109,
+     "name":"Singapore",
+     "value":0.2,
+     "ranking":111,
+     "region":"East Asia/Southeast Asia",
+     "country_code":"SGP",
+     "Country":"Singapore",
+     "Alpha-3 code":"SGP"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 30.0,15.0 ]
+     },
+     "properties": {
+     "FIELD1":110,
+     "name":"Sudan",
+     "value":0.2,
+     "ranking":112,
+     "region":"Africa",
+     "country_code":"SDN",
+     "Country":"Sudan",
+     "Alpha-3 code":"SDN"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 15.0,62.0 ]
+     },
+     "properties": {
+     "FIELD1":111,
+     "name":"Sweden",
+     "value":0.2,
+     "ranking":113,
+     "region":"Europe",
+     "country_code":"SWE",
+     "Country":"Sweden",
+     "Alpha-3 code":"SWE"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 8.0,47.0 ]
+     },
+     "properties": {
+     "FIELD1":112,
+     "name":"Switzerland",
+     "value":0.2,
+     "ranking":114,
+     "region":"Europe",
+     "country_code":"CHE",
+     "Country":"Switzerland",
+     "Alpha-3 code":"CHE"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 71.0,39.0 ]
+     },
+     "properties": {
+     "FIELD1":113,
+     "name":"Tajikistan",
+     "value":0.2,
+     "ranking":115,
+     "region":"Central Asia",
+     "country_code":"TJK",
+     "Country":"Tajikistan",
+     "Alpha-3 code":"TJK"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 125.5167,-8.55 ]
+     },
+     "properties": {
+     "FIELD1":114,
+     "name":"Timor-Leste",
+     "value":0.2,
+     "ranking":116,
+     "region":"East Asia/Southeast Asia",
+     "country_code":"TLS",
+     "Country":"Timor-Leste",
+     "Alpha-3 code":"TLS"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 64.0,41.0 ]
+     },
+     "properties": {
+     "FIELD1":115,
+     "name":"Uzbekistan",
+     "value":0.2,
+     "ranking":117,
+     "region":"Central Asia",
+     "country_code":"UZB",
+     "Country":"Uzbekistan",
+     "Alpha-3 code":"UZB"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 133.0,-27.0 ]
+     },
+     "properties": {
+     "FIELD1":116,
+     "name":"Australia",
+     "value":0.1,
+     "ranking":118,
+     "region":"Australia - Oceania",
+     "country_code":"AUS",
+     "Country":"Australia",
+     "Alpha-3 code":"AUS"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 13.3333,47.3333 ]
+     },
+     "properties": {
+     "FIELD1":117,
+     "name":"Austria",
+     "value":0.1,
+     "ranking":119,
+     "region":"Europe",
+     "country_code":"AUT",
+     "Country":"Austria",
+     "Alpha-3 code":"AUT"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 47.5,40.5 ]
+     },
+     "properties": {
+     "FIELD1":118,
+     "name":"Azerbaijan",
+     "value":0.1,
+     "ranking":120,
+     "region":"Middle East",
+     "country_code":"AZE",
+     "Country":"Azerbaijan",
+     "Alpha-3 code":"AZE"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 33.0,35.0 ]
+     },
+     "properties": {
+     "FIELD1":119,
+     "name":"Cyprus",
+     "value":0.1,
+     "ranking":121,
+     "region":"Europe",
+     "country_code":"CYP",
+     "Country":"Cyprus",
+     "Alpha-3 code":"CYP"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 10.0,56.0 ]
+     },
+     "properties": {
+     "FIELD1":120,
+     "name":"Denmark",
+     "value":0.1,
+     "ranking":122,
+     "region":"Europe",
+     "country_code":"DNK",
+     "Country":"Denmark",
+     "Alpha-3 code":"DNK"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 26.0,64.0 ]
+     },
+     "properties": {
+     "FIELD1":121,
+     "name":"Finland",
+     "value":0.1,
+     "ranking":123,
+     "region":"Europe",
+     "country_code":"FIN",
+     "Country":"Finland",
+     "Alpha-3 code":"FIN"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 9.0,51.0 ]
+     },
+     "properties": {
+     "FIELD1":122,
+     "name":"Germany",
+     "value":0.1,
+     "ranking":124,
+     "region":"Europe",
+     "country_code":"DEU",
+     "Country":"Germany",
+     "Alpha-3 code":"DEU"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -18.0,65.0 ]
+     },
+     "properties": {
+     "FIELD1":123,
+     "name":"Iceland",
+     "value":0.1,
+     "ranking":125,
+     "region":"Europe",
+     "country_code":"ISL",
+     "Country":"Iceland",
+     "Alpha-3 code":"ISL"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 17.0,25.0 ]
+     },
+     "properties": {
+     "FIELD1":124,
+     "name":"Libya",
+     "value":0.1,
+     "ranking":126,
+     "region":"Africa",
+     "country_code":"LBY",
+     "Country":"Libyan Arab Jamahiriya",
+     "Alpha-3 code":"LBY"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 24.0,56.0 ]
+     },
+     "properties": {
+     "FIELD1":125,
+     "name":"Lithuania",
+     "value":0.1,
+     "ranking":127,
+     "region":"Europe",
+     "country_code":"LTU",
+     "Country":"Lithuania",
+     "Alpha-3 code":"LTU"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 14.5833,35.8333 ]
+     },
+     "properties": {
+     "FIELD1":126,
+     "name":"Malta",
+     "value":0.1,
+     "ranking":128,
+     "region":"Europe",
+     "country_code":"MLT",
+     "Country":"Malta",
+     "Alpha-3 code":"MLT"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 84.0,28.0 ]
+     },
+     "properties": {
+     "FIELD1":127,
+     "name":"Nepal",
+     "value":0.1,
+     "ranking":129,
+     "region":"South Asia",
+     "country_code":"NPL",
+     "Country":"Nepal",
+     "Alpha-3 code":"NPL"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 10.0,62.0 ]
+     },
+     "properties": {
+     "FIELD1":128,
+     "name":"Norway",
+     "value":0.1,
+     "ranking":130,
+     "region":"Europe",
+     "country_code":"NOR",
+     "Country":"Norway",
+     "Alpha-3 code":"NOR"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 57.0,21.0 ]
+     },
+     "properties": {
+     "FIELD1":129,
+     "name":"Oman",
+     "value":0.1,
+     "ranking":131,
+     "region":"Middle East",
+     "country_code":"OMN",
+     "Country":"Oman",
+     "Alpha-3 code":"OMN"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 25.0,46.0 ]
+     },
+     "properties": {
+     "FIELD1":130,
+     "name":"Romania",
+     "value":0.1,
+     "ranking":132,
+     "region":"Europe",
+     "country_code":"ROU",
+     "Country":"Romania",
+     "Alpha-3 code":"ROU"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 54.0,24.0 ]
+     },
+     "properties": {
+     "FIELD1":131,
+     "name":"United Arab Emirates",
+     "value":0.1,
+     "ranking":133,
+     "region":"Middle East",
+     "country_code":"ARE",
+     "Country":"United Arab Emirates",
+     "Alpha-3 code":"ARE"
+     }
+   }
+ ]
+ }

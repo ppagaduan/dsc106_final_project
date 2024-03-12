@@ -7,10 +7,15 @@
   import Viz from './viz.svelte';
   import * as d3 from 'd3';
   import Button from './Button.svelte';
+  import Stage from './Stage.svelte';
 
   let count, index, offset, progress;
   let width, height;
+<<<<<<< HEAD
 let data = [];
+=======
+  let data = [];
+>>>>>>> 345e9ace6cd809b3d6bf18bdf16f6f963b9f2afa
   onMount(
     async() => {
       const res = await fetch('HIV_demographic_data.csv')
@@ -74,6 +79,8 @@ bind:progress
         What is HIV?
       </h2>
 
+      <img src = 'https://medlineplus.gov/images/HIV.png' alt = ''>
+
       <p class = 'blurb'>
         Human immunodeficiency virus (HIV) is a virus that attacks the human immune system. There is currently no cure for HIV, 
         but with proper medical treatment, the effects of HIV can be controlled and those diagnosed with HIV can lead long, 
@@ -87,31 +94,82 @@ bind:progress
       </h2>
 
       <p class='blurb'>
-        >> HIV is theorized to have originally spread from chimpanzees to humans. Based on numerous studies, researchers believe 
+        <span class="bullet">>></span> HIV is theorized to have originally spread from chimpanzees to humans. Based on numerous studies, researchers believe 
         the initial form of HIV came from a type of chimpanzee in Central Africa, as far back as the 1800s.  <br>
-        >> The chimpanzee form of the HIV virus was called simian immunodeficiency virus. Scientists believe humans acquired this 
+        <span class="bullet">>></span> The chimpanzee form of the HIV virus was called simian immunodeficiency virus. Scientists believe humans acquired this 
         virus when humans hunted chimpanzees for their meat, and became ill when they became in contact with the chimpanzees' 
         infected blood. <br>
-        >> Over time, HIV spread through Africa, and eventually other parts of the world. HIV has been recorded in the United States 
+        <span class="bullet">>></span> Over time, HIV spread through Africa, and eventually other parts of the world. HIV has been recorded in the United States 
         since the mid to late 1970s. According to the CDC (Center for Disease Control), in 2006, about 56,000 people in the United
         States had acquired AIDS, a late stage of the HIV infection. <br>
       </p>
   </section>
 
-  <section class = 'intro'> 
+  <section class = 'symptoms_and_stages'> 
     <p class = 'subheading'>
       The Symptoms
     </p>
 
-    <p class = 'subheading'>
-      The Stages
+    <!-- <Stage {index} {width} {height}/>  -->
+    <p class="symptoms">
+      <span class="bullet">>></span> fever <br>
+      <span class="bullet">>></span> night sweats <br>
+      <span class="bullet">>></span> mouth ulcers <br>
+      <span class="bullet">>></span> sore throat <br>
+      <span class="bullet">>></span> swollen lymph nodes <br>
+      <span class="bullet">>></span> chills <br>
+      <span class="bullet">>></span> fatigue <br>
+      <span class="bullet">>></span> rash <br>
+      <span class="bullet">>></span> muscle aches <br>
     </p>
+
+    <p class="subheading">
+      Stages of HIV
+    </p>
+    <!-- image -->
+    <img src = "https://hivinfo.nih.gov/sites/default/files/fact_sheets_data/images/hiv-progression.jpg" alt = '' width = 600>
+    <!-- stage 1 -->
+    <p class='subheading3'>
+      STAGE 1: ACUTE HIV INFECTION
+    </p>
+    <p class = 'blurb'>
+      <span class="bullet">>></span> Develops 2-4 weeks after infection with HIV<br>
+      <span class="bullet">>></span> Flu-like symptoms: fever, headache, rash <br>
+      <span class="bullet">>></span> HIV multiplies rapidly and destroys CD4 T lymphocytes, which fight infections <br>
+      <span class="bullet">>></span> High levels of HIV are present in the blood
+    </p>
+    <!-- stage 2 -->
+    <p class='subheading3'>
+      STAGE 2: CHRONIC HIV INFECTION
+    </p>
+    <p class = 'blurb'>
+      <span class="bullet">>></span> Also known as asymptotic HIV infection or clinical latency <br>
+      <span class="bullet">>></span> People may not have symptoms related to HIV <br>
+      <span class="bullet">>></span> HIV continues to multiply in the bloodstream but at a lower rate <br>
+      <span class="bullet">>></span> Without antiretroviral treatment, people could remain in this stage for as long as a decade
+    </p>
+    <!-- stage 3-->
+    <p class='subheading3'>
+      STAGE 3: AIDS
+    </p>
+    <p class = 'blurb'>
+      <span class="bullet">>></span> The most severe and final stage of the HIV infection <br>
+      <span class="bullet">>></span> The body is too weak to fight off infections or infection-related cancer <br>
+      <span class="bullet">>></span> The person afflicted has a CD4 count of less than 200 cells / mm^3 <br>
+      <span class="bullet">>></span> People are highly contagious and can quickly transmit HIV to others <br>
+      <span class="bullet">>></span> People with AIDS usually survive about 3 more years
+    </p>
+    
   </section>
 
   <section class = 'stats'>
     <p class = 'subheading'>
       The Stats
     </p> <br>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 345e9ace6cd809b3d6bf18bdf16f6f963b9f2afa
     <p class='instructions'> Let's visualize global HIV statistics. Each square will represent 1 million people. 
       Click the '1' below to begin. Continue clicking the '1' until the simulation has ended.</p>
     <Button class = 'population' buttonText = 1> </Button>
@@ -228,6 +286,45 @@ bind:progress
     </a>
   </section>
 
+  <section class = 'references'>
+    <h2 class = 'subheading'>
+      References
+    </h2>
+    <p class = 'blurb'>
+      Bill & Melinda Gates Foundation. (n.d.). HIV disease overview. HIV disease overview - HIV Model documentation. https://docs.idmod.org/projects/emod-hiv/en/2.20_a/hiv-disease-overview.html#:~:text=HIV%20has%20a%20high%20replication,)%20is%20about%20500%20%2D%201%2C000. <br>
+    </p>
+    <p class = 'blurb'>
+      Centers for Disease Control and Prevention. (2021, April 21). HIV and substance use. Centers for Disease Control and Prevention. https://www.cdc.gov/hiv/basics/hiv-transmission/substance-use.html#:~:text=However%2C%20drinking%20alcohol%20and%20ingesting,to%20get%20and%20transmit%20HIV. <br>
+    </p>
+    <p class = 'blurb'>
+      Centers for Disease Control and Prevention. (2022, June 30). About HIV/AIDS. Centers for Disease Control and Prevention. https://www.cdc.gov/hiv/basics/whatishiv.html <br>
+    </p>
+    <p class = 'blurb'>
+      Global HIV & AIDS statistics - fact sheet. UNAIDS. (n.d.). https://www.unaids.org/en/resources/fact-sheet <br>
+    <p class = 'blurb'>
+      HIV.gov. (n.d.). Timeline of the HIV and AIDS epidemic. HIV.gov. https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline <br>
+    <p class = 'blurb'>
+      Lehigh University. (n.d.). BIOS 353. https://www.lehigh.edu/~jas0/V16.html#:~:text=So%2C%20for%20someone%20(not%20on,are%20being%20produced%20every%20day.<br>
+    </p>
+    <p class = 'blurb'>
+      MedlinePlus. (n.d.). Image of HIV. HIV_share.png. Retrieved from https://medlineplus.gov/images/HIV_share.png. <br>
+    </p>
+    <p class = 'blurb'>
+      Published: Jul 20, 2018. (2019, April 19). Global HIV/AIDS timeline. KFF. https://www.kff.org/global-health-policy/timeline/global-hivaids-timeline/  <br>
+    </p>
+    <p class = 'blurb'>
+      U.S. Department of Health and Human Services. (n.d.). The stages of HIV infection. National Institutes of Health. https://hivinfo.nih.gov/understanding-hiv/fact-sheets/stages-hiv-infection#:~:text=Without%20treatment%20with%20HIV%20medicines,acquired%20immunodeficiency%20syndrome%20(AIDS). <br>
+    <p class = 'blurb'>
+      U.S. Department of Health and Human Services. (n.d.). What factors make HIV more likely?. Eunice Kennedy Shriver National Institute of Child Health and Human Development. https://www.nichd.nih.gov/health/topics/hiv/conditioninfo/factors <br>
+    </p>
+    <p class = 'blurb'>
+      United States Census Bureau. (n.d.). International Programs - HIV Surveillance Data base. United States Census Bureau. https://www.census.gov/data-tools/demo/hiv/#/records <br>
+    </p>
+    <p class = 'blurb'>
+      World Health Organization. (n.d.). HIV and AIDS. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/hiv-aids <br>
+    </p>
+  </section>
+
   <section>
     <h2 class="subheading">
       Reflection
@@ -249,6 +346,7 @@ bind:progress
       successfully. 
     </p>
   </section>
+
 </div>
 </Scroller>
 
@@ -259,10 +357,11 @@ bind:progress
     height: 100vh;
     position: relative;
     outline: red solid 3px;
+    background-color: rgba(244, 126, 85, 0.2);
   }
 
   .foreground {
-    width: 50%;
+    width: 57%;
     margin: 0 auto;
     height: auto;
     position: relative;
@@ -291,6 +390,19 @@ bind:progress
     color: red
   }
 
+  .subheading3{
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 150;
+    line-height: 1;
+    color: #F47e55;
+  }
+
+  .intro{
+    height: 125vh;
+  }
+
   .blurb{
     font-family: 'Nunito', sans-serif;
     text-align: left;
@@ -299,18 +411,37 @@ bind:progress
     line-height: 2;
   }  
 
+<<<<<<< HEAD
   .instructions{
     font-family: 'Nunito', sans-serif;
     text-align: left;
   }
 
+=======
+  .symptoms{
+    font-family: 'Nunito', sans-serif;
+    transform: translateX(325px);
+    text-align: left;
+  }
+
+  .instructions{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .symptoms_and_stages{
+    height:200vh
+  }
+
+>>>>>>> 345e9ace6cd809b3d6bf18bdf16f6f963b9f2afa
   .timeline{
     height: 140vh;
     font-family: 'Nunito', sans-serif;
   }
 
   .global_impact{
-    height: 120vh;
+    height: 130vh;
     font-family: 'Nunito', sans-serif;
   }
 
@@ -320,7 +451,11 @@ bind:progress
 
   .blood {
     width: 100%;
+<<<<<<< HEAD
     height: 50vh;
+=======
+    height: 60vh;
+>>>>>>> 345e9ace6cd809b3d6bf18bdf16f6f963b9f2afa
     background-color: rgba(255, 0, 0, 0.2);
 
     outline: brown 3px;
@@ -328,13 +463,25 @@ bind:progress
     max-width: 800px; /* adjust at will */
   }
 
+<<<<<<< HEAD
+=======
+  .bullet{
+    color: #F47e55;
+    font-weight: bold;
+  }
+
+  .references{
+    height: 125vh;
+  }
+
+>>>>>>> 345e9ace6cd809b3d6bf18bdf16f6f963b9f2afa
   section {
     height: 80vh;
     background-color: rgba(98, 204, 245, 0.2); /* 20% opaque */
     /* color: white; */
     outline: brown 3px;
     text-align: center;
-    max-width: 800px; /* adjust at will */
+    max-width: 800px; 
     color: black;
     padding: 1em;
     margin: 0 0 2em 0;

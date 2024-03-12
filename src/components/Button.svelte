@@ -21,7 +21,7 @@
                 message.set("HIV replicates in the bloodstream.");
             } else if (count < 5) {
                 hivButtons = Array.from({ length: count }, (_, i) => ({ label: "HIV " + (i + 1)}));
-                message.set("For an individual with HIV who is not currently receiving antiviral drug therapy, there 10,000\
+                message.set("For an individual with HIV who is not currently receiving antiviral drug therapy, there are 10, 000\
                  virions per milliliter of blood. A virion is a functional virus that can affect living tissue; in our case, \
                  the virions are HIV.");
             } 

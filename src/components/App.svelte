@@ -8,6 +8,7 @@
 <main>
   <h1 class='title'>Journey Through Time</h1>
   <h2 class='subtitle'> An Interactive Exploration of AIDS History</h2>
+  <h3 class = 'names'> By Heidi Tam & Paige Pagaduan</h3>
 </main>
 
 <style>
@@ -51,6 +52,14 @@
     font-size: 10;
     font-weight: 500;
     line-height: 2;
+    background-color: #f16a73;
+    color: black;
+  }
+
+  .names{
+    font-size: 20px;
+    font-weight: 350;
+    line-height: 3;
     background-color: #f16a73;
     color: black;
   }

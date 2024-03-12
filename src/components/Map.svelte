@@ -1,8 +1,6 @@
 <script>
 	import mapboxgl from "mapbox-gl";
 	import { onMount } from "svelte";
-	import Papa from 'papaparse';
-	import { readable } from "svelte/store";
 
 	export let index;
   
@@ -65,18 +63,50 @@
 		map.on("drag", updateBounds);
 		map.on("move", updateBounds);
 	  });
+	  	map.addSource("hiv_map", {
+			type: "geojson",
+			data: "https://raw.githubusercontent.com/htam88/dsc106_final_project_forked/main/static/map_data.geo.json",
+		});
+		map.addLayer({
+			id: "hiv_map",
+			type: "symbol",
+			source: "hiv_map",
+			layout: {
+				// Example of using an icon
+				'icon-image': 'marker-15', // Use a predefined Mapbox icon or your custom icon
+				// Example of adding text label
+				'text-field': '{propertyName}', // Replace 'propertyName' with the field name from your GeoJSON properties
+				'text-size': 12,
+			}
+		});
 	});
 	
 	function updateBounds() {
-	  const bounds = map.getBounds();
-	  geoJsonToFit.features[0].geometry.coordinates = [
-		bounds._ne.lng,
-		bounds._ne.lat,
-	  ];
-	  geoJsonToFit.features[1].geometry.coordinates = [
-		bounds._sw.lng,
-		bounds._sw.lat,
-	  ];
+		const bounds = map.getBounds();
+
+		if (geoJsonToFit.features.length === 0) {
+			// Initialize the features array with two features if it's empty
+			geoJsonToFit.features = [
+				{
+					type: 'Feature',
+					geometry: {
+						type: 'Point',
+						coordinates: [bounds._ne.lng, bounds._ne.lat]
+					}
+				},
+				{
+					type: 'Feature',
+					geometry: {
+						type: 'Point',
+						coordinates: [bounds._sw.lng, bounds._sw.lat]
+					}
+				}
+			];
+		} else {
+			// If features already exist, just update their coordinates
+			geoJsonToFit.features[0].geometry.coordinates = [bounds._ne.lng, bounds._ne.lat];
+			geoJsonToFit.features[1].geometry.coordinates = [bounds._sw.lng, bounds._sw.lat];
+		}
 	}
   
 	let isVisible = true;
