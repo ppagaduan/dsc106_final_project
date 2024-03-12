@@ -283,7 +283,7 @@ bind:progress
       References
     </h2>
     <p class = 'blurb'>
-      Bill & Melinda Gates Foundation. (n.d.). HIV disease overview¶. HIV disease overview - HIV Model documentation. https://docs.idmod.org/projects/emod-hiv/en/2.20_a/hiv-disease-overview.html#:~:text=HIV%20has%20a%20high%20replication,)%20is%20about%20500%20%2D%201%2C000. <br>
+      Bill & Melinda Gates Foundation. (n.d.). HIV disease overview. HIV disease overview - HIV Model documentation. https://docs.idmod.org/projects/emod-hiv/en/2.20_a/hiv-disease-overview.html#:~:text=HIV%20has%20a%20high%20replication,)%20is%20about%20500%20%2D%201%2C000. <br>
     </p>
     <p class = 'blurb'>
       Centers for Disease Control and Prevention. (2021, April 21). HIV and substance use. Centers for Disease Control and Prevention. https://www.cdc.gov/hiv/basics/hiv-transmission/substance-use.html#:~:text=However%2C%20drinking%20alcohol%20and%20ingesting,to%20get%20and%20transmit%20HIV. <br>

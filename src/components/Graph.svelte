@@ -886,7 +886,7 @@
       tweenedInfoY.set(info.features.map((fact, i) => height / 2 + i * 20));
     }
 
-    if (index > 1) {
+    if (index > 2) {
       tweenedYearsX.set(
         years.features.map((decade) => (decade.geometry.coordinates)[0])
       );
@@ -905,7 +905,7 @@
 </script>
 
 <svg class="graph">
-{#if index > 0}
+{#if index > 2}
     {#each tweenedYears as decade, i}
       {#if decade.x && decade.y}
         <text

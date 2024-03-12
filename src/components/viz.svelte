@@ -232,7 +232,8 @@
   {width}
   {height}
   viewBox= "0 0 {width} {height}"
-  style= "max-width: 100%; height: auto;">
+  style= "max-width: 100%; height: auto;"
+  >
 </div>
 
 <!-- slider style -->
@@ -246,6 +247,7 @@
 <style>
   .slider {
     transform: translate(0, 90%);
+    font-family: 'Nunito', 'sans-serif';
   }
   .tooltip {
     position: fixed;
