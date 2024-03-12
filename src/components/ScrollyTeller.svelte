@@ -11,11 +11,7 @@
 
   let count, index, offset, progress;
   let width, height;
-<<<<<<< HEAD
-let data = [];
-=======
   let data = [];
->>>>>>> 345e9ace6cd809b3d6bf18bdf16f6f963b9f2afa
   onMount(
     async() => {
       const res = await fetch('HIV_demographic_data.csv')
@@ -166,10 +162,6 @@ bind:progress
     <p class = 'subheading'>
       The Stats
     </p> <br>
-<<<<<<< HEAD
-=======
-
->>>>>>> 345e9ace6cd809b3d6bf18bdf16f6f963b9f2afa
     <p class='instructions'> Let's visualize global HIV statistics. Each square will represent 1 million people. 
       Click the '1' below to begin. Continue clicking the '1' until the simulation has ended.</p>
     <Button class = 'population' buttonText = 1> </Button>
