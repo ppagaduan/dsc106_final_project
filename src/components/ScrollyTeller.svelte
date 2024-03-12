@@ -122,7 +122,7 @@ bind:progress
       Stages of HIV
     </p>
     <!-- image -->
-    <img src = "https://hivinfo.nih.gov/sites/default/files/fact_sheets_data/images/hiv-progression.jpg" alt = ''>
+    <img src = "https://hivinfo.nih.gov/sites/default/files/fact_sheets_data/images/hiv-progression.jpg" alt = '' width = 600>
     <!-- stage 1 -->
     <p class='subheading3'>
       STAGE 1: ACUTE HIV INFECTION
