@@ -941,7 +941,7 @@
 <style>
     .graph {
       width: 100%;
-      height: 120vh; /* check problem when setting width */
+      height: 130vh; /* check problem when setting width */
       position: center;
       outline: red solid 7px;
     }

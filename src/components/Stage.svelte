@@ -70,7 +70,7 @@
           ]
         },
         "properties": {
-          "symptom": "swollen lymph nodes"
+          "symptom": ">> swollen lymph nodes"
         }
       }
     ]
@@ -98,7 +98,7 @@
   }));
 
   $: {
-    if (index === 1) {
+    if (index === 0) {
       tweenedSymptomX.set(symptoms.features.map((symptom) => width / 2));
       tweenedSymptomY.set(symptoms.features.map((symptom, i) => height / 2 + i * 20));
     }
@@ -115,7 +115,7 @@
 </script>
 
 <svg class="graph">
-{#if index > 0}
+{#if index > 1}
     {#each tweenedSymptoms as symptom, i}
       {#if symptom.x && symptom.y}
         <text

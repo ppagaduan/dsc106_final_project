@@ -105,6 +105,7 @@ bind:progress
     <p class = 'subheading'>
       The Symptoms
     </p>
+
     <!-- <Stage {index} {width} {height}/>  -->
     <p class="symptoms">
       <span class="bullet">>></span> fever <br>
@@ -353,7 +354,7 @@ bind:progress
   }
 
   .foreground {
-    width: 50%;
+    width: 57%;
     margin: 0 auto;
     height: auto;
     position: relative;
@@ -392,7 +393,7 @@ bind:progress
   }
 
   .intro{
-    height: 110vh;
+    height: 125vh;
   }
 
   .blurb{
@@ -416,16 +417,16 @@ bind:progress
   }
 
   .symptoms_and_stages{
-    height:180vh
+    height:200vh
   }
 
   .timeline{
-    height: 140vh;
+    height: 150vh;
     font-family: 'Nunito', sans-serif;
   }
 
   .global_impact{
-    height: 120vh;
+    height: 130vh;
     font-family: 'Nunito', sans-serif;
   }
 
@@ -435,7 +436,7 @@ bind:progress
 
   .blood {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     background-color: rgba(255, 0, 0, 0.2);
 
     outline: brown 3px;
