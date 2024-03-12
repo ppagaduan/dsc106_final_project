@@ -11,11 +11,7 @@
 
   let count, index, offset, progress;
   let width, height;
-<<<<<<< HEAD
-let data = [];
-=======
-  let data = [];
->>>>>>> 345e9ace6cd809b3d6bf18bdf16f6f963b9f2afa
+  let data = [];  
   onMount(
     async() => {
       const res = await fetch('HIV_demographic_data.csv')
@@ -166,10 +162,6 @@ bind:progress
     <p class = 'subheading'>
       The Stats
     </p> <br>
-<<<<<<< HEAD
-=======
-
->>>>>>> 345e9ace6cd809b3d6bf18bdf16f6f963b9f2afa
     <p class='instructions'> Let's visualize global HIV statistics. Each square will represent 1 million people. 
       Click the '1' below to begin. Continue clicking the '1' until the simulation has ended.</p>
     <Button class = 'population' buttonText = 1> </Button>
@@ -411,30 +403,11 @@ bind:progress
     line-height: 2;
   }  
 
-<<<<<<< HEAD
   .instructions{
     font-family: 'Nunito', sans-serif;
     text-align: left;
   }
 
-=======
-  .symptoms{
-    font-family: 'Nunito', sans-serif;
-    transform: translateX(325px);
-    text-align: left;
-  }
-
-  .instructions{
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-    font-weight: bold;
-  }
-
-  .symptoms_and_stages{
-    height:200vh
-  }
-
->>>>>>> 345e9ace6cd809b3d6bf18bdf16f6f963b9f2afa
   .timeline{
     height: 140vh;
     font-family: 'Nunito', sans-serif;
@@ -451,11 +424,7 @@ bind:progress
 
   .blood {
     width: 100%;
-<<<<<<< HEAD
     height: 50vh;
-=======
-    height: 60vh;
->>>>>>> 345e9ace6cd809b3d6bf18bdf16f6f963b9f2afa
     background-color: rgba(255, 0, 0, 0.2);
 
     outline: brown 3px;
@@ -463,18 +432,6 @@ bind:progress
     max-width: 800px; /* adjust at will */
   }
 
-<<<<<<< HEAD
-=======
-  .bullet{
-    color: #F47e55;
-    font-weight: bold;
-  }
-
-  .references{
-    height: 125vh;
-  }
-
->>>>>>> 345e9ace6cd809b3d6bf18bdf16f6f963b9f2afa
   section {
     height: 80vh;
     background-color: rgba(98, 204, 245, 0.2); /* 20% opaque */
