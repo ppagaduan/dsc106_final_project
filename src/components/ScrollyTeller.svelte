@@ -283,6 +283,11 @@ bind:progress
     <h2 class = 'subheading'>
       References
     </h2>
+    <a href = https://docs.idmod.org/projects/emod-hiv/en/2.20_a/hiv-disease-overview.html>
+      <p class = 'blurb'>
+        Bill & Melinda Gates Foundation. (n.d.). HIV disease overview. HIV disease overview - HIV Model documentation.
+      </p>
+    </a>
     <p class = 'blurb'>
       Bill & Melinda Gates Foundation. (n.d.). HIV disease overview. HIV disease overview - HIV Model documentation. https://docs.idmod.org/projects/emod-hiv/en/2.20_a/hiv-disease-overview.html#:~:text=HIV%20has%20a%20high%20replication,)%20is%20about%20500%20%2D%201%2C000. <br>
     </p>
@@ -417,7 +422,7 @@ bind:progress
   }
 
   .symptoms_and_stages{
-    height:200vh
+    height: 200vh
   }
 
   .timeline{
@@ -430,7 +435,7 @@ bind:progress
     font-family: 'Nunito', sans-serif;
   }
 
-  .risk_factors_and_transmission{
+  .risk_factors_and_transmission {
     height: 175vh;
   }
 
@@ -444,13 +449,17 @@ bind:progress
     max-width: 800px; /* adjust at will */
   }
 
-  .bullet{
+  .bullet {
     color: #F47e55;
     font-weight: bold;
   }
 
-  .references{
-    height: 125vh;
+  .call_to_action{
+    height: 100vh;
+  }
+
+  .references {
+    height: 150vh;
   }
 
   section {
