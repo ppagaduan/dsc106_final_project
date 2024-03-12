@@ -7,11 +7,11 @@
   import Viz from './viz.svelte';
   import * as d3 from 'd3';
   import Button from './Button.svelte';
+  import Stage from './Stage.svelte';
 
   let count, index, offset, progress;
   let width, height;
   let data = [];
-
   onMount(
     async() => {
       const res = await fetch('HIV_demographic_data.csv')
@@ -75,6 +75,8 @@ bind:progress
         What is HIV?
       </h2>
 
+      <img src = 'https://medlineplus.gov/images/HIV.png' alt = ''>
+
       <p class = 'blurb'>
         Human immunodeficiency virus (HIV) is a virus that attacks the human immune system. There is currently no cure for HIV, 
         but with proper medical treatment, the effects of HIV can be controlled and those diagnosed with HIV can lead long, 
@@ -88,33 +90,81 @@ bind:progress
       </h2>
 
       <p class='blurb'>
-        >> HIV is theorized to have originally spread from chimpanzees to humans. Based on numerous studies, researchers believe 
+        <span class="bullet">>></span> HIV is theorized to have originally spread from chimpanzees to humans. Based on numerous studies, researchers believe 
         the initial form of HIV came from a type of chimpanzee in Central Africa, as far back as the 1800s.  <br>
-        >> The chimpanzee form of the HIV virus was called simian immunodeficiency virus. Scientists believe humans acquired this 
+        <span class="bullet">>></span> The chimpanzee form of the HIV virus was called simian immunodeficiency virus. Scientists believe humans acquired this 
         virus when humans hunted chimpanzees for their meat, and became ill when they became in contact with the chimpanzees' 
         infected blood. <br>
-        >> Over time, HIV spread through Africa, and eventually other parts of the world. HIV has been recorded in the United States 
+        <span class="bullet">>></span> Over time, HIV spread through Africa, and eventually other parts of the world. HIV has been recorded in the United States 
         since the mid to late 1970s. According to the CDC (Center for Disease Control), in 2006, about 56,000 people in the United
         States had acquired AIDS, a late stage of the HIV infection. <br>
       </p>
   </section>
 
-  <section class = 'intro'> 
+  <section class = 'symptoms_and_stages'> 
     <p class = 'subheading'>
       The Symptoms
     </p>
 
-    <p class = 'subheading'>
-      The Stages
+    <!-- <Stage {index} {width} {height}/>  -->
+    <p class="symptoms">
+      <span class="bullet">>></span> fever <br>
+      <span class="bullet">>></span> night sweats <br>
+      <span class="bullet">>></span> mouth ulcers <br>
+      <span class="bullet">>></span> sore throat <br>
+      <span class="bullet">>></span> swollen lymph nodes <br>
+      <span class="bullet">>></span> chills <br>
+      <span class="bullet">>></span> fatigue <br>
+      <span class="bullet">>></span> rash <br>
+      <span class="bullet">>></span> muscle aches <br>
     </p>
+
+    <p class="subheading">
+      Stages of HIV
+    </p>
+    <!-- image -->
+    <img src = "https://hivinfo.nih.gov/sites/default/files/fact_sheets_data/images/hiv-progression.jpg" alt = '' width = 600>
+    <!-- stage 1 -->
+    <p class='subheading3'>
+      STAGE 1: ACUTE HIV INFECTION
+    </p>
+    <p class = 'blurb'>
+      <span class="bullet">>></span> Develops 2-4 weeks after infection with HIV<br>
+      <span class="bullet">>></span> Flu-like symptoms: fever, headache, rash <br>
+      <span class="bullet">>></span> HIV multiplies rapidly and destroys CD4 T lymphocytes, which fight infections <br>
+      <span class="bullet">>></span> High levels of HIV are present in the blood
+    </p>
+    <!-- stage 2 -->
+    <p class='subheading3'>
+      STAGE 2: CHRONIC HIV INFECTION
+    </p>
+    <p class = 'blurb'>
+      <span class="bullet">>></span> Also known as asymptotic HIV infection or clinical latency <br>
+      <span class="bullet">>></span> People may not have symptoms related to HIV <br>
+      <span class="bullet">>></span> HIV continues to multiply in the bloodstream but at a lower rate <br>
+      <span class="bullet">>></span> Without antiretroviral treatment, people could remain in this stage for as long as a decade
+    </p>
+    <!-- stage 3-->
+    <p class='subheading3'>
+      STAGE 3: AIDS
+    </p>
+    <p class = 'blurb'>
+      <span class="bullet">>></span> The most severe and final stage of the HIV infection <br>
+      <span class="bullet">>></span> The body is too weak to fight off infections or infection-related cancer <br>
+      <span class="bullet">>></span> The person afflicted has a CD4 count of less than 200 cells / mm^3 <br>
+      <span class="bullet">>></span> People are highly contagious and can quickly transmit HIV to others <br>
+      <span class="bullet">>></span> People with AIDS usually survive about 3 more years
+    </p>
+    
   </section>
 
   <section class = 'stats'>
     <p class = 'subheading'>
       The Stats
     </p> <br>
-    <h3> Let's visualize global HIV statistics. Each square will represent 1 million people. 
-      Click the '1' below to begin. Continue clicking the '1' until the simulation has ended.</h3>
+
+    <p class='instructions'> Let's visualize global HIV statistics. Each square will represent 1 million people. 
+      Click the '1' below to begin. Continue clicking the '1' until the simulation has ended.</p>
     <Button class = 'population' buttonText = 1> </Button>
   </section>
 
@@ -122,59 +172,7 @@ bind:progress
     <h2 class="subheading">
       Timeline
     </h2>
-    <div class="row">
-
-      <div class="column">
-        <h2 class = 'subheading'>
-          1980s
-        </h2>
-  
-        <h2 class = 'subheading'>
-          1990s
-        </h2>
-  
-        <h2 class = 'subheading'>
-          2000s
-        </h2>
-    
-  
-        <h2 class = 'subheading'>
-          2010s
-        </h2>
-  
-        <h2 class = 'subheading'>
-          2020s
-        </h2>
-      </div>
-
-      <div class="column">
-        <p class = 'blurb'>
-          HIV was discovered and AIDS became globally recognized by the World Health Organization.
-        </p>
-  
-  
-        <p class = 'blurb'>
-          The AIDS epidemic became widespread in the U.S. 
-        </p>
-  
-  
-  
-        <p class = 'blurb'>
-          blah blah blah
-        </p>
-  
-  
-  
-        <p class = 'blurb'>
-          blah blah blah
-        </p>
-
-        <p class = 'blurb'>
-          blah blah blah blah blabh lbah
-        </p>
-
-      </div>
-    </div>
+    <Graph {index} {width} {height}/> 
   </section>
 
   <section class = 'global_impact'>
@@ -182,16 +180,13 @@ bind:progress
       Worldwide Reach: Mapping the Prevalence of HIV/AIDS
     </h2>
     <Map bind:geoJsonToFit {index}/> 
-    <Graph {index} {width} {height} {projection} /> 
-    <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
-    <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-    <br> <br> <br> 
+    <br>
     <p class = 'blurb'>
       This map is centered on Eswatini, formerly known as Swaziland, located in Southern Africa. It is almost entirely
     landlocked by South Africa, and is also bordered by Mozambique. Eswantini, along with other countries in Southern Africa,
     have some of the highest percentages of adult prevalence of HIV / AIDS in the country. To view other countries, use your cursor
     to zoom in and out of the map!
-    </p> <br> <br> <br> <br> <br> <br> 
+    </p>
   </section>
 
   <section class = 'global_impact'>
@@ -212,11 +207,11 @@ bind:progress
     </p>
   </section>
 
-  <section class = 'global_impact'>
+  <section class = 'risk_factors_and_transmission'>
     <h2 class = 'subheading'>
       Risk Factors & Transmission
     </h2>
-    <h3> Click a button below to learn about the different transmission methods and risk factors. </h3>
+    <p class = 'instructions', style="text-align:center"> Click a button below to learn about the different transmission methods and risk factors. </p>
     <Button class="unprotected_sex" buttonText= "Unprotected Sex"> 
     </Button> <br><br>
 
@@ -229,20 +224,13 @@ bind:progress
     <Button class="sti" buttonText = "Sexually Transmitted Infections">
     </Button>
     <br><br> ------------------------ <br>
-    <h3> Click the green button below, labelled 'HIV', below to visualize the rate of HIV replication. Continue
-      clicking the 'HIV' button until the simulation has ended. For optimized performance, please close all expanded tabs in the
-      "Risk Factors & Transmission" section.</h3>
+    <p class = 'instructions'> Click the green button below, labelled 'HIV', below to visualize the rate of HIV replication. Continue
+      clicking the 'HIV' button until the simulation has ended.</p>
 
-    <section class = 'blood'>
+    <div class = 'blood'>
       <Button class='HIV' buttonText='HIV'> </Button>
-    </section>
+    </div>
 
-  </section>
-
-  <section class = 'treatment_and_prevention'>  
-    <h2 class = 'subheading'>
-      Treatment and Prevention
-    </h2>
   </section>
 
   <section class = 'call_to_action'>
@@ -291,6 +279,45 @@ bind:progress
     </a>
   </section>
 
+  <section class = 'references'>
+    <h2 class = 'subheading'>
+      References
+    </h2>
+    <p class = 'blurb'>
+      Bill & Melinda Gates Foundation. (n.d.). HIV disease overview. HIV disease overview - HIV Model documentation. https://docs.idmod.org/projects/emod-hiv/en/2.20_a/hiv-disease-overview.html#:~:text=HIV%20has%20a%20high%20replication,)%20is%20about%20500%20%2D%201%2C000. <br>
+    </p>
+    <p class = 'blurb'>
+      Centers for Disease Control and Prevention. (2021, April 21). HIV and substance use. Centers for Disease Control and Prevention. https://www.cdc.gov/hiv/basics/hiv-transmission/substance-use.html#:~:text=However%2C%20drinking%20alcohol%20and%20ingesting,to%20get%20and%20transmit%20HIV. <br>
+    </p>
+    <p class = 'blurb'>
+      Centers for Disease Control and Prevention. (2022, June 30). About HIV/AIDS. Centers for Disease Control and Prevention. https://www.cdc.gov/hiv/basics/whatishiv.html <br>
+    </p>
+    <p class = 'blurb'>
+      Global HIV & AIDS statistics - fact sheet. UNAIDS. (n.d.). https://www.unaids.org/en/resources/fact-sheet <br>
+    <p class = 'blurb'>
+      HIV.gov. (n.d.). Timeline of the HIV and AIDS epidemic. HIV.gov. https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline <br>
+    <p class = 'blurb'>
+      Lehigh University. (n.d.). BIOS 353. https://www.lehigh.edu/~jas0/V16.html#:~:text=So%2C%20for%20someone%20(not%20on,are%20being%20produced%20every%20day.<br>
+    </p>
+    <p class = 'blurb'>
+      MedlinePlus. (n.d.). Image of HIV. HIV_share.png. Retrieved from https://medlineplus.gov/images/HIV_share.png. <br>
+    </p>
+    <p class = 'blurb'>
+      Published: Jul 20, 2018. (2019, April 19). Global HIV/AIDS timeline. KFF. https://www.kff.org/global-health-policy/timeline/global-hivaids-timeline/  <br>
+    </p>
+    <p class = 'blurb'>
+      U.S. Department of Health and Human Services. (n.d.). The stages of HIV infection. National Institutes of Health. https://hivinfo.nih.gov/understanding-hiv/fact-sheets/stages-hiv-infection#:~:text=Without%20treatment%20with%20HIV%20medicines,acquired%20immunodeficiency%20syndrome%20(AIDS). <br>
+    <p class = 'blurb'>
+      U.S. Department of Health and Human Services. (n.d.). What factors make HIV more likely?. Eunice Kennedy Shriver National Institute of Child Health and Human Development. https://www.nichd.nih.gov/health/topics/hiv/conditioninfo/factors <br>
+    </p>
+    <p class = 'blurb'>
+      United States Census Bureau. (n.d.). International Programs - HIV Surveillance Data base. United States Census Bureau. https://www.census.gov/data-tools/demo/hiv/#/records <br>
+    </p>
+    <p class = 'blurb'>
+      World Health Organization. (n.d.). HIV and AIDS. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/hiv-aids <br>
+    </p>
+  </section>
+
   <section>
     <h2 class="subheading">
       Reflection
@@ -312,6 +339,7 @@ bind:progress
       successfully. 
     </p>
   </section>
+
 </div>
 </Scroller>
 
@@ -322,10 +350,11 @@ bind:progress
     height: 100vh;
     position: relative;
     outline: red solid 3px;
+    background-color: rgba(244, 126, 85, 0.2);
   }
 
   .foreground {
-    width: 50%;
+    width: 57%;
     margin: 0 auto;
     height: auto;
     position: relative;
@@ -354,6 +383,19 @@ bind:progress
     color: red
   }
 
+  .subheading3{
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 150;
+    line-height: 1;
+    color: #F47e55;
+  }
+
+  .intro{
+    height: 125vh;
+  }
+
   .blurb{
     font-family: 'Nunito', sans-serif;
     text-align: left;
@@ -362,20 +404,20 @@ bind:progress
     line-height: 2;
   }  
 
-  .column {
-  float: left;
-  width: 50%;
-  }
-
-  .instructions{
+  .symptoms{
+    font-family: 'Nunito', sans-serif;
+    transform: translateX(325px);
     text-align: left;
   }
 
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  .instructions{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .symptoms_and_stages{
+    height:200vh
   }
 
   .timeline{
@@ -384,8 +426,31 @@ bind:progress
   }
 
   .global_impact{
-    height: 120vh;
+    height: 130vh;
     font-family: 'Nunito', sans-serif;
+  }
+
+  .risk_factors_and_transmission{
+    height: 175vh;
+  }
+
+  .blood {
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(255, 0, 0, 0.2);
+
+    outline: brown 3px;
+    text-align: center;
+    max-width: 800px; /* adjust at will */
+  }
+
+  .bullet{
+    color: #F47e55;
+    font-weight: bold;
+  }
+
+  .references{
+    height: 125vh;
   }
 
   section {
@@ -394,16 +459,9 @@ bind:progress
     /* color: white; */
     outline: brown 3px;
     text-align: center;
-    max-width: 800px; /* adjust at will */
+    max-width: 800px; 
     color: black;
     padding: 1em;
     margin: 0 0 2em 0;
-  }
-
-  .blood {
-    width: 100%;
-    height: 60vh;
-    position: relative;
-    background-color: rgba(255, 0, 0, 0.2);
   }
 </style>

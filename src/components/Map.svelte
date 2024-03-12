@@ -1,23 +1,15 @@
 <script>
 	import mapboxgl from "mapbox-gl";
 	import { onMount } from "svelte";
-	import Papa from 'papaparse';
-	import { readable } from "svelte/store";
 
 	export let index;
   
 	mapboxgl.accessToken =
 	  "pk.eyJ1IjoiaHRhbTg4IiwiYSI6ImNsc2d2M2xrMzB0YXAycnBncWNwMWlkc3gifQ._-vNYE1-qImQWrRbu76uUw";
-
-	const aidsData = readable([], (set) => {
-    fetch('../../static/HIV_demographic_data.csv')
-      .then(response => response.text())
-      .then(text => {
-        const results = Papa.parse(text, { header: true }).data;
-        set(results);
-      });
-  });
   
+
+//connect HIV_demgraphic_data.csv to map 
+
 	let container;
 	let map;
   
@@ -71,18 +63,50 @@
 		map.on("drag", updateBounds);
 		map.on("move", updateBounds);
 	  });
+	  	map.addSource("hiv_map", {
+			type: "geojson",
+			data: "https://raw.githubusercontent.com/htam88/dsc106_final_project_forked/main/static/map_data.geo.json",
+		});
+		map.addLayer({
+			id: "hiv_map",
+			type: "symbol",
+			source: "hiv_map",
+			layout: {
+				// Example of using an icon
+				'icon-image': 'marker-15', // Use a predefined Mapbox icon or your custom icon
+				// Example of adding text label
+				'text-field': '{propertyName}', // Replace 'propertyName' with the field name from your GeoJSON properties
+				'text-size': 12,
+			}
+		});
 	});
 	
 	function updateBounds() {
-	  const bounds = map.getBounds();
-	  geoJsonToFit.features[0].geometry.coordinates = [
-		bounds._ne.lng,
-		bounds._ne.lat,
-	  ];
-	  geoJsonToFit.features[1].geometry.coordinates = [
-		bounds._sw.lng,
-		bounds._sw.lat,
-	  ];
+		const bounds = map.getBounds();
+
+		if (geoJsonToFit.features.length === 0) {
+			// Initialize the features array with two features if it's empty
+			geoJsonToFit.features = [
+				{
+					type: 'Feature',
+					geometry: {
+						type: 'Point',
+						coordinates: [bounds._ne.lng, bounds._ne.lat]
+					}
+				},
+				{
+					type: 'Feature',
+					geometry: {
+						type: 'Point',
+						coordinates: [bounds._sw.lng, bounds._sw.lat]
+					}
+				}
+			];
+		} else {
+			// If features already exist, just update their coordinates
+			geoJsonToFit.features[0].geometry.coordinates = [bounds._ne.lng, bounds._ne.lat];
+			geoJsonToFit.features[1].geometry.coordinates = [bounds._sw.lng, bounds._sw.lat];
+		}
 	}
   
 	let isVisible = true;
@@ -106,14 +130,14 @@
   
   <style>
 	.map {
-	  width: 150%;
+	  width: 100%;
 	  height: 80vh;
-	  position: absolute;
-	  left: -10vh;
+	  position: center;
+
 	  opacity: 0;
 	  visibility: hidden;
 	  transition: opacity 2s, visibility 2s;
-	  outline: blue solid 3px;
+	  outline: red solid 7px;
 	}
   
 	.map.visible {
