@@ -69,7 +69,7 @@
       });
 
       map.loadImage(
-        'https://raw.githubusercontent.com/ppagaduan/dsc106_final_project/main/static/hiv_Small.jpeg',
+        'https://raw.githubusercontent.com/ppagaduan/dsc106_final_project/main/static/hiv_Small-3.jpeg',
         (error, image) => {
           if (error) throw error;
 
