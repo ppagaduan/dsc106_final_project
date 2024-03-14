@@ -56,29 +56,41 @@
 		}
 	  }
   
-	  map.on("load", () => {
-		hideLabelLayers();
-		updateBounds();
-		map.on("zoom", updateBounds);
-		map.on("drag", updateBounds);
-		map.on("move", updateBounds);
-	  });
-	  	map.addSource("hiv_map", {
-			type: "geojson",
-			data: "https://raw.githubusercontent.com/htam88/dsc106_final_project_forked/main/static/map_data.geo.json",
-		});
-		map.addLayer({
-			id: "hiv_map",
-			type: "symbol",
-			source: "hiv_map",
-			layout: {
-				// Example of using an icon
-				'icon-image': 'marker-15', // Use a predefined Mapbox icon or your custom icon
-				// Example of adding text label
-				'text-field': '{propertyName}', // Replace 'propertyName' with the field name from your GeoJSON properties
-				'text-size': 12,
-			}
-		});
+	  map.on('load', () => {
+      hideLabelLayers();
+      updateBounds();
+      map.on('zoom', updateBounds);
+      map.on('drag', updateBounds);
+      map.on('move', updateBounds);
+
+      map.addSource('hiv_map', {
+        type: 'geojson',
+        data: 'https://raw.githubusercontent.com/htam88/dsc106_final_project_forked/main/static/map_data.geo.json',
+      });
+
+      map.loadImage(
+        'https://docs.mapbox.com/mapbox-gl-js/assets/cat.png',
+        (error, image) => {
+          if (error) throw error;
+
+          // Add the image to the map style.
+          map.addImage('cat', image);
+
+          map.addLayer({
+            id: 'hiv_map',
+            type: 'symbol',
+            source: 'hiv_map',
+            layout: {
+              // Example of using an icon
+              'icon-image': 'cat', // Use a predefined Mapbox icon or your custom icon
+              // Example of adding text label
+              'text-field': '{propertyName}', // Replace 'propertyName' with the field name from your GeoJSON properties
+              'text-size': 12,
+            },
+          });
+        },
+      );
+    });
 	});
 	
 	function updateBounds() {

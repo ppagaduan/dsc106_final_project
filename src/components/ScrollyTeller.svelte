@@ -106,8 +106,8 @@ bind:progress
       The Symptoms
     </p>
 
-    <Stage {index} {width} {height}/> 
-    <!-- <p class="symptoms">
+    <!-- <Stage {index} {width} {height}/>  -->
+    <p class="symptoms">
       <span class="bullet">>></span> fever <br>
       <span class="bullet">>></span> night sweats <br>
       <span class="bullet">>></span> mouth ulcers <br>
@@ -117,7 +117,7 @@ bind:progress
       <span class="bullet">>></span> fatigue <br>
       <span class="bullet">>></span> rash <br>
       <span class="bullet">>></span> muscle aches <br>
-    </p> -->
+    </p>
 
     <p class="subheading">
       Stages of HIV
