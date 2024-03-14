@@ -13,8 +13,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            290,
-            125
+            0,
+            10
           ]
         },
         "properties": {
@@ -115,13 +115,13 @@
 </script>
 
 <svg class="graph">
-{#if index > 1}
+{#if index > 0}
     {#each tweenedSymptoms as symptom, i}
       {#if symptom.x && symptom.y}
         <text
           x={symptom.x}
           y={symptom.y}
-          font-size = 60px
+          font-size = 50px
           id={symptom.properties.symptom}
           in:fly={{ x: -300, duration: 200 * i }}
           out:fly={{ x: -300, duration: 200 * i }}
@@ -137,6 +137,6 @@
       width: 100%;
       height: 50vh; /* check problem when setting width */
       position: center;
-      outline: red solid 7px;
+      /* outline: red solid 7px; */
     }
 </style>
