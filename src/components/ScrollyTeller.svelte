@@ -211,7 +211,7 @@ bind:progress
       Risk Factors & Transmission
     </h2>
     <p class = 'instructions', style="text-align:center"> Click a button below to learn about the different transmission methods and risk factors. </p>
-    <Button class="unprotected_sex" buttonText= "Unprotected Sex"> 
+    <Button class=" button unprotected_sex" buttonText= "Unprotected Sex"> 
     </Button> <br><br>
 
     <Button class="drug_usage" buttonText = "Drug Usage">
@@ -454,7 +454,7 @@ bind:progress
   }
 
   .symptoms_and_stages{
-    height: 200vh
+    height: 190vh
   }
 
   .timeline{
@@ -473,7 +473,7 @@ bind:progress
 
   .blood {
     width: 100%;
-    height: 60vh;
+    height: 75vh;
     background-color: rgba(255, 0, 0, 0.2);
 
     outline: brown 3px;

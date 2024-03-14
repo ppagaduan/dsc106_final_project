@@ -140,7 +140,7 @@
     {/if}
 
     {#if $message}
-        <p>{$message}</p>
+        <p style='font-family: Nunito'>{$message}</p>
     {/if}
 
     <!-- replay button -->
@@ -152,6 +152,7 @@
     button{
         padding: 10px 20px;
         font-size: 16px;
+        font-family: 'Nunito', sans-serif;
     }
     .unprotected_sex{
         background-color: red;
