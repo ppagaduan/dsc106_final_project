@@ -69,7 +69,7 @@
       });
 
       map.loadImage(
-        'https://docs.mapbox.com/mapbox-gl-js/assets/cat.png',
+        'https://static.vecteezy.com/system/resources/previews/028/763/394/original/illustration-of-a-hiv-or-human-immunodeficiency-virus-in-cartoon-style-isolated-on-white-background-vector.jpg',
         (error, image) => {
           if (error) throw error;
 
