@@ -211,7 +211,7 @@ bind:progress
       Risk Factors & Transmission
     </h2>
     <p class = 'instructions', style="text-align:center"> Click a button below to learn about the different transmission methods and risk factors. </p>
-    <Button class=" button unprotected_sex" buttonText= "Unprotected Sex"> 
+    <Button class="unprotected_sex" buttonText= "Unprotected Sex"> 
     </Button> <br><br>
 
     <Button class="drug_usage" buttonText = "Drug Usage">
