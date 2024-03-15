@@ -56,13 +56,13 @@ bind:progress
 <div class="background" slot="background">
 
   <div class="progress-bars">
-    <p>current section: <strong>{index + 1}/{count}</strong></p>
+    <p>Current Section: <strong>{index + 1}/{count}</strong></p>
     <progress value={count ? (index + 1) / count : 0} />
 
-    <p>offset in current section</p>
+    <p>Progress in Current Section</p>
     <progress value={offset || 0} />
 
-    <p>total progress</p>
+    <p>Total Progress</p>
     <progress value={progress || 0} />
   </div>
 </div>
@@ -399,6 +399,7 @@ bind:progress
   }
 
   .progress-bars {
+    font-family: 'Nunito', sans-serif;
     position: absolute;
     background: rgba(241, 106, 115, 0.4) /*  20% opaque */;
     visibility: visible;

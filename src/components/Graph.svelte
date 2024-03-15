@@ -928,6 +928,7 @@
         y={info.y}
         font-size = 14px
         text-anchor = 'center'
+        color=red
         id={info.properties.name}
         in:fly={{ x: -300, duration: 200 * i }}
         out:fly={{ x: -300, duration: 200 * i }}
