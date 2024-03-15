@@ -181,10 +181,11 @@ bind:progress
     <Map bind:geoJsonToFit {index}/> 
     <br>
     <p class = 'blurb'>
-      This map is centered on Eswatini, formerly known as Swaziland, located in Southern Africa. It is almost entirely
-    landlocked by South Africa, and is also bordered by Mozambique. Eswantini, along with other countries in Southern Africa,
-    have some of the highest percentages of adult prevalence of HIV / AIDS in the country. To view other countries, use your cursor
-    to zoom in and out of the map!
+      This map is centered on Africa, a continent where HIV is highly prevalent. In particular, according to the CIA's world factbook, 
+      Eswatini has the highest percentage of adult prevalence of HIV / AIDS in the world. Eswatini is a country formerly known as 
+      Swaziland and landlocked by South Africa. In other words, the percentage of adults aged 15-49 living with HIV in Eswatini is a whopping 26.80%; more than a quarter
+      of adults in Eswatini have HIV. Other countries in southern Africa also have a high HIV/AIDS prevalence rate. To view other 
+      countries, use your cursor to zoom in and out of the map!
     </p>
   </section>
 
