@@ -35,8 +35,8 @@
 	  map = new mapboxgl.Map({
 		container,
 		style: "mapbox://styles/mapbox/light-v11",
-		center: [30, -30],
-		zoom: zoomLevel,
+		center: [25, 0],
+		zoom: 2,
 		attributionControl: true, // removes attribution from the bottom of the map
 	  });
   
@@ -69,7 +69,7 @@
       });
 
       map.loadImage(
-        'https://raw.githubusercontent.com/ppagaduan/dsc106_final_project/main/static/hiv_Small-3.jpeg',
+        'https://raw.githubusercontent.com/ppagaduan/dsc106_final_project/main/static/hiv_Small.jpeg',
         (error, image) => {
           if (error) throw error;
 
@@ -83,6 +83,7 @@
             layout: {
               // Example of using an icon
               'icon-image': 'cat', // Use a predefined Mapbox icon or your custom icon
+			  'icon-size': ['interpolate', ['linear'], ['get', 'value'], 0, 0.1, 26.8, 0.5],
               // Example of adding text label
               'text-field': '{propertyName}', // Replace 'propertyName' with the field name from your GeoJSON properties
               'text-size': 12,
