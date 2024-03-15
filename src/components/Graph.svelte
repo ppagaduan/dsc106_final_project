@@ -914,8 +914,8 @@
           font-size = 60px
           font-color= "red"
           id={decade.properties.name}
-          in:fly={{ x: -300, duration: 200 * i }}
-          out:fly={{ x: -300, duration: 200 * i }}
+          in:fly={{ x: -300, duration: 150 * i }}
+          out:fly={{ x: -300, duration: 150 * i }}
           >{decade.properties.decade}
         </text>
       {/if}
@@ -930,8 +930,8 @@
         text-anchor = 'center'
         color=red
         id={info.properties.name}
-        in:fly={{ x: -300, duration: 200 * i }}
-        out:fly={{ x: -300, duration: 200 * i }}
+        in:fly={{ x: -300, duration: 150 * i }}
+        out:fly={{ x: -300, duration: 150* i }}
         >{info.properties.fact}
       </text>
     {/if}

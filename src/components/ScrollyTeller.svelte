@@ -202,7 +202,8 @@ bind:progress
       of data that year.
     </p>
     <p class = 'blurb'>
-      As you can see, the percentage of AIDS cases increases as the years increase.
+      As you can see, the percentage of AIDS cases increases as the years increase. Historically, South Africa has had significantly more AIDS cases compared to other regions of the world.
+      This can be attributed to a lack of resources provided to at risk populations and a lack of education for infection prevention.
     </p>
   </section>
 
@@ -351,6 +352,12 @@ bind:progress
     <a href = https://www.who.int/news-room/fact-sheets/detail/hiv-aids>
       <p class = 'blurb'>
         World Health Organization. (n.d.). HIV and AIDS. World Health Organization.
+      </p>
+    </a>
+
+    <a href = https://en.wikipedia.org/wiki/List_of_countries_by_HIV/AIDS_adult_prevalence_rate>
+      <p class = 'blurb'>
+        Wikimedia Foundation. (n.d). List of countries by HIV/AIDS adult prevalence rate. Wikipedia.
       </p>
     </a>
   </section>
