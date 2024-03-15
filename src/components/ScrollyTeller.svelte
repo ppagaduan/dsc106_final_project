@@ -197,12 +197,12 @@ bind:progress
     <br>
     <br>
     <br>
-    <br>
-    <br>
     <p class = 'blurb'>
       Note: Some countries appear to have multiple columns within the same year. This is because some countries received multiple records
-      of data that year. <br>
-      insert analysis of global impact rates here
+      of data that year.
+    </p>
+    <p class = 'blurb'>
+      As you can see, the percentage of AIDS cases increases as the years increase.
     </p>
   </section>
 
